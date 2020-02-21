@@ -1,0 +1,37 @@
+:root {
+  --color-text: invert(25%) sepia(0%) saturate(117%) hue-rotate(172deg)
+    brightness(99%) contrast(89%);
+  --color-text-secondary: invert(40%) sepia(0%) saturate(1050%)
+    hue-rotate(222deg) brightness(102%) contrast(81%);
+  --color-text-darker: invert(19%) sepia(0%) saturate(2%) hue-rotate(308deg)
+    brightness(98%) contrast(95%);
+  --color-gray-lightest: invert(100%) sepia(0%) saturate(0%) hue-rotate(72deg)
+    brightness(115%) contrast(95%);
+  --color-gray-lighter: invert(100%) sepia(48%) saturate(136%)
+    hue-rotate(258deg) brightness(111%) contrast(92%);
+  --color-gray-light: invert(95%) sepia(9%) saturate(114%) hue-rotate(259deg)
+    brightness(116%) contrast(85%);
+  --color-gray-neutral: invert(44%) sepia(0%) saturate(0%) hue-rotate(139deg)
+    brightness(94%) contrast(90%);
+  --color-gray-dark: invert(54%) sepia(22%) saturate(0%) hue-rotate(134deg)
+    brightness(82%) contrast(100%);
+  --color-gray-darker: invert(25%) sepia(0%) saturate(117%) hue-rotate(172deg)
+    brightness(99%) contrast(89%);
+  --color-gray-darkest: invert(19%) sepia(0%) saturate(2%) hue-rotate(308deg)
+    brightness(98%) contrast(95%);
+  --color-black: brightness(0) saturate(100%);
+  --color-white: brightness(0) saturate(100%) invert(100%);
+  --color-primary: none;
+  --color-success: none;
+  --color-success-hover: none;
+  --color-success-background: none;
+  --color-info: none;
+  --color-info-hover: none;
+  --color-info-background: none;
+  --color-warning: none;
+  --color-warning-hover: none;
+  --color-warning-background: none;
+  --color-danger: none;
+  --color-danger-hover: none;
+  --color-danger-background: none;
+}

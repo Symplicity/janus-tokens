@@ -1,0 +1,123 @@
+{
+  "aliases": {
+    "font-stack-monospace": {
+      "value": "Monaco, monospace"
+    },
+    "line-height-t1": {
+      "value": "44px"
+    },
+    "font-size-t1": {
+      "value": "32px"
+    },
+    "line-height-t2": {
+      "value": "40px"
+    },
+    "font-size-t2": {
+      "value": "28px"
+    },
+    "line-height-t3": {
+      "value": "28px"
+    },
+    "font-weight-medium": {
+      "value": "700"
+    },
+    "font-size-t3": {
+      "value": "20px"
+    },
+    "line-height-t4": {
+      "value": "24px"
+    },
+    "font-size-t4": {
+      "value": "16px"
+    },
+    "line-height-t5": {
+      "value": "20px"
+    },
+    "font-size-t5": {
+      "value": "14px"
+    },
+    "line-height-t6": {
+      "value": "20px"
+    },
+    "font-size-t6": {
+      "value": "13px"
+    },
+    "line-height-t7": {
+      "value": "16px"
+    },
+    "font-size-t7": {
+      "value": "12px"
+    },
+    "font-stack-base": {
+      "value": "Lato, -apple-system, sans-serif"
+    },
+    "font-weigth-normal": {
+      "value": "400"
+    }
+  },
+  "props": {
+    "font-stack-base": {
+      "type": "font-family",
+      "category": "font-family",
+      "name": "font-stack-base",
+      "value": "Lato, -apple-system, sans-serif",
+      "originalValue": "{!font-stack-base}"
+    },
+    "font-stack-monospace": {
+      "type": "font-family",
+      "category": "font-family",
+      "name": "font-stack-monospace",
+      "value": "Monaco, monospace",
+      "originalValue": "{!font-stack-monospace}"
+    },
+    "font-t1": {
+      "type": "font",
+      "category": "font-style",
+      "name": "font-t1",
+      "value": "700 32px/44px Lato, -apple-system, sans-serif",
+      "originalValue": "{!font-weight-medium} {!font-size-t1}/{!line-height-t1} {!font-stack-base}"
+    },
+    "font-t2": {
+      "type": "font",
+      "category": "font-style",
+      "name": "font-t2",
+      "value": "700 28px/40px Lato, -apple-system, sans-serif",
+      "originalValue": "{!font-weight-medium} {!font-size-t2}/{!line-height-t2} {!font-stack-base}"
+    },
+    "font-t3": {
+      "type": "font",
+      "category": "font-style",
+      "name": "font-t3",
+      "value": "700 20px/28px Lato, -apple-system, sans-serif",
+      "originalValue": "{!font-weight-medium} {!font-size-t3}/{!line-height-t3} {!font-stack-base}"
+    },
+    "font-t4": {
+      "type": "font",
+      "category": "font-style",
+      "name": "font-t4",
+      "value": "700 16px/24px Lato, -apple-system, sans-serif",
+      "originalValue": "{!font-weight-medium} {!font-size-t4}/{!line-height-t4} {!font-stack-base}"
+    },
+    "font-t5": {
+      "type": "font",
+      "category": "font-style",
+      "name": "font-t5",
+      "value": "700 14px/20px Lato, -apple-system, sans-serif",
+      "originalValue": "{!font-weight-medium} {!font-size-t5}/{!line-height-t5} {!font-stack-base}"
+    },
+    "font-t6": {
+      "type": "font",
+      "category": "font-style",
+      "name": "font-t6",
+      "value": "700 13px/20px Lato, -apple-system, sans-serif",
+      "originalValue": "{!font-weight-medium} {!font-size-t6}/{!line-height-t6} {!font-stack-base}"
+    },
+    "font-t7": {
+      "type": "font",
+      "category": "font-style",
+      "name": "font-t7",
+      "value": "700 12px/16px Lato, -apple-system, sans-serif",
+      "originalValue": "{!font-weight-medium} {!font-size-t7}/{!line-height-t7} {!font-stack-base}"
+    }
+  }
+}

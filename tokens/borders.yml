@@ -1,0 +1,8 @@
+props:
+  - name: border-radius
+    value: 3px
+  - name: border-round
+    value: 100px
+global:
+  type: number
+  category: border-radius

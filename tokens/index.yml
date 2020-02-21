@@ -1,0 +1,11 @@
+# List of all token files
+# Useful for documentation generation
+imports:
+  - ./colors.yml
+  - ./duration.yml
+  - ./spacing.yml
+  - ./typography.yml
+  - ./borders.yml
+global:
+  type: all
+  category: global

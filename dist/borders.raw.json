@@ -1,0 +1,19 @@
+{
+  "aliases": {},
+  "props": {
+    "border-radius": {
+      "type": "number",
+      "category": "border-radius",
+      "name": "border-radius",
+      "value": "3px",
+      "originalValue": "3px"
+    },
+    "border-round": {
+      "type": "number",
+      "category": "border-radius",
+      "name": "border-round",
+      "value": "100px",
+      "originalValue": "100px"
+    }
+  }
+}

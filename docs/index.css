@@ -1,0 +1,126 @@
+html,
+body {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+  text-transform: initial;
+  letter-spacing: initial;
+  color: #454545;
+  font-family: Lato, -apple-system, sans-serif; }
+
+@media (min-width: 40em) {
+  html,
+  body {
+    font-size: 1.4rem; } }
+
+html {
+  position: relative;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  text-rendering: optimizeLegibility; }
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-size: 1em;
+  font-weight: 400; }
+
+.banner,
+.contentinfo {
+  background: #ececec; }
+
+.banner {
+  padding: 1em 0; }
+
+.container {
+  margin: 0 auto;
+  padding: 16px 32px;
+  max-width: 128rem; }
+
+.container--shadow {
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 1.2rem 3.6rem rgba(0, 0, 0, 0.2);
+  margin-bottom: 64px; }
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 2;
+  padding-left: 20px; }
+
+section + section {
+  margin-top: 64px; }
+
+table {
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 1rem;
+  width: 100%; }
+
+th,
+td {
+  padding: 0 1rem;
+  vertical-align: baseline;
+  word-break: break-word;
+  hyphens: auto; }
+
+th {
+  font-weight: 400;
+  text-align: left; }
+
+thead th {
+  font: 700 16px/24px Lato, -apple-system, sans-serif;
+  border-bottom: 1px solid whitesmoke;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  color: #6c6c6c; }
+
+thead th:first-child {
+  font: 700 20px/28px Lato, -apple-system, sans-serif;
+  color: inherit; }
+
+code {
+  font-family: Monaco, monospace; }
+
+.metric-box,
+.radius-box {
+  display: inline-block;
+  vertical-align: middle;
+  background: #6c6c6c; }
+
+.radius-box {
+  width: 100%;
+  height: 3rem; }
+
+.radius-box.borderRadiusCircle {
+  width: 3rem; }
+
+.line-height-example {
+  border-bottom: 1px solid #6c6c6c;
+  background-image: linear-gradient(#6c6c6c 1px, transparent 1px);
+  background-size: 100% 1rem; }
+
+/*# sourceMappingURL=index.css.map */

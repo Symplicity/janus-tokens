@@ -1,0 +1,50 @@
+{
+  "name": "@symplicity/janus-tokens",
+  "version": "0.0.1",
+  "description": "Design Tokens for the Janus Design System",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "build": "npm-run-all build:**",
+    "build:gulp": "gulp",
+    "build:docs": "gulp docs",
+    "build:format": "prettier ./{dist,docs}/*.{js,json,css,scss,sketchpalette} --write",
+    "build:colors:ase": "node ./scripts/ase-encode.js",
+    "build:colors:clr:exclude-from-ci": "ase2clr ./dist/colors.ase ./dist/colors.clr",
+    "build:colors:rename-palettes:exclude-from-ci": "renamer --find colors --replace Janus ./dist/colors.{ase,clr,sketchpalette}",
+    "watch": "gulp watch",
+    "start": "http-server docs"
+  },
+  "keywords": [
+    "janus",
+    "design-tokens"
+  ],
+  "author": "Symplicity",
+  "license": "MIT",
+  "devDependencies": {
+    "ase-util": "^1.0.3",
+    "ase-utils": "^0.1.1",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-load-plugins": "^2.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-restart": "^0.1.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-theo": "^2.0.0",
+    "http-server": "^0.12.1",
+    "immutable": "^3.8.2",
+    "lodash": "^4.17.15",
+    "ms": "^2.1.2",
+    "nodemon": "^2.0.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "1.19.1",
+    "renamer": "^1.1.4",
+    "rimraf": "^3.0.0",
+    "theo": "8.1.4",
+    "tinycolor2": "^1.4.1",
+    "xml": "^1.0.1"
+  }
+}

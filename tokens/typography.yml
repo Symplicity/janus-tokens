@@ -1,0 +1,62 @@
+aliases:
+  font-stack-base: 'Lato, -apple-system, sans-serif'
+  font-stack-monospace: 'Monaco, monospace'
+  font-weigth-normal: '400'
+  font-weight-medium: '700'
+  font-size-t1: '32px'
+  line-height-t1: '44px'
+  font-size-t2: '28px'
+  line-height-t2: '40px'
+  font-size-t3: '20px'
+  line-height-t3: '28px'
+  font-size-t4: '16px'
+  line-height-t4: '24px'
+  font-size-t5: '14px'
+  line-height-t5: '20px'
+  font-size-t6: '13px'
+  line-height-t6: '20px'
+  font-size-t7: '12px'
+  line-height-t7: '16px'
+props:
+  # Font stacks
+  - name: font-stack-base
+    value: '{!font-stack-base}'
+    type: font-family
+    category: font-family
+  - name: font-stack-monospace
+    value: '{!font-stack-monospace}'
+    type: font-family
+    category: font-family
+  - name: font-t1
+    value: '{!font-weight-medium} {!font-size-t1}/{!line-height-t1} {!font-stack-base}'
+    type: font
+    category: font-style
+  - name: font-t2
+    value: '{!font-weight-medium} {!font-size-t2}/{!line-height-t2} {!font-stack-base}'
+    type: font
+    category: font-style
+  - name: font-t3
+    value: '{!font-weight-medium} {!font-size-t3}/{!line-height-t3} {!font-stack-base}'
+    type: font
+    category: font-style
+  - name: font-t4
+    value: '{!font-weight-medium} {!font-size-t4}/{!line-height-t4} {!font-stack-base}'
+    type: font
+    category: font-style
+  - name: font-t5
+    value: '{!font-weight-medium} {!font-size-t5}/{!line-height-t5} {!font-stack-base}'
+    type: font
+    category: font-style
+  - name: font-t6
+    value: '{!font-weight-medium} {!font-size-t6}/{!line-height-t6} {!font-stack-base}'
+    type: font
+    category: font-style
+  - name: font-t7
+    value: '{!font-weight-medium} {!font-size-t7}/{!line-height-t7} {!font-stack-base}'
+    type: font
+    category: font-style
+  # Font sizes and line heights
+  # -
+global:
+  type: number
+  category: font-size
