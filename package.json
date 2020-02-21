@@ -20,8 +20,13 @@
     "janus",
     "design-tokens"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Symplicity/janus-tokens.git"
+  },
   "author": "Symplicity",
   "license": "MIT",
+  "homepage": "https://github.com/Symplicity/janus-tokens#readme",
   "devDependencies": {
     "ase-util": "^1.0.3",
     "ase-utils": "^0.1.1",
