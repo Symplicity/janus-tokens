@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Design Tokens for the Janus Design System",
   "main": "index.js",
+  "files": [
+    "dist/**",
+    "docs/**"
+  ],
   "types": "dist/index.d.ts",
   "scripts": {
     "clean": "rimraf ./dist",
