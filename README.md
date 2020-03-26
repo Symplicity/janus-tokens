@@ -171,4 +171,4 @@ Currently, the Janus design system is managed by the designers and developers at
 
 Symplicity Janus design tokens are licensed under [MIT license](https://opensource.org/licenses/MIT)
 
-Parts of the code in this repository are directly inspired or borrowed from the [Shopify Polaris design tokens project](https://github.com/Shopify/janus-tokens), licensed under [MIT license](https://github.com/Shopify/janus-tokens/blob/master/LICENSE.md), whose code are in parts directly inspired or borrowed from the [Theo project](https://github.com/salesforce-ux/theo), property of Salesforce.com, Inc., [licensed under BSD 3-Clause](https://git.io/sfdc-license).
+Parts of the code in this repository are directly inspired or borrowed from the [Shopify Polaris design tokens project](https://github.com/Shopify/polaris-tokens), licensed under [MIT license](https://github.com/Symplicity/janus-tokens/blob/master/LICENSE.md), whose code are in parts directly inspired or borrowed from the [Theo project](https://github.com/salesforce-ux/theo), property of Salesforce.com, Inc., [licensed under BSD 3-Clause](https://git.io/sfdc-license).
