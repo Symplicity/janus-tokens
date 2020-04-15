@@ -14,9 +14,6 @@
     "build:gulp": "gulp",
     "build:docs": "gulp docs",
     "build:format": "prettier ./{dist,docs}/*.{js,json,css,scss,sketchpalette} --write",
-    "build:colors:ase": "node ./scripts/ase-encode.js",
-    "build:colors:clr:exclude-from-ci": "ase2clr ./dist/colors.ase ./dist/colors.clr",
-    "build:colors:rename-palettes:exclude-from-ci": "renamer --find colors --replace Janus ./dist/colors.{ase,clr,sketchpalette}",
     "watch": "gulp watch",
     "start": "http-server docs"
   },
