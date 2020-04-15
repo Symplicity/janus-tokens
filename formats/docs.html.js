@@ -33,7 +33,6 @@ class Styleguide {
           <th scope="col">${heading}</th>
           <th scope="col">Values</th>
           <th scope="col">Examples</th>
-          <th scope="col">Usage</th>
         </tr>
       </thead>
     `;
@@ -45,7 +44,6 @@ class Styleguide {
         <th scope="row"><code>${prop.name}</code></th>
         <td><code>${prop.value}</code></td>
         ${example}
-        <td>${prop.comment ? prop.comment : ''}</td>
       </tr>
     `;
   }

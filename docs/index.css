@@ -92,14 +92,14 @@ th {
   text-align: left; }
 
 thead th {
-  font: 700 16px/24px Lato, -apple-system, sans-serif;
+  font: 600 16px/22.4px Lato, -apple-system, sans-serif;
   border-bottom: 1px solid whitesmoke;
   padding-top: 1rem;
   padding-bottom: 0.5rem;
   color: #6c6c6c; }
 
 thead th:first-child {
-  font: 700 20px/28px Lato, -apple-system, sans-serif;
+  font: 600 20px/28px Lato, -apple-system, sans-serif;
   color: inherit; }
 
 code {
