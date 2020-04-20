@@ -1,45 +1,55 @@
-$janus-colors: (
-  'text': (
-    'base': rgb(69, 69, 69),
-    'secondary': rgb(108, 108, 108),
-    'darker': rgb(51, 51, 51),
-  ),
-  'gray': (
-    'lightest': rgb(248, 248, 248),
-    'lighter': rgb(245, 245, 245),
-    'light': rgb(236, 236, 236),
-    'neutral': rgb(108, 108, 108),
-    'dark': rgb(117, 117, 117),
-    'darker': rgb(69, 69, 69),
-    'darkest': rgb(51, 51, 51),
-  ),
-  'black': (
-    'base': rgb(0, 0, 0),
-  ),
-  'white': (
-    'base': rgb(255, 255, 255),
-  ),
-  'primary': (
-    'base': rgb(14, 98, 185),
-  ),
-  'success': (
-    'base': rgb(41, 120, 72),
-    'hover': rgb(36, 107, 64),
-    'background': rgb(210, 245, 224),
-  ),
-  'info': (
-    'base': rgb(13, 109, 193),
-    'hover': rgb(11, 97, 173),
-    'background': rgb(225, 241, 255),
-  ),
-  'warning': (
-    'base': rgb(168, 85, 2),
-    'hover': rgb(150, 76, 1),
-    'background': rgb(254, 235, 201),
-  ),
-  'danger': (
-    'base': rgb(191, 62, 36),
-    'hover': rgb(171, 55, 32),
-    'background': rgb(255, 233, 228),
-  ),
-);
+
+    $janus-colors: (
+      
+    'text': (
+      'base': rgb(69, 69, 69),
+'secondary': rgb(108, 108, 108),
+'darker': rgb(51, 51, 51)
+    ),
+
+    'gray': (
+      'lightest': rgb(248, 248, 248),
+'lighter': rgb(245, 245, 245),
+'light': rgb(236, 236, 236),
+'neutral': rgb(108, 108, 108),
+'dark': rgb(117, 117, 117),
+'darker': rgb(69, 69, 69),
+'darkest': rgb(51, 51, 51)
+    ),
+
+    'black': (
+      'base': rgb(0, 0, 0)
+    ),
+
+    'white': (
+      'base': rgb(255, 255, 255)
+    ),
+
+    'primary': (
+      'base': rgb(14, 98, 185)
+    ),
+
+    'success': (
+      'base': rgb(41, 120, 72),
+'hover': rgb(36, 107, 64),
+'background': rgb(210, 245, 224)
+    ),
+
+    'info': (
+      'base': rgb(13, 109, 193),
+'hover': rgb(11, 97, 173),
+'background': rgb(225, 241, 255)
+    ),
+
+    'warning': (
+      'base': rgb(168, 85, 2),
+'hover': rgb(150, 76, 1),
+'background': rgb(254, 235, 201)
+    ),
+
+    'danger': (
+      'base': rgb(191, 62, 36),
+'hover': rgb(171, 55, 32),
+'background': rgb(255, 233, 228)
+    )
+    );
