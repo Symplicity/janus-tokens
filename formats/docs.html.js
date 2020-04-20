@@ -137,6 +137,19 @@ class Styleguide {
     });
   }
 
+  renderFontBase(props) {
+    return props.map((prop) => {
+      const example = `
+        <td>
+          <div style="font: ${prop.value};">
+            The quick brown fox jumps over the lazy dog.
+          </div>
+        </td>
+      `;
+      return this.renderRow(prop, example);
+    });
+  }
+
   renderFontStyle(props) {
     return props.map((prop) => {
       const example = `
@@ -335,6 +348,7 @@ class Styleguide {
               ${this.renderSection('sizing', 'Sizing')}
               ${this.renderSection('spacing', 'Spacing')}
               ${this.renderSection('font', 'Fonts')}
+              ${this.renderSection('font-base', 'Base Font Variants')}
               ${this.renderSection('font-style', 'Font Styles')}
               ${this.renderSection('font-weight', 'Font Weights')}
               ${this.renderSection('font-size', 'Font Sizes')}

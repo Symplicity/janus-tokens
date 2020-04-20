@@ -1,4 +1,6 @@
 declare interface Tokens {
+  interfaceStaffScssVar: "400 14px/21px Lato, -apple-system, sans-serif";
+  interfaceStudentScssVar: "400 16px/24px Lato, -apple-system, sans-serif";
   borderRadius: "3px";
   borderRound: "100px";
   colorBlack: "rgb(0, 0, 0)";

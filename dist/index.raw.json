@@ -119,6 +119,24 @@
     },
     "font-weigth-normal": {
       "value": "400"
+    },
+    "font-size-staff": {
+      "value": "14px"
+    },
+    "line-height-staff": {
+      "value": "21px"
+    },
+    "font-weight-staff": {
+      "value": "400"
+    },
+    "font-size-student": {
+      "value": "16px"
+    },
+    "line-height-student": {
+      "value": "24px"
+    },
+    "font-weight-student": {
+      "value": "400"
     }
   },
   "props": {
@@ -464,6 +482,20 @@
       "name": "border-round",
       "value": "100px",
       "originalValue": "100px"
+    },
+    "$interface: staff (.scss var)": {
+      "type": "font",
+      "category": "font-base",
+      "name": "$interface: staff (.scss var)",
+      "value": "400 14px/21px Lato, -apple-system, sans-serif",
+      "originalValue": "{!font-weight-staff} {!font-size-staff}/{!line-height-staff} {!font-stack-base}"
+    },
+    "$interface: student (.scss var)": {
+      "type": "font",
+      "category": "font-base",
+      "name": "$interface: student (.scss var)",
+      "value": "400 16px/24px Lato, -apple-system, sans-serif",
+      "originalValue": "{!font-weight-student} {!font-size-student}/{!line-height-student} {!font-stack-base}"
     }
   }
 }
