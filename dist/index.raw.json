@@ -119,24 +119,6 @@
     },
     "font-weigth-normal": {
       "value": "400"
-    },
-    "font-size-staff": {
-      "value": "14px"
-    },
-    "line-height-staff": {
-      "value": "21px"
-    },
-    "font-weight-staff": {
-      "value": "400"
-    },
-    "font-size-student": {
-      "value": "16px"
-    },
-    "line-height-student": {
-      "value": "24px"
-    },
-    "font-weight-student": {
-      "value": "400"
     }
   },
   "props": {
@@ -420,52 +402,52 @@
       "value": "Monaco, monospace",
       "originalValue": "{!font-stack-monospace}"
     },
-    "font-t1": {
+    "h1": {
       "type": "font",
       "category": "font-style",
-      "name": "font-t1",
+      "name": "h1",
       "value": "600 32px/44.8px Lato, -apple-system, sans-serif",
       "originalValue": "{!font-weight-medium} {!font-size-t1}/{!line-height-t1} {!font-stack-base}"
     },
-    "font-t2": {
+    "h2": {
       "type": "font",
       "category": "font-style",
-      "name": "font-t2",
+      "name": "h2",
       "value": "600 28px/39.2px Lato, -apple-system, sans-serif",
       "originalValue": "{!font-weight-medium} {!font-size-t2}/{!line-height-t2} {!font-stack-base}"
     },
-    "font-t3": {
+    "h3": {
       "type": "font",
       "category": "font-style",
-      "name": "font-t3",
+      "name": "h3",
       "value": "600 20px/28px Lato, -apple-system, sans-serif",
       "originalValue": "{!font-weight-medium} {!font-size-t3}/{!line-height-t3} {!font-stack-base}"
     },
-    "font-t4": {
+    "h4": {
       "type": "font",
       "category": "font-style",
-      "name": "font-t4",
+      "name": "h4",
       "value": "600 16px/22.4px Lato, -apple-system, sans-serif",
       "originalValue": "{!font-weight-medium} {!font-size-t4}/{!line-height-t4} {!font-stack-base}"
     },
-    "font-t5": {
+    "h5": {
       "type": "font",
       "category": "font-style",
-      "name": "font-t5",
+      "name": "h5",
       "value": "600 14px/19.6px Lato, -apple-system, sans-serif",
       "originalValue": "{!font-weight-medium} {!font-size-t5}/{!line-height-t5} {!font-stack-base}"
     },
-    "font-t6": {
+    "h6": {
       "type": "font",
       "category": "font-style",
-      "name": "font-t6",
+      "name": "h6",
       "value": "600 13px/18.2px Lato, -apple-system, sans-serif",
       "originalValue": "{!font-weight-medium} {!font-size-t6}/{!line-height-t6} {!font-stack-base}"
     },
-    "font-t7": {
+    "h7": {
       "type": "font",
       "category": "font-style",
-      "name": "font-t7",
+      "name": "h7",
       "value": "600 12px/16.8px Lato, -apple-system, sans-serif",
       "originalValue": "{!font-weight-medium} {!font-size-t7}/{!line-height-t7} {!font-stack-base}"
     },
@@ -482,20 +464,6 @@
       "name": "border-round",
       "value": "100px",
       "originalValue": "100px"
-    },
-    "$interface: staff (.scss var)": {
-      "type": "font",
-      "category": "font-base",
-      "name": "$interface: staff (.scss var)",
-      "value": "400 14px/21px Lato, -apple-system, sans-serif",
-      "originalValue": "{!font-weight-staff} {!font-size-staff}/{!line-height-staff} {!font-stack-base}"
-    },
-    "$interface: student (.scss var)": {
-      "type": "font",
-      "category": "font-base",
-      "name": "$interface: student (.scss var)",
-      "value": "400 16px/24px Lato, -apple-system, sans-serif",
-      "originalValue": "{!font-weight-student} {!font-size-student}/{!line-height-student} {!font-stack-base}"
     }
   }
 }
