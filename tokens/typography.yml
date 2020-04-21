@@ -1,7 +1,7 @@
 aliases:
   font-stack-base: 'Lato, -apple-system, sans-serif'
   font-stack-monospace: 'Monaco, monospace'
-  font-weigth-normal: '400'
+  font-weight-normal: '400'
   font-weight-medium: '600'
   font-size-t1: '32px'
   line-height-t1: '44.8px'
