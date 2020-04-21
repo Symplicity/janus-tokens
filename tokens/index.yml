@@ -6,6 +6,7 @@ imports:
   - ./spacing.yml
   - ./typography.yml
   - ./borders.yml
+  - ./sizes.yml
 global:
   type: all
   category: global
