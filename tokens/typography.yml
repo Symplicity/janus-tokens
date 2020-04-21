@@ -27,31 +27,31 @@ props:
     value: '{!font-stack-monospace}'
     type: font-family
     category: font-family
-  - name: font-t1
+  - name: h1
     value: '{!font-weight-medium} {!font-size-t1}/{!line-height-t1} {!font-stack-base}'
     type: font
     category: font-style
-  - name: font-t2
+  - name: h2
     value: '{!font-weight-medium} {!font-size-t2}/{!line-height-t2} {!font-stack-base}'
     type: font
     category: font-style
-  - name: font-t3
+  - name: h3
     value: '{!font-weight-medium} {!font-size-t3}/{!line-height-t3} {!font-stack-base}'
     type: font
     category: font-style
-  - name: font-t4
+  - name: h4
     value: '{!font-weight-medium} {!font-size-t4}/{!line-height-t4} {!font-stack-base}'
     type: font
     category: font-style
-  - name: font-t5
+  - name: h5
     value: '{!font-weight-medium} {!font-size-t5}/{!line-height-t5} {!font-stack-base}'
     type: font
     category: font-style
-  - name: font-t6
+  - name: h6
     value: '{!font-weight-medium} {!font-size-t6}/{!line-height-t6} {!font-stack-base}'
     type: font
     category: font-style
-  - name: font-t7
+  - name: h7
     value: '{!font-weight-medium} {!font-size-t7}/{!line-height-t7} {!font-stack-base}'
     type: font
     category: font-style

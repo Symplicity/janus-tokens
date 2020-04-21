@@ -351,7 +351,6 @@ class Styleguide {
               ${this.renderSection('font-base', 'Base Font Variants')}
               ${this.renderSection('font-style', 'Font Styles')}
               ${this.renderSection('font-weight', 'Font Weights')}
-              ${this.renderSection('font-size', 'Font Sizes')}
               ${this.renderSection('line-height', 'Line Heights')}
               ${this.renderSection('font-family', 'Font Families')}
               ${this.renderSection('border-style', 'Border Styles')}
