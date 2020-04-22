@@ -1,3 +1,3 @@
 module.exports = {
-  fontSizeBase: "1rem",
+  fontSizeBase: '1rem',
 };

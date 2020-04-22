@@ -1,3 +1,3 @@
 module.exports = {
-  lineHeightBase: "1.5",
+  lineHeightBase: '1.5',
 };
