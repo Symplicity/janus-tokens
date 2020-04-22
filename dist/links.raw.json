@@ -1,0 +1,36 @@
+{
+  "aliases": {
+    "link-primary-color": {
+      "value": "#ff0000"
+    },
+    "link-secondary-color": {
+      "value": "#6c6c6c"
+    },
+    "link-danger-color": {
+      "value": "#bf3e24"
+    }
+  },
+  "props": {
+    ".text-primary": {
+      "type": "font",
+      "category": "link",
+      "name": ".text-primary",
+      "value": "#ff0000",
+      "originalValue": "{!link-primary-color}"
+    },
+    ".text-secondary": {
+      "type": "font",
+      "category": "link",
+      "name": ".text-secondary",
+      "value": "#6c6c6c",
+      "originalValue": "{!link-secondary-color}"
+    },
+    ".text-danger": {
+      "type": "font",
+      "category": "link",
+      "name": ".text-danger",
+      "value": "#bf3e24",
+      "originalValue": "{!link-danger-color}"
+    }
+  }
+}

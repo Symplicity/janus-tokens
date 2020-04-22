@@ -1,0 +1,23 @@
+aliases:
+  link-primary-color: '#ff0000'
+  link-secondary-color: '#6c6c6c'
+  link-danger-color: '#bf3e24'
+props:
+  # Font sizes and line heights
+  - name: '.text-primary'
+    value: '{!link-primary-color}'
+    type: font
+    category: link
+  - name: '.text-secondary'
+    value: '{!link-secondary-color}'
+    type: font
+    category: link
+  - name: '.text-danger'
+    value: '{!link-danger-color}'
+    type: font
+    category: link
+  # Font sizes and line heights
+  # -
+global:
+  type: number
+  category: link

@@ -4,9 +4,9 @@
 
 html,
 body {
-  font-size: 1.5rem;
+  font-size: $font-size-base;
   font-weight: 400;
-  line-height: 2rem;
+  line-height: 1.5;
   text-transform: initial;
   letter-spacing: initial;
   color: $color-text;
@@ -23,7 +23,7 @@ body {
 html {
   position: relative;
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;

@@ -126,7 +126,7 @@ class Styleguide {
     return props.map((prop) => {
       const example = `
         <td>
-          <div class="line-height-example" style="line-height: ${prop.value}; background-size: 100% ${prop.value};">
+          <div class="line-height-example" style="font-size: ${tokens.fontSizeBase}; line-height: ${prop.value}; background-size: 100% ${prop.value};">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
             elementum odio et lacus rutrum molestie. Nunc arcu enim, elementum
             id feugiat at, venenatis quis erat.
@@ -137,11 +137,26 @@ class Styleguide {
     });
   }
 
-  renderFontBase(props) {
+  renderLink(props) {
     return props.map((prop) => {
       const example = `
         <td>
-          <div style="font: ${prop.value};">
+          <a href="#" style="color: ${prop.value};">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            elementum odio et lacus rutrum molestie. Nunc arcu enim, elementum
+            id feugiat at, venenatis quis erat.
+          </a>
+        </td>
+      `;
+      return this.renderRow(prop, example);
+    });
+  }
+
+  renderFontSizes(props) {
+    return props.map((prop) => {
+      const example = `
+        <td>
+          <div style="font-size: ${prop.value};">
             The quick brown fox jumps over the lazy dog.
           </div>
         </td>
@@ -348,10 +363,11 @@ class Styleguide {
               ${this.renderSection('sizing', 'Sizing')}
               ${this.renderSection('spacing', 'Spacing')}
               ${this.renderSection('font', 'Fonts')}
-              ${this.renderSection('font-base', 'Base Font Variants')}
+              ${this.renderSection('font-size', 'Font Sizes')}
+              ${this.renderSection('link', 'Links')}
+              ${this.renderSection('line-height', 'Line Heights')}
               ${this.renderSection('font-style', 'Font Styles')}
               ${this.renderSection('font-weight', 'Font Weights')}
-              ${this.renderSection('line-height', 'Line Heights')}
               ${this.renderSection('font-family', 'Font Families')}
               ${this.renderSection('border-style', 'Border Styles')}
               ${this.renderSection('border-color', 'Border Colors')}

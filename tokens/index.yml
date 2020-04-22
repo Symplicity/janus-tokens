@@ -6,6 +6,9 @@ imports:
   - ./spacing.yml
   - ./typography.yml
   - ./borders.yml
+  - ./sizes.yml
+    #- ./line-heights.yml
+    #- ./links.yml
 global:
   type: all
   category: global

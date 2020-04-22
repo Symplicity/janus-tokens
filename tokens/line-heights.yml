@@ -1,0 +1,13 @@
+aliases:
+  line-height-base: '1.5'
+props:
+  # Font sizes and line heights
+  - name: 'line-height-base'
+    value: '{!line-height-base}'
+    type: number
+    category: line-height
+  # Font sizes and line heights
+  # -
+global:
+  type: number
+  category: line-height

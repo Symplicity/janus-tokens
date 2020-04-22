@@ -1,22 +1,11 @@
 aliases:
-  font-stack-base: 'Lato, -apple-system, sans-serif'
-  font-stack-monospace: 'Monaco, monospace'
-  font-size-staff: '14px'
-  line-height-staff: '21px'
-  font-weight-staff: '400'
-  font-size-student: '16px'
-  line-height-student: '24px'
-  font-weight-student: '400'
+  font-size-base: '1rem'
 props:
   # Font sizes and line heights
-  - name: '$interface: staff (.scss var)'
-    value: '{!font-weight-staff} {!font-size-staff}/{!line-height-staff} {!font-stack-base}'
-    type: font
-    category: font-base
-  - name: '$interface: student (.scss var)'
-    value: '{!font-weight-student} {!font-size-student}/{!line-height-student} {!font-stack-base}'
-    type: font
-    category: font-base
+  - name: 'font-size-base'
+    value: '{!font-size-base}'
+    type: number
+    category: font-size
   # Font sizes and line heights
   # -
 global:

@@ -1,0 +1,16 @@
+{
+  "aliases": {
+    "line-height-base": {
+      "value": "1.5"
+    }
+  },
+  "props": {
+    "line-height-base": {
+      "type": "number",
+      "category": "line-height",
+      "name": "line-height-base",
+      "value": "1.5",
+      "originalValue": "{!line-height-base}"
+    }
+  }
+}
