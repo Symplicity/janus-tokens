@@ -1,121 +1,138 @@
 aliases:
-  color-gray-lightest: '#f8f8f8'
-  color-gray-lighter: '#f5f5f5'
-  color-gray-light: '#ececec'
-  color-gray-neutral: '#6c6c6c'
-  color-gray-dark: '#757575'
-  color-gray-darker: '#454545'
-  color-gray-darkest: '#333333'
-  color-black: '#000000'
-  color-white: '#ffffff'
-  color-primary: '#0e62B9'
-  color-success: '#297848'
-  color-success-hover: '#246B40'
-  color-success-background: '#D2F5E0'
-  color-info: '#0D6DC1'
-  color-info-hover: '#0B61AD'
-  color-info-background: '#E1F1FF'
-  color-warning: '#A85502'
-  color-warning-hover: '#964C01'
-  color-warning-background: '#FEEBC9'
-  color-danger: '#BF3E24'
-  color-danger-hover: '#AB3720'
-  color-danger-background: '#FFE9E4'
+  janus-color-gray-100: '#f8f9fa'
+  janus-color-gray-200: '#e9ecef ' 
+  janus-color-gray-300: '#dee2e6'
+  janus-color-gray-400: '#ced4da'
+  janus-color-gray-500: '#adb5bd'
+  janus-color-gray-600: '#6c757d'
+  janus-color-gray-700: '#495057'
+  janus-color-gray-800: '#343a40'
+  janus-color-gray-900: '#212529'
+  janus-color-black: '#000000'
+  janus-color-white: '#ffffff'
+  janus-color-primary: '#004D74'
+  janus-color-primary-background: '#D7F8F7'
+  janus-color-secondary: '#333333'
+  janus-color-secondary-background: '#ECECEC'
+  janus-color-success: '#297848'
+  janus-color-success-hover: '#246B40'
+  janus-color-success-background: '#D2F5E0'
+  janus-color-info: '#0D6DC1'
+  janus-color-info-hover: '#0B61AD'
+  janus-color-info-background: '#E1F1FF'
+  janus-color-warning: '#A85502'
+  janus-color-warning-hover: '#964C01'
+  janus-color-warning-background: '#FEEBC9'
+  janus-color-danger: '#BF3E24'
+  janus-color-danger-hover: '#AB3720'
+  janus-color-danger-background: '#FFE9E4'
 props:
-  - name: color-text
-    value: '{!color-gray-darker}'
+  - name: janus-color-text
+    value: '{!janus-color-gray-700}'
     category: text-color
     meta:
       filter: >-
         invert(25%) sepia(0%) saturate(117%) hue-rotate(172deg) brightness(99%) contrast(89%)
-  - name: color-text-secondary
-    value: '{!color-gray-neutral}'
+  - name: janus-color-text-secondary
+    value: '{!janus-color-gray-400}'
     category: text-color
     meta:
       filter: >-
         invert(40%) sepia(0%) saturate(1050%) hue-rotate(222deg) brightness(102%) contrast(81%)
-  - name: color-text-darker
-    value: '{!color-gray-darkest}'
+  - name: janus-color-text-darker
+    value: '{!janus-color-gray-800}'
     category: text-color
     meta:
       filter: >-
         invert(19%) sepia(0%) saturate(2%) hue-rotate(308deg) brightness(98%) contrast(95%)
-  - name: color-gray-lightest
-    value: '{!color-gray-lightest}'
+  - name: janus-color-gray-100
+    value: '{!janus-color-gray-100}'
     category: color
     meta:
       filter: >-
         invert(100%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(115%) contrast(95%)
-  - name: color-gray-lighter
-    value: '{!color-gray-lighter}'
+  - name: janus-color-gray-200
+    value: '{!janus-color-gray-200}'
     category: color
     meta:
       filter: >-
         invert(100%) sepia(48%) saturate(136%) hue-rotate(258deg) brightness(111%) contrast(92%)
-  - name: color-gray-light
-    value: '{!color-gray-light}'
+  - name: janus-color-gray-300
+    value: '{!janus-color-gray-300}'
     category: color
     meta:
       filter: >-
         invert(95%) sepia(9%) saturate(114%) hue-rotate(259deg) brightness(116%) contrast(85%)
-  - name: color-gray-neutral
-    value: '{!color-gray-neutral}'
+  - name: janus-color-gray-400
+    value: '{!janus-color-gray-400}'
     category: color
     meta:
       filter: >-
         invert(44%) sepia(0%) saturate(0%) hue-rotate(139deg) brightness(94%) contrast(90%)
-  - name: color-gray-dark
-    value: '{!color-gray-dark}'
+  - name: janus-color-gray-500
+    value: '{!janus-color-gray-500}'
+    category: color
+  - name: janus-color-gray-600
+    value: '{!janus-color-gray-600}'
     category: color
     meta:
       filter: >-
         invert(54%) sepia(22%) saturate(0%) hue-rotate(134deg) brightness(82%) contrast(100%)
-  - name: color-gray-darker
-    value: '{!color-gray-darker}'
+  - name: janus-color-gray-700
+    value: '{!janus-color-gray-700}'
     category: color
     meta:
       filter: >-
         invert(25%) sepia(0%) saturate(117%) hue-rotate(172deg) brightness(99%) contrast(89%)
-  - name: color-gray-darkest
-    value: '{!color-gray-darkest}'
+  - name: janus-color-gray-800
+    value: '{!janus-color-gray-800}'
     category: color
     meta:
       filter: >-
         invert(19%) sepia(0%) saturate(2%) hue-rotate(308deg) brightness(98%) contrast(95%)
-  - name: color-black
-    value: '{!color-black}'
+  - name: janus-color-gray-900
+    value: '{!janus-color-gray-900}'
+    category: color
+  - name: janus-color-black
+    value: '{!janus-color-black}'
     meta:
       filter: brightness(0) saturate(100%)
-  - name: color-white
-    value: '{!color-white}'
+  - name: janus-color-white
+    value: '{!janus-color-white}'
     meta:
       filter: brightness(0) saturate(100%) invert(100%)
-  - name: color-primary
-    value: '{!color-primary}'
-  - name: color-success
-    value: '{!color-success}'
-  - name: color-success-hover
-    value: '{!color-success-hover}'
-  - name: color-success-background
-    value: '{!color-success-background}'
-  - name: color-info
-    value: '{!color-info}'
-  - name: color-info-hover
-    value: '{!color-info-hover}'
-  - name: color-info-background
-    value: '{!color-info-background}'
-  - name: color-warning
-    value: '{!color-warning}'
-  - name: color-warning-hover
-    value: '{!color-warning-hover}'
-  - name: color-warning-background
-    value: '{!color-warning-background}'
-  - name: color-danger
-    value: '{!color-danger}'
-  - name: color-danger-hover
-    value: '{!color-danger-hover}'
-  - name: color-danger-background
-    value: '{!color-danger-background}'
+  - name: janus-color-primary
+    value: '{!janus-color-primary}'
+  - name: janus-color-primary-background
+    value: '{!janus-color-primary-background}'
+  - name: janus-color-secondary
+    value: '{!janus-color-secondary}'
+  - name: janus-color-secondary-background
+    value: '{!janus-color-secondary-background}'
+  - name: janus-color-success
+    value: '{!janus-color-success}'
+  - name: janus-color-success-hover
+    value: '{!janus-color-success-hover}'
+  - name: janus-color-success-background
+    value: '{!janus-color-success-background}'
+  - name: janus-color-info
+    value: '{!janus-color-info}'
+  - name: janus-color-info-hover
+    value: '{!janus-color-info-hover}'
+  - name: janus-color-info-background
+    value: '{!janus-color-info-background}'
+  - name: janus-color-warning
+    value: '{!janus-color-warning}'
+  - name: janus-color-warning-hover
+    value: '{!janus-color-warning-hover}'
+  - name: janus-color-warning-background
+    value: '{!janus-color-warning-background}'
+  - name: janus-color-danger
+    value: '{!janus-color-danger}'
+  - name: janus-color-danger-hover
+    value: '{!janus-color-danger-hover}'
+  - name: janus-color-danger-background
+    value: '{!janus-color-danger-background}'
 global:
   type: color
   category: color

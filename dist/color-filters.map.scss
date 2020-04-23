@@ -1,87 +1,102 @@
 $janus-color-filters-map: (
-  'color-text': (
+  'janus-color-text': (
     invert(25%) sepia(0%) saturate(117%) hue-rotate(172deg) brightness(99%)
       contrast(89%),
   ),
-  'color-text-secondary': (
+  'janus-color-text-secondary': (
     invert(40%) sepia(0%) saturate(1050%) hue-rotate(222deg) brightness(102%)
       contrast(81%),
   ),
-  'color-text-darker': (
+  'janus-color-text-darker': (
     invert(19%) sepia(0%) saturate(2%) hue-rotate(308deg) brightness(98%)
       contrast(95%),
   ),
-  'color-gray-lightest': (
+  'janus-color-gray-100': (
     invert(100%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(115%)
       contrast(95%),
   ),
-  'color-gray-lighter': (
+  'janus-color-gray-200': (
     invert(100%) sepia(48%) saturate(136%) hue-rotate(258deg) brightness(111%)
       contrast(92%),
   ),
-  'color-gray-light': (
+  'janus-color-gray-300': (
     invert(95%) sepia(9%) saturate(114%) hue-rotate(259deg) brightness(116%)
       contrast(85%),
   ),
-  'color-gray-neutral': (
+  'janus-color-gray-400': (
     invert(44%) sepia(0%) saturate(0%) hue-rotate(139deg) brightness(94%)
       contrast(90%),
   ),
-  'color-gray-dark': (
+  'janus-color-gray-500': (
+    none,
+  ),
+  'janus-color-gray-600': (
     invert(54%) sepia(22%) saturate(0%) hue-rotate(134deg) brightness(82%)
       contrast(100%),
   ),
-  'color-gray-darker': (
+  'janus-color-gray-700': (
     invert(25%) sepia(0%) saturate(117%) hue-rotate(172deg) brightness(99%)
       contrast(89%),
   ),
-  'color-gray-darkest': (
+  'janus-color-gray-800': (
     invert(19%) sepia(0%) saturate(2%) hue-rotate(308deg) brightness(98%)
       contrast(95%),
   ),
-  'color-black': (
+  'janus-color-gray-900': (
+    none,
+  ),
+  'janus-color-black': (
     brightness(0) saturate(100%),
   ),
-  'color-white': (
+  'janus-color-white': (
     brightness(0) saturate(100%) invert(100%),
   ),
-  'color-primary': (
+  'janus-color-primary': (
     none,
   ),
-  'color-success': (
+  'janus-color-primary-background': (
     none,
   ),
-  'color-success-hover': (
+  'janus-color-secondary': (
     none,
   ),
-  'color-success-background': (
+  'janus-color-secondary-background': (
     none,
   ),
-  'color-info': (
+  'janus-color-success': (
     none,
   ),
-  'color-info-hover': (
+  'janus-color-success-hover': (
     none,
   ),
-  'color-info-background': (
+  'janus-color-success-background': (
     none,
   ),
-  'color-warning': (
+  'janus-color-info': (
     none,
   ),
-  'color-warning-hover': (
+  'janus-color-info-hover': (
     none,
   ),
-  'color-warning-background': (
+  'janus-color-info-background': (
     none,
   ),
-  'color-danger': (
+  'janus-color-warning': (
     none,
   ),
-  'color-danger-hover': (
+  'janus-color-warning-hover': (
     none,
   ),
-  'color-danger-background': (
+  'janus-color-warning-background': (
+    none,
+  ),
+  'janus-color-danger': (
+    none,
+  ),
+  'janus-color-danger-hover': (
+    none,
+  ),
+  'janus-color-danger-background': (
     none,
   ),
 );
