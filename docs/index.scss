@@ -13,13 +13,6 @@ body {
   font-family: $font-stack-base;
 }
 
-@media (min-width: 40em) {
-  html,
-  body {
-    font-size: 1.4rem;
-  }
-}
-
 html {
   position: relative;
   box-sizing: border-box;
@@ -28,7 +21,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  text-size-adjust: 100%;
+  text-size-adjust: 62.5%;
   text-rendering: optimizeLegibility;
 }
 
