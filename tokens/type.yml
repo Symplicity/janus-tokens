@@ -1,0 +1,33 @@
+aliases:
+  janus-font-stack-base: 'Lato, -apple-system, sans-serif'
+  janus-font-stack-monospace: 'Monaco, monospace'
+  janus-font-size-base: '1rem'
+  janus-line-height-base: '1.5'
+  janus-headings-line-height-base: '1.4'
+props:
+  # Font sizes and line heights
+  - name: janus-font-stack-base
+    value: '{!janus-font-stack-base}'
+    type: font-family
+    category: font-family
+  - name: janus-font-stack-monospace
+    value: '{!janus-font-stack-monospace}'
+    type: font-family
+    category: font-family
+  - name: 'janus-font-size-base'
+    value: '{!janus-font-size-base}'
+    type: number
+    category: font-size
+  - name: 'janus-line-height-base'
+    value: '{!janus-line-height-base}'
+    type: number
+    category: line-height
+  - name: 'janus-headings-line-height-base'
+    value: '{!janus-headings-line-height-base}'
+    type: number
+    category: line-height
+  # Font sizes and line heights
+  # -
+global:
+  type: number
+  category: font-size

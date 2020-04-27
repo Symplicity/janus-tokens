@@ -1,16 +1,16 @@
 {
   "aliases": {
-    "line-height-base": {
+    "janus-line-height-base": {
       "value": "1.5"
     }
   },
   "props": {
-    "line-height-base": {
+    "janus-line-height-base": {
       "type": "number",
       "category": "line-height",
-      "name": "line-height-base",
+      "name": "janus-line-height-base",
       "value": "1.5",
-      "originalValue": "{!line-height-base}"
+      "originalValue": "{!janus-line-height-base}"
     }
   }
 }

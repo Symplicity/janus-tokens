@@ -1,9 +1,9 @@
 aliases:
-  line-height-base: '1.5'
+  janus-line-height-base: '1.5'
 props:
   # Font sizes and line heights
-  - name: 'line-height-base'
-    value: '{!line-height-base}'
+  - name: 'janus-line-height-base'
+    value: '{!janus-line-height-base}'
     type: number
     category: line-height
   # Font sizes and line heights

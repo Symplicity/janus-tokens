@@ -1,0 +1,7 @@
+{
+  "janus-font-stack-base": "Lato, -apple-system, sans-serif",
+  "janus-font-stack-monospace": "Monaco, monospace",
+  "janus-font-size-base": "1rem",
+  "janus-line-height-base": "1.5",
+  "janus-headings-line-height-base": "1.4"
+}

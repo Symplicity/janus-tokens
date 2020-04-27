@@ -1,8 +1,5 @@
 {
   "aliases": {
-    "font-stack-monospace": {
-      "value": "Monaco, monospace"
-    },
     "line-height-t1": {
       "value": "44.8px"
     },
@@ -48,7 +45,10 @@
     "font-size-t7": {
       "value": "12px"
     },
-    "font-stack-base": {
+    "janus-font-stack-monospace": {
+      "value": "Monaco, monospace"
+    },
+    "janus-font-stack-base": {
       "value": "Lato, -apple-system, sans-serif"
     },
     "font-weight-normal": {
@@ -56,68 +56,68 @@
     }
   },
   "props": {
-    "font-stack-base": {
+    "janus-font-stack-base": {
       "type": "font-family",
       "category": "font-family",
-      "name": "font-stack-base",
+      "name": "janus-font-stack-base",
       "value": "Lato, -apple-system, sans-serif",
-      "originalValue": "{!font-stack-base}"
+      "originalValue": "{!janus-font-stack-base}"
     },
-    "font-stack-monospace": {
+    "janus-font-stack-monospace": {
       "type": "font-family",
       "category": "font-family",
-      "name": "font-stack-monospace",
+      "name": "janus-font-stack-monospace",
       "value": "Monaco, monospace",
-      "originalValue": "{!font-stack-monospace}"
+      "originalValue": "{!janus-font-stack-monospace}"
     },
     "font-t1": {
       "type": "font",
       "category": "font-style",
       "name": "font-t1",
       "value": "600 32px/44.8px Lato, -apple-system, sans-serif",
-      "originalValue": "{!font-weight-medium} {!font-size-t1}/{!line-height-t1} {!font-stack-base}"
+      "originalValue": "{!font-weight-medium} {!font-size-t1}/{!line-height-t1} {!janus-font-stack-base}"
     },
     "font-t2": {
       "type": "font",
       "category": "font-style",
       "name": "font-t2",
       "value": "600 28px/39.2px Lato, -apple-system, sans-serif",
-      "originalValue": "{!font-weight-medium} {!font-size-t2}/{!line-height-t2} {!font-stack-base}"
+      "originalValue": "{!font-weight-medium} {!font-size-t2}/{!line-height-t2} {!janus-font-stack-base}"
     },
     "font-t3": {
       "type": "font",
       "category": "font-style",
       "name": "font-t3",
       "value": "600 20px/28px Lato, -apple-system, sans-serif",
-      "originalValue": "{!font-weight-medium} {!font-size-t3}/{!line-height-t3} {!font-stack-base}"
+      "originalValue": "{!font-weight-medium} {!font-size-t3}/{!line-height-t3} {!janus-font-stack-base}"
     },
     "font-t4": {
       "type": "font",
       "category": "font-style",
       "name": "font-t4",
       "value": "600 16px/22.4px Lato, -apple-system, sans-serif",
-      "originalValue": "{!font-weight-medium} {!font-size-t4}/{!line-height-t4} {!font-stack-base}"
+      "originalValue": "{!font-weight-medium} {!font-size-t4}/{!line-height-t4} {!janus-font-stack-base}"
     },
     "font-t5": {
       "type": "font",
       "category": "font-style",
       "name": "font-t5",
       "value": "600 14px/19.6px Lato, -apple-system, sans-serif",
-      "originalValue": "{!font-weight-medium} {!font-size-t5}/{!line-height-t5} {!font-stack-base}"
+      "originalValue": "{!font-weight-medium} {!font-size-t5}/{!line-height-t5} {!janus-font-stack-base}"
     },
     "font-t6": {
       "type": "font",
       "category": "font-style",
       "name": "font-t6",
       "value": "600 13px/18.2px Lato, -apple-system, sans-serif",
-      "originalValue": "{!font-weight-medium} {!font-size-t6}/{!line-height-t6} {!font-stack-base}"
+      "originalValue": "{!font-weight-medium} {!font-size-t6}/{!line-height-t6} {!janus-font-stack-base}"
     },
     "font-t7": {
       "type": "font",
       "category": "font-style",
       "name": "font-t7",
       "value": "600 12px/16.8px Lato, -apple-system, sans-serif",
-      "originalValue": "{!font-weight-medium} {!font-size-t7}/{!line-height-t7} {!font-stack-base}"
+      "originalValue": "{!font-weight-medium} {!font-size-t7}/{!line-height-t7} {!janus-font-stack-base}"
     }
   }
 }

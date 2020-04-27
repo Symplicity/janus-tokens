@@ -1,6 +1,6 @@
 aliases:
-  font-stack-base: 'Lato, -apple-system, sans-serif'
-  font-stack-monospace: 'Monaco, monospace'
+  janus-font-stack-base: 'Lato, -apple-system, sans-serif'
+  janus-font-stack-monospace: 'Monaco, monospace'
   font-weight-normal: '400'
   font-weight-medium: '600'
   font-size-t1: '32px'
@@ -19,40 +19,40 @@ aliases:
   line-height-t7: '16.8px'
 props:
   # Font stacks
-  - name: font-stack-base
-    value: '{!font-stack-base}'
+  - name: janus-font-stack-base
+    value: '{!janus-font-stack-base}'
     type: font-family
     category: font-family
-  - name: font-stack-monospace
-    value: '{!font-stack-monospace}'
+  - name: janus-font-stack-monospace
+    value: '{!janus-font-stack-monospace}'
     type: font-family
     category: font-family
   - name: font-t1
-    value: '{!font-weight-medium} {!font-size-t1}/{!line-height-t1} {!font-stack-base}'
+    value: '{!font-weight-medium} {!font-size-t1}/{!line-height-t1} {!janus-font-stack-base}'
     type: font
     category: font-style
   - name: font-t2
-    value: '{!font-weight-medium} {!font-size-t2}/{!line-height-t2} {!font-stack-base}'
+    value: '{!font-weight-medium} {!font-size-t2}/{!line-height-t2} {!janus-font-stack-base}'
     type: font
     category: font-style
   - name: font-t3
-    value: '{!font-weight-medium} {!font-size-t3}/{!line-height-t3} {!font-stack-base}'
+    value: '{!font-weight-medium} {!font-size-t3}/{!line-height-t3} {!janus-font-stack-base}'
     type: font
     category: font-style
   - name: font-t4
-    value: '{!font-weight-medium} {!font-size-t4}/{!line-height-t4} {!font-stack-base}'
+    value: '{!font-weight-medium} {!font-size-t4}/{!line-height-t4} {!janus-font-stack-base}'
     type: font
     category: font-style
   - name: font-t5
-    value: '{!font-weight-medium} {!font-size-t5}/{!line-height-t5} {!font-stack-base}'
+    value: '{!font-weight-medium} {!font-size-t5}/{!line-height-t5} {!janus-font-stack-base}'
     type: font
     category: font-style
   - name: font-t6
-    value: '{!font-weight-medium} {!font-size-t6}/{!line-height-t6} {!font-stack-base}'
+    value: '{!font-weight-medium} {!font-size-t6}/{!line-height-t6} {!janus-font-stack-base}'
     type: font
     category: font-style
   - name: font-t7
-    value: '{!font-weight-medium} {!font-size-t7}/{!line-height-t7} {!font-stack-base}'
+    value: '{!font-weight-medium} {!font-size-t7}/{!line-height-t7} {!janus-font-stack-base}'
     type: font
     category: font-style
   # Font sizes and line heights

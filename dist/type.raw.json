@@ -1,0 +1,56 @@
+{
+  "aliases": {
+    "janus-font-stack-base": {
+      "value": "Lato, -apple-system, sans-serif"
+    },
+    "janus-font-stack-monospace": {
+      "value": "Monaco, monospace"
+    },
+    "janus-font-size-base": {
+      "value": "1rem"
+    },
+    "janus-line-height-base": {
+      "value": "1.5"
+    },
+    "janus-headings-line-height-base": {
+      "value": "1.4"
+    }
+  },
+  "props": {
+    "janus-font-stack-base": {
+      "type": "font-family",
+      "category": "font-family",
+      "name": "janus-font-stack-base",
+      "value": "Lato, -apple-system, sans-serif",
+      "originalValue": "{!janus-font-stack-base}"
+    },
+    "janus-font-stack-monospace": {
+      "type": "font-family",
+      "category": "font-family",
+      "name": "janus-font-stack-monospace",
+      "value": "Monaco, monospace",
+      "originalValue": "{!janus-font-stack-monospace}"
+    },
+    "janus-font-size-base": {
+      "type": "number",
+      "category": "font-size",
+      "name": "janus-font-size-base",
+      "value": "1rem",
+      "originalValue": "{!janus-font-size-base}"
+    },
+    "janus-line-height-base": {
+      "type": "number",
+      "category": "line-height",
+      "name": "janus-line-height-base",
+      "value": "1.5",
+      "originalValue": "{!janus-line-height-base}"
+    },
+    "janus-headings-line-height-base": {
+      "type": "number",
+      "category": "line-height",
+      "name": "janus-headings-line-height-base",
+      "value": "1.4",
+      "originalValue": "{!janus-headings-line-height-base}"
+    }
+  }
+}

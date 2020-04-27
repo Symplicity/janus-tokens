@@ -1,16 +1,26 @@
 {
   "aliases": {
-    "font-size-base": {
+    "janus-font-size-base": {
       "value": "1rem"
+    },
+    "janus-line-height-base": {
+      "value": "1.5"
     }
   },
   "props": {
-    "font-size-base": {
+    "janus-font-size-base": {
       "type": "number",
       "category": "font-size",
-      "name": "font-size-base",
+      "name": "janus-font-size-base",
       "value": "1rem",
-      "originalValue": "{!font-size-base}"
+      "originalValue": "{!janus-font-size-base}"
+    },
+    "janus-line-height-base": {
+      "type": "number",
+      "category": "line-height",
+      "name": "janus-line-height-base",
+      "value": "1.5",
+      "originalValue": "{!janus-line-height-base}"
     }
   }
 }

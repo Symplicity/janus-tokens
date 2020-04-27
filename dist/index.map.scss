@@ -1,184 +1,47 @@
+
 $janus-index-map: (
-  'janus-color-text': (
-    rgb(73, 80, 87),
-  ),
-  'janus-color-text-secondary': (
-    rgb(206, 212, 218),
-  ),
-  'janus-color-text-darker': (
-    rgb(52, 58, 64),
-  ),
-  'janus-color-gray-100': (
-    rgb(248, 249, 250),
-  ),
-  'janus-color-gray-200': (
-    rgb(233, 236, 239),
-  ),
-  'janus-color-gray-300': (
-    rgb(222, 226, 230),
-  ),
-  'janus-color-gray-400': (
-    rgb(206, 212, 218),
-  ),
-  'janus-color-gray-500': (
-    rgb(173, 181, 189),
-  ),
-  'janus-color-gray-600': (
-    rgb(108, 117, 125),
-  ),
-  'janus-color-gray-700': (
-    rgb(73, 80, 87),
-  ),
-  'janus-color-gray-800': (
-    rgb(52, 58, 64),
-  ),
-  'janus-color-gray-900': (
-    rgb(33, 37, 41),
-  ),
-  'janus-color-black': (
-    rgb(0, 0, 0),
-  ),
-  'janus-color-white': (
-    rgb(255, 255, 255),
-  ),
-  'janus-color-primary': (
-    rgb(0, 77, 116),
-  ),
-  'janus-color-primary-background': (
-    rgb(215, 248, 247),
-  ),
-  'janus-color-secondary': (
-    rgb(51, 51, 51),
-  ),
-  'janus-color-secondary-background': (
-    rgb(236, 236, 236),
-  ),
-  'janus-color-success': (
-    rgb(41, 120, 72),
-  ),
-  'janus-color-success-hover': (
-    rgb(36, 107, 64),
-  ),
-  'janus-color-success-background': (
-    rgb(210, 245, 224),
-  ),
-  'janus-color-info': (
-    rgb(13, 109, 193),
-  ),
-  'janus-color-info-hover': (
-    rgb(11, 97, 173),
-  ),
-  'janus-color-info-background': (
-    rgb(225, 241, 255),
-  ),
-  'janus-color-warning': (
-    rgb(168, 85, 2),
-  ),
-  'janus-color-warning-hover': (
-    rgb(150, 76, 1),
-  ),
-  'janus-color-warning-background': (
-    rgb(254, 235, 201),
-  ),
-  'janus-color-danger': (
-    rgb(191, 62, 36),
-  ),
-  'janus-color-danger-hover': (
-    rgb(171, 55, 32),
-  ),
-  'janus-color-danger-background': (
-    rgb(255, 233, 228),
-  ),
-  'duration-none': (
-    0,
-  ),
-  'duration-fast': (
-    100ms,
-  ),
-  'duration-base': (
-    200ms,
-  ),
-  'duration-slow': (
-    300ms,
-  ),
-  'duration-slower': (
-    400ms,
-  ),
-  'duration-slowest': (
-    500ms,
-  ),
-  'spacing-none': (
-    0,
-  ),
-  'spacing-extra-tight': (
-    4px,
-  ),
-  'spacing-tight': (
-    8px,
-  ),
-  'spacing-base-tight': (
-    12px,
-  ),
-  'spacing-base': (
-    16px,
-  ),
-  'spacing-loose': (
-    20px,
-  ),
-  'spacing-extra-loose': (
-    32px,
-  ),
-  'font-stack-base': (
-    Lato,
-    -apple-system,
-    sans-serif,
-  ),
-  'font-stack-monospace': (
-    Monaco,
-    monospace,
-  ),
-  'font-t1': (
-    600 32px/44.8px Lato,
-    -apple-system,
-    sans-serif,
-  ),
-  'font-t2': (
-    600 28px/39.2px Lato,
-    -apple-system,
-    sans-serif,
-  ),
-  'font-t3': (
-    600 20px/28px Lato,
-    -apple-system,
-    sans-serif,
-  ),
-  'font-t4': (
-    600 16px/22.4px Lato,
-    -apple-system,
-    sans-serif,
-  ),
-  'font-t5': (
-    600 14px/19.6px Lato,
-    -apple-system,
-    sans-serif,
-  ),
-  'font-t6': (
-    600 13px/18.2px Lato,
-    -apple-system,
-    sans-serif,
-  ),
-  'font-t7': (
-    600 12px/16.8px Lato,
-    -apple-system,
-    sans-serif,
-  ),
-  'border-radius': (
-    3px,
-  ),
-  'border-round': (
-    100px,
-  ),
-  'font-size-base': (
-    1rem,
-  ),
+  'janus-color-text': (rgb(73, 80, 87)),
+  'janus-color-text-secondary': (rgb(206, 212, 218)),
+  'janus-color-text-darker': (rgb(52, 58, 64)),
+  'janus-color-gray-100': (rgb(248, 249, 250)),
+  'janus-color-gray-200': (rgb(233, 236, 239)),
+  'janus-color-gray-300': (rgb(222, 226, 230)),
+  'janus-color-gray-400': (rgb(206, 212, 218)),
+  'janus-color-gray-500': (rgb(173, 181, 189)),
+  'janus-color-gray-600': (rgb(108, 117, 125)),
+  'janus-color-gray-700': (rgb(73, 80, 87)),
+  'janus-color-gray-800': (rgb(52, 58, 64)),
+  'janus-color-gray-900': (rgb(33, 37, 41)),
+  'janus-color-black': (rgb(0, 0, 0)),
+  'janus-color-white': (rgb(255, 255, 255)),
+  'janus-color-primary': (rgb(0, 77, 116)),
+  'janus-color-primary-background': (rgb(215, 248, 247)),
+  'janus-color-secondary': (rgb(51, 51, 51)),
+  'janus-color-secondary-background': (rgb(236, 236, 236)),
+  'janus-color-success': (rgb(41, 120, 72)),
+  'janus-color-success-hover': (rgb(36, 107, 64)),
+  'janus-color-success-background': (rgb(210, 245, 224)),
+  'janus-color-info': (rgb(13, 109, 193)),
+  'janus-color-info-hover': (rgb(11, 97, 173)),
+  'janus-color-info-background': (rgb(225, 241, 255)),
+  'janus-color-warning': (rgb(168, 85, 2)),
+  'janus-color-warning-hover': (rgb(150, 76, 1)),
+  'janus-color-warning-background': (rgb(254, 235, 201)),
+  'janus-color-danger': (rgb(191, 62, 36)),
+  'janus-color-danger-hover': (rgb(171, 55, 32)),
+  'janus-color-danger-background': (rgb(255, 233, 228)),
+  'spacing-none': (0),
+  'spacing-extra-tight': (4px),
+  'spacing-tight': (8px),
+  'spacing-base-tight': (12px),
+  'spacing-base': (16px),
+  'spacing-loose': (20px),
+  'spacing-extra-loose': (32px),
+  'border-radius': (3px),
+  'border-round': (100px),
+  'janus-font-stack-base': (Lato, -apple-system, sans-serif),
+  'janus-font-stack-monospace': (Monaco, monospace),
+  'janus-font-size-base': (1rem),
+  'janus-line-height-base': (1.5),
+  'janus-headings-line-height-base': (1.4),
 );

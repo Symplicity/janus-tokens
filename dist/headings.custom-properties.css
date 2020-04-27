@@ -1,7 +1,7 @@
 
 :root {
-  --font-stack-base: Lato, -apple-system, sans-serif;
-  --font-stack-monospace: Monaco, monospace;
+  --janus-font-stack-base: Lato, -apple-system, sans-serif;
+  --janus-font-stack-monospace: Monaco, monospace;
   --font-t1: 600 32px/44.8px Lato, -apple-system, sans-serif;
   --font-t2: 600 28px/39.2px Lato, -apple-system, sans-serif;
   --font-t3: 600 20px/28px Lato, -apple-system, sans-serif;

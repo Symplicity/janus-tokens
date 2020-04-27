@@ -1,6 +1,6 @@
 module.exports = {
-  fontStackBase: "Lato, -apple-system, sans-serif",
-  fontStackMonospace: "Monaco, monospace",
+  janusFontStackBase: "Lato, -apple-system, sans-serif",
+  janusFontStackMonospace: "Monaco, monospace",
   fontT1: "600 32px/44.8px Lato, -apple-system, sans-serif",
   fontT2: "600 28px/39.2px Lato, -apple-system, sans-serif",
   fontT3: "600 20px/28px Lato, -apple-system, sans-serif",

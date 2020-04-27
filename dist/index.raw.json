@@ -81,62 +81,20 @@
     "janus-color-info-hover": {
       "value": "#0B61AD"
     },
-    "font-stack-monospace": {
-      "value": "Monaco, monospace"
-    },
-    "line-height-t1": {
-      "value": "44.8px"
-    },
-    "font-size-t1": {
-      "value": "32px"
-    },
-    "line-height-t2": {
-      "value": "39.2px"
-    },
-    "font-size-t2": {
-      "value": "28px"
-    },
-    "line-height-t3": {
-      "value": "28px"
-    },
-    "font-weight-medium": {
-      "value": "600"
-    },
-    "font-size-t3": {
-      "value": "20px"
-    },
-    "line-height-t4": {
-      "value": "22.4px"
-    },
-    "font-size-t4": {
-      "value": "16px"
-    },
-    "line-height-t5": {
-      "value": "19.6px"
-    },
-    "font-size-t5": {
-      "value": "14px"
-    },
-    "line-height-t6": {
-      "value": "18.2px"
-    },
-    "font-size-t6": {
-      "value": "13px"
-    },
-    "line-height-t7": {
-      "value": "16.8px"
-    },
-    "font-size-t7": {
-      "value": "12px"
-    },
-    "font-stack-base": {
+    "janus-font-stack-base": {
       "value": "Lato, -apple-system, sans-serif"
     },
-    "font-weight-normal": {
-      "value": "400"
+    "janus-font-stack-monospace": {
+      "value": "Monaco, monospace"
     },
-    "font-size-base": {
+    "janus-font-size-base": {
       "value": "1rem"
+    },
+    "janus-line-height-base": {
+      "value": "1.5"
+    },
+    "janus-headings-line-height-base": {
+      "value": "1.4"
     }
   },
   "props": {
@@ -350,48 +308,6 @@
       "value": "rgb(255, 233, 228)",
       "originalValue": "{!janus-color-danger-background}"
     },
-    "duration-none": {
-      "type": "time",
-      "category": "time",
-      "name": "duration-none",
-      "value": 0,
-      "originalValue": 0
-    },
-    "duration-fast": {
-      "type": "time",
-      "category": "time",
-      "name": "duration-fast",
-      "value": "100ms",
-      "originalValue": "100ms"
-    },
-    "duration-base": {
-      "type": "time",
-      "category": "time",
-      "name": "duration-base",
-      "value": "200ms",
-      "originalValue": "200ms"
-    },
-    "duration-slow": {
-      "type": "time",
-      "category": "time",
-      "name": "duration-slow",
-      "value": "300ms",
-      "originalValue": "300ms"
-    },
-    "duration-slower": {
-      "type": "time",
-      "category": "time",
-      "name": "duration-slower",
-      "value": "400ms",
-      "originalValue": "400ms"
-    },
-    "duration-slowest": {
-      "type": "time",
-      "category": "time",
-      "name": "duration-slowest",
-      "value": "500ms",
-      "originalValue": "500ms"
-    },
     "spacing-none": {
       "type": "number",
       "category": "spacing",
@@ -441,69 +357,6 @@
       "value": "32px",
       "originalValue": "32px"
     },
-    "font-stack-base": {
-      "type": "font-family",
-      "category": "font-family",
-      "name": "font-stack-base",
-      "value": "Lato, -apple-system, sans-serif",
-      "originalValue": "{!font-stack-base}"
-    },
-    "font-stack-monospace": {
-      "type": "font-family",
-      "category": "font-family",
-      "name": "font-stack-monospace",
-      "value": "Monaco, monospace",
-      "originalValue": "{!font-stack-monospace}"
-    },
-    "font-t1": {
-      "type": "font",
-      "category": "font-style",
-      "name": "font-t1",
-      "value": "600 32px/44.8px Lato, -apple-system, sans-serif",
-      "originalValue": "{!font-weight-medium} {!font-size-t1}/{!line-height-t1} {!font-stack-base}"
-    },
-    "font-t2": {
-      "type": "font",
-      "category": "font-style",
-      "name": "font-t2",
-      "value": "600 28px/39.2px Lato, -apple-system, sans-serif",
-      "originalValue": "{!font-weight-medium} {!font-size-t2}/{!line-height-t2} {!font-stack-base}"
-    },
-    "font-t3": {
-      "type": "font",
-      "category": "font-style",
-      "name": "font-t3",
-      "value": "600 20px/28px Lato, -apple-system, sans-serif",
-      "originalValue": "{!font-weight-medium} {!font-size-t3}/{!line-height-t3} {!font-stack-base}"
-    },
-    "font-t4": {
-      "type": "font",
-      "category": "font-style",
-      "name": "font-t4",
-      "value": "600 16px/22.4px Lato, -apple-system, sans-serif",
-      "originalValue": "{!font-weight-medium} {!font-size-t4}/{!line-height-t4} {!font-stack-base}"
-    },
-    "font-t5": {
-      "type": "font",
-      "category": "font-style",
-      "name": "font-t5",
-      "value": "600 14px/19.6px Lato, -apple-system, sans-serif",
-      "originalValue": "{!font-weight-medium} {!font-size-t5}/{!line-height-t5} {!font-stack-base}"
-    },
-    "font-t6": {
-      "type": "font",
-      "category": "font-style",
-      "name": "font-t6",
-      "value": "600 13px/18.2px Lato, -apple-system, sans-serif",
-      "originalValue": "{!font-weight-medium} {!font-size-t6}/{!line-height-t6} {!font-stack-base}"
-    },
-    "font-t7": {
-      "type": "font",
-      "category": "font-style",
-      "name": "font-t7",
-      "value": "600 12px/16.8px Lato, -apple-system, sans-serif",
-      "originalValue": "{!font-weight-medium} {!font-size-t7}/{!line-height-t7} {!font-stack-base}"
-    },
     "border-radius": {
       "type": "number",
       "category": "border-radius",
@@ -518,12 +371,40 @@
       "value": "100px",
       "originalValue": "100px"
     },
-    "font-size-base": {
+    "janus-font-stack-base": {
+      "type": "font-family",
+      "category": "font-family",
+      "name": "janus-font-stack-base",
+      "value": "Lato, -apple-system, sans-serif",
+      "originalValue": "{!janus-font-stack-base}"
+    },
+    "janus-font-stack-monospace": {
+      "type": "font-family",
+      "category": "font-family",
+      "name": "janus-font-stack-monospace",
+      "value": "Monaco, monospace",
+      "originalValue": "{!janus-font-stack-monospace}"
+    },
+    "janus-font-size-base": {
       "type": "number",
       "category": "font-size",
-      "name": "font-size-base",
+      "name": "janus-font-size-base",
       "value": "1rem",
-      "originalValue": "{!font-size-base}"
+      "originalValue": "{!janus-font-size-base}"
+    },
+    "janus-line-height-base": {
+      "type": "number",
+      "category": "line-height",
+      "name": "janus-line-height-base",
+      "value": "1.5",
+      "originalValue": "{!janus-line-height-base}"
+    },
+    "janus-headings-line-height-base": {
+      "type": "number",
+      "category": "line-height",
+      "name": "janus-headings-line-height-base",
+      "value": "1.4",
+      "originalValue": "{!janus-headings-line-height-base}"
     }
   }
 }

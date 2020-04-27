@@ -1,22 +1,6 @@
 declare interface Tokens {
   borderRadius: "3px";
   borderRound: "100px";
-  durationBase: 200;
-  durationFast: 100;
-  durationNone: 0;
-  durationSlow: 300;
-  durationSlower: 400;
-  durationSlowest: 500;
-  fontSizeBase: "1rem";
-  fontStackBase: "Lato, -apple-system, sans-serif";
-  fontStackMonospace: "Monaco, monospace";
-  fontT1: "600 32px/44.8px Lato, -apple-system, sans-serif";
-  fontT2: "600 28px/39.2px Lato, -apple-system, sans-serif";
-  fontT3: "600 20px/28px Lato, -apple-system, sans-serif";
-  fontT4: "600 16px/22.4px Lato, -apple-system, sans-serif";
-  fontT5: "600 14px/19.6px Lato, -apple-system, sans-serif";
-  fontT6: "600 13px/18.2px Lato, -apple-system, sans-serif";
-  fontT7: "600 12px/16.8px Lato, -apple-system, sans-serif";
   janusColorBlack: "rgb(0, 0, 0)";
   janusColorDanger: "rgb(191, 62, 36)";
   janusColorDangerBackground: "rgb(255, 233, 228)";
@@ -47,6 +31,11 @@ declare interface Tokens {
   janusColorWarningBackground: "rgb(254, 235, 201)";
   janusColorWarningHover: "rgb(150, 76, 1)";
   janusColorWhite: "rgb(255, 255, 255)";
+  janusFontSizeBase: "1rem";
+  janusFontStackBase: "Lato, -apple-system, sans-serif";
+  janusFontStackMonospace: "Monaco, monospace";
+  janusHeadingsLineHeightBase: "1.4";
+  janusLineHeightBase: "1.5";
   spacingBase: "16px";
   spacingBaseTight: "12px";
   spacingExtraLoose: "32px";

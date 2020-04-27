@@ -1,3 +1,4 @@
 module.exports = {
-  fontSizeBase: '1rem',
+  janusFontSizeBase: "1rem",
+  janusLineHeightBase: "1.5",
 };
