@@ -1,6 +1,8 @@
 declare interface Tokens {
-  borderRadius: "3px";
-  borderRound: "100px";
+  janusBorderRadius: ".188rem";
+  janusBorderRadiusLg: ".188rem";
+  janusBorderRadiusSm: ".125rem";
+  janusBorderRound: "100px";
   janusColorBlack: "rgb(0, 0, 0)";
   janusColorDanger: "rgb(191, 62, 36)";
   janusColorDangerBackground: "rgb(255, 233, 228)";

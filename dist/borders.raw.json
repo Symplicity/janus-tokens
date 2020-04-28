@@ -1,19 +1,46 @@
 {
-  "aliases": {},
-  "props": {
-    "border-radius": {
-      "type": "number",
-      "category": "border-radius",
-      "name": "border-radius",
-      "value": "3px",
-      "originalValue": "3px"
+  "aliases": {
+    "janus-border-radius": {
+      "value": ".188rem"
     },
-    "border-round": {
+    "janus-border-radius-sm": {
+      "value": ".125rem"
+    },
+    "janus-border-radius-lg": {
+      "value": ".188rem"
+    },
+    "janus-border-round": {
+      "value": "100px"
+    }
+  },
+  "props": {
+    "janus-border-radius": {
       "type": "number",
       "category": "border-radius",
-      "name": "border-round",
+      "name": "janus-border-radius",
+      "value": ".188rem",
+      "originalValue": "{!janus-border-radius}"
+    },
+    "janus-border-radius-sm": {
+      "type": "number",
+      "category": "border-radius",
+      "name": "janus-border-radius-sm",
+      "value": ".125rem",
+      "originalValue": "{!janus-border-radius-sm}"
+    },
+    "janus-border-radius-lg": {
+      "type": "number",
+      "category": "border-radius",
+      "name": "janus-border-radius-lg",
+      "value": ".188rem",
+      "originalValue": "{!janus-border-radius-lg}"
+    },
+    "janus-border-round": {
+      "type": "number",
+      "category": "border-radius",
+      "name": "janus-border-round",
       "value": "100px",
-      "originalValue": "100px"
+      "originalValue": "{!janus-border-round}"
     }
   }
 }

@@ -1,4 +1,6 @@
 module.exports = {
-  borderRadius: "3px",
-  borderRound: "100px",
+  janusBorderRadius: ".188rem",
+  janusBorderRadiusSm: ".125rem",
+  janusBorderRadiusLg: ".188rem",
+  janusBorderRound: "100px",
 };

@@ -1,5 +1,7 @@
 
 :root {
-  --border-radius: 3px;
-  --border-round: 100px;
+  --janus-border-radius: .188rem;
+  --janus-border-radius-sm: .125rem;
+  --janus-border-radius-lg: .188rem;
+  --janus-border-round: 100px;
 }

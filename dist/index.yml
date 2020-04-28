@@ -2,11 +2,11 @@
 # Useful for documentation generation
 imports:
   - ./colors.yml
-  - ./duration.yml
+    #- ./duration.yml
   - ./spacing.yml
-  - ./headings.yml
+    #- ./headings.yml
   - ./borders.yml
-  - ./sizes.yml
+  - ./type.yml
     #- ./links.yml
 global:
   type: all
