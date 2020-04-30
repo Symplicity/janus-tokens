@@ -81,6 +81,24 @@
     "janus-color-info-hover": {
       "value": "#0B61AD"
     },
+    "janus-input-btn-padding-x": {
+      "value": "1rem"
+    },
+    "janus-input-btn-padding-y": {
+      "value": ".313rem"
+    },
+    "janus-input-btn-padding-x-sm": {
+      "value": "1rem"
+    },
+    "janus-input-btn-padding-y-sm": {
+      "value": ".157rem"
+    },
+    "janus-input-btn-padding-x-lg": {
+      "value": "1.875rem"
+    },
+    "janus-input-btn-padding-y-lg": {
+      "value": ".25rem"
+    },
     "janus-border-radius": {
       "value": ".188rem"
     },
@@ -320,54 +338,47 @@
       "value": "rgb(255, 233, 228)",
       "originalValue": "{!janus-color-danger-background}"
     },
-    "spacing-none": {
+    "janus-input-btn-padding-x": {
       "type": "number",
       "category": "spacing",
-      "name": "spacing-none",
-      "value": 0,
-      "originalValue": 0
+      "name": "janus-input-btn-padding-x",
+      "value": "1rem",
+      "originalValue": "{!janus-input-btn-padding-x}"
     },
-    "spacing-extra-tight": {
+    "janus-input-btn-padding-y": {
       "type": "number",
       "category": "spacing",
-      "name": "spacing-extra-tight",
-      "value": "4px",
-      "originalValue": "4px"
+      "name": "janus-input-btn-padding-y",
+      "value": ".313rem",
+      "originalValue": "{!janus-input-btn-padding-y}"
     },
-    "spacing-tight": {
+    "janus-input-btn-padding-x-sm": {
       "type": "number",
       "category": "spacing",
-      "name": "spacing-tight",
-      "value": "8px",
-      "originalValue": "8px"
+      "name": "janus-input-btn-padding-x-sm",
+      "value": "1rem",
+      "originalValue": "{!janus-input-btn-padding-x-sm}"
     },
-    "spacing-base-tight": {
+    "janus-input-btn-padding-y-sm": {
       "type": "number",
       "category": "spacing",
-      "name": "spacing-base-tight",
-      "value": "12px",
-      "originalValue": "12px"
+      "name": "janus-input-btn-padding-y-sm",
+      "value": ".157rem",
+      "originalValue": "{!janus-input-btn-padding-y-sm}"
     },
-    "spacing-base": {
+    "janus-input-btn-padding-x-lg": {
       "type": "number",
       "category": "spacing",
-      "name": "spacing-base",
-      "value": "16px",
-      "originalValue": "16px"
+      "name": "janus-input-btn-padding-x-lg",
+      "value": "1.875rem",
+      "originalValue": "{!janus-input-btn-padding-x-lg}"
     },
-    "spacing-loose": {
+    "janus-input-btn-padding-y-lg": {
       "type": "number",
       "category": "spacing",
-      "name": "spacing-loose",
-      "value": "20px",
-      "originalValue": "20px"
-    },
-    "spacing-extra-loose": {
-      "type": "number",
-      "category": "spacing",
-      "name": "spacing-extra-loose",
-      "value": "32px",
-      "originalValue": "32px"
+      "name": "janus-input-btn-padding-y-lg",
+      "value": ".25rem",
+      "originalValue": "{!janus-input-btn-padding-y-lg}"
     },
     "janus-border-radius": {
       "type": "number",

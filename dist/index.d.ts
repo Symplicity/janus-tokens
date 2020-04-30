@@ -37,14 +37,13 @@ declare interface Tokens {
   janusFontStackBase: "Lato, -apple-system, sans-serif";
   janusFontStackMonospace: "Monaco, monospace";
   janusHeadingsLineHeightBase: "1.4";
+  janusInputBtnPaddingX: "1rem";
+  janusInputBtnPaddingXLg: "1.875rem";
+  janusInputBtnPaddingXSm: "1rem";
+  janusInputBtnPaddingY: ".313rem";
+  janusInputBtnPaddingYLg: ".25rem";
+  janusInputBtnPaddingYSm: ".157rem";
   janusLineHeightBase: "1.5";
-  spacingBase: "16px";
-  spacingBaseTight: "12px";
-  spacingExtraLoose: "32px";
-  spacingExtraTight: "4px";
-  spacingLoose: "20px";
-  spacingNone: 0;
-  spacingTight: "8px";
 }
 declare let tokens: Tokens;
 export = tokens;

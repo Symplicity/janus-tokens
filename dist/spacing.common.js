@@ -1,9 +1,8 @@
 module.exports = {
-  spacingNone: 0,
-  spacingExtraTight: "4px",
-  spacingTight: "8px",
-  spacingBaseTight: "12px",
-  spacingBase: "16px",
-  spacingLoose: "20px",
-  spacingExtraLoose: "32px",
+  janusInputBtnPaddingX: "1rem",
+  janusInputBtnPaddingY: ".313rem",
+  janusInputBtnPaddingXSm: "1rem",
+  janusInputBtnPaddingYSm: ".157rem",
+  janusInputBtnPaddingXLg: "1.875rem",
+  janusInputBtnPaddingYLg: ".25rem",
 };

@@ -1,18 +1,23 @@
+aliases:
+  janus-input-btn-padding-x: '1rem'
+  janus-input-btn-padding-y: '.313rem'
+  janus-input-btn-padding-x-sm: '1rem'
+  janus-input-btn-padding-y-sm: '.157rem'
+  janus-input-btn-padding-x-lg: '1.875rem'
+  janus-input-btn-padding-y-lg: '.25rem'
 props:
-  - name: spacing-none
-    value: 0
-  - name: spacing-extra-tight
-    value: 4px
-  - name: spacing-tight
-    value: 8px
-  - name: spacing-base-tight
-    value: 12px
-  - name: spacing-base
-    value: 16px
-  - name: spacing-loose
-    value: 20px
-  - name: spacing-extra-loose
-    value: 32px
+  - name: 'janus-input-btn-padding-x'
+    value: '{!janus-input-btn-padding-x}'
+  - name: 'janus-input-btn-padding-y'
+    value: '{!janus-input-btn-padding-y}'
+  - name: 'janus-input-btn-padding-x-sm'
+    value: '{!janus-input-btn-padding-x-sm}'
+  - name: 'janus-input-btn-padding-y-sm'
+    value: '{!janus-input-btn-padding-y-sm}'
+  - name: 'janus-input-btn-padding-x-lg'
+    value: '{!janus-input-btn-padding-x-lg}'
+  - name: 'janus-input-btn-padding-y-lg'
+    value: '{!janus-input-btn-padding-y-lg}'
 global:
   type: number
   category: spacing
