@@ -99,6 +99,12 @@
     "janus-input-btn-padding-y-lg": {
       "value": ".25rem"
     },
+    "janus-badge-padding-x": {
+      "value": ".4em"
+    },
+    "janus-badge-padding-y": {
+      "value": ".25em"
+    },
     "janus-border-radius": {
       "value": ".188rem"
     },
@@ -379,6 +385,20 @@
       "name": "janus-input-btn-padding-y-lg",
       "value": ".25rem",
       "originalValue": "{!janus-input-btn-padding-y-lg}"
+    },
+    "janus-badge-padding-x": {
+      "type": "number",
+      "category": "spacing",
+      "name": "janus-badge-padding-x",
+      "value": ".4em",
+      "originalValue": "{!janus-badge-padding-x}"
+    },
+    "janus-badge-padding-y": {
+      "type": "number",
+      "category": "spacing",
+      "name": "janus-badge-padding-y",
+      "value": ".25em",
+      "originalValue": "{!janus-badge-padding-y}"
     },
     "janus-border-radius": {
       "type": "number",

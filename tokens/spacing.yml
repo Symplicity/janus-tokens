@@ -5,6 +5,8 @@ aliases:
   janus-input-btn-padding-y-sm: '.157rem'
   janus-input-btn-padding-x-lg: '1.875rem'
   janus-input-btn-padding-y-lg: '.25rem'
+  janus-badge-padding-x: '.4em'
+  janus-badge-padding-y: '.25em'
 props:
   - name: 'janus-input-btn-padding-x'
     value: '{!janus-input-btn-padding-x}'
@@ -18,6 +20,10 @@ props:
     value: '{!janus-input-btn-padding-x-lg}'
   - name: 'janus-input-btn-padding-y-lg'
     value: '{!janus-input-btn-padding-y-lg}'
+  - name: 'janus-badge-padding-x'
+    value: '{!janus-badge-padding-x}'
+  - name: 'janus-badge-padding-y'
+    value: '{!janus-badge-padding-y}'
 global:
   type: number
   category: spacing

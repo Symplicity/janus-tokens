@@ -35,6 +35,8 @@ module.exports = {
   janusInputBtnPaddingYSm: ".157rem",
   janusInputBtnPaddingXLg: "1.875rem",
   janusInputBtnPaddingYLg: ".25rem",
+  janusBadgePaddingX: ".4em",
+  janusBadgePaddingY: ".25em",
   janusBorderRadius: ".188rem",
   janusBorderRadiusSm: ".125rem",
   janusBorderRadiusLg: ".188rem",
