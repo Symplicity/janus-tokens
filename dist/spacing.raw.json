@@ -22,7 +22,7 @@
       "value": ".4em"
     },
     "janus-badge-padding-y": {
-      "value": ".25em"
+      "value": ".1em"
     }
   },
   "props": {
@@ -79,7 +79,7 @@
       "type": "number",
       "category": "spacing",
       "name": "janus-badge-padding-y",
-      "value": ".25em",
+      "value": ".1em",
       "originalValue": "{!janus-badge-padding-y}"
     }
   }
