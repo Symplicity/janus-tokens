@@ -87,17 +87,23 @@
     "janus-input-btn-padding-y": {
       "value": ".313rem"
     },
-    "janus-input-btn-padding-x-sm": {
+    "janus-alert-padding-x": {
       "value": "1rem"
+    },
+    "janus-alert-padding-y": {
+      "value": ".75rem"
     },
     "janus-input-btn-padding-y-sm": {
       "value": ".157rem"
     },
-    "janus-input-btn-padding-x-lg": {
-      "value": "1.875rem"
-    },
     "janus-input-btn-padding-y-lg": {
       "value": ".25rem"
+    },
+    "janus-input-btn-padding-x-sm": {
+      "value": "1rem"
+    },
+    "janus-input-btn-padding-x-lg": {
+      "value": "1.875rem"
     },
     "janus-badge-padding-x": {
       "value": ".4em"
@@ -113,6 +119,9 @@
     },
     "janus-border-radius-lg": {
       "value": ".188rem"
+    },
+    "janus-border-radius-xl": {
+      "value": ".25rem"
     },
     "janus-border-round": {
       "value": "100px"
@@ -131,6 +140,12 @@
     },
     "janus-headings-line-height-base": {
       "value": "1.4"
+    },
+    "janus-alert-icon-font-size": {
+      "value": "1.25rem"
+    },
+    "janus-alert-close-font-size": {
+      "value": "0.75rem"
     }
   },
   "props": {
@@ -400,6 +415,20 @@
       "value": ".1em",
       "originalValue": "{!janus-badge-padding-y}"
     },
+    "janus-alert-padding-x": {
+      "type": "number",
+      "category": "spacing",
+      "name": "janus-alert-padding-x",
+      "value": "1rem",
+      "originalValue": "{!janus-alert-padding-x}"
+    },
+    "janus-alert-padding-y": {
+      "type": "number",
+      "category": "spacing",
+      "name": "janus-alert-padding-y",
+      "value": ".75rem",
+      "originalValue": "{!janus-alert-padding-y}"
+    },
     "janus-border-radius": {
       "type": "number",
       "category": "border-radius",
@@ -420,6 +449,13 @@
       "name": "janus-border-radius-lg",
       "value": ".188rem",
       "originalValue": "{!janus-border-radius-lg}"
+    },
+    "janus-border-radius-xl": {
+      "type": "number",
+      "category": "border-radius",
+      "name": "janus-border-radius-xl",
+      "value": ".25rem",
+      "originalValue": "{!janus-border-radius-xl}"
     },
     "janus-border-round": {
       "type": "number",
@@ -462,6 +498,20 @@
       "name": "janus-headings-line-height-base",
       "value": "1.4",
       "originalValue": "{!janus-headings-line-height-base}"
+    },
+    "janus-alert-icon-font-size": {
+      "type": "number",
+      "category": "font-size",
+      "name": "janus-alert-icon-font-size",
+      "value": "1.25rem",
+      "originalValue": "{!janus-alert-icon-font-size}"
+    },
+    "janus-alert-close-font-size": {
+      "type": "number",
+      "category": "font-size",
+      "name": "janus-alert-close-font-size",
+      "value": "0.75rem",
+      "originalValue": "{!janus-alert-close-font-size}"
     }
   }
 }

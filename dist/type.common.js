@@ -4,4 +4,6 @@ module.exports = {
   janusFontSizeBase: "1rem",
   janusLineHeightBase: "1.5",
   janusHeadingsLineHeightBase: "1.4",
+  janusAlertIconFontSize: "1.25rem",
+  janusAlertCloseFontSize: "0.75rem",
 };

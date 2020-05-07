@@ -1,9 +1,14 @@
 declare interface Tokens {
+  janusAlertCloseFontSize: "0.75rem";
+  janusAlertIconFontSize: "1.25rem";
+  janusAlertPaddingX: "1rem";
+  janusAlertPaddingY: ".75rem";
   janusBadgePaddingX: ".4em";
   janusBadgePaddingY: ".1em";
   janusBorderRadius: ".188rem";
   janusBorderRadiusLg: ".188rem";
   janusBorderRadiusSm: ".125rem";
+  janusBorderRadiusXl: ".25rem";
   janusBorderRound: "100px";
   janusColorBlack: "rgb(0, 0, 0)";
   janusColorDanger: "rgb(191, 62, 36)";

@@ -6,17 +6,23 @@
     "janus-input-btn-padding-y": {
       "value": ".313rem"
     },
-    "janus-input-btn-padding-x-sm": {
+    "janus-alert-padding-x": {
       "value": "1rem"
+    },
+    "janus-alert-padding-y": {
+      "value": ".75rem"
     },
     "janus-input-btn-padding-y-sm": {
       "value": ".157rem"
     },
-    "janus-input-btn-padding-x-lg": {
-      "value": "1.875rem"
-    },
     "janus-input-btn-padding-y-lg": {
       "value": ".25rem"
+    },
+    "janus-input-btn-padding-x-sm": {
+      "value": "1rem"
+    },
+    "janus-input-btn-padding-x-lg": {
+      "value": "1.875rem"
     },
     "janus-badge-padding-x": {
       "value": ".4em"
@@ -81,6 +87,20 @@
       "name": "janus-badge-padding-y",
       "value": ".1em",
       "originalValue": "{!janus-badge-padding-y}"
+    },
+    "janus-alert-padding-x": {
+      "type": "number",
+      "category": "spacing",
+      "name": "janus-alert-padding-x",
+      "value": "1rem",
+      "originalValue": "{!janus-alert-padding-x}"
+    },
+    "janus-alert-padding-y": {
+      "type": "number",
+      "category": "spacing",
+      "name": "janus-alert-padding-y",
+      "value": ".75rem",
+      "originalValue": "{!janus-alert-padding-y}"
     }
   }
 }

@@ -4,6 +4,8 @@ aliases:
   janus-font-size-base: '1rem'
   janus-line-height-base: '1.5'
   janus-headings-line-height-base: '1.4'
+  janus-alert-icon-font-size: '1.25rem'
+  janus-alert-close-font-size: '0.75rem'
 props:
   # Font sizes and line heights
   - name: janus-font-stack-base
@@ -26,6 +28,10 @@ props:
     value: '{!janus-headings-line-height-base}'
     type: number
     category: line-height
+  - name: 'janus-alert-icon-font-size'
+    value: '{!janus-alert-icon-font-size}'
+  - name: 'janus-alert-close-font-size'
+    value: '{!janus-alert-close-font-size}'
   # Font sizes and line heights
   # -
 global:

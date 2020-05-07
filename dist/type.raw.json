@@ -14,6 +14,12 @@
     },
     "janus-headings-line-height-base": {
       "value": "1.4"
+    },
+    "janus-alert-icon-font-size": {
+      "value": "1.25rem"
+    },
+    "janus-alert-close-font-size": {
+      "value": "0.75rem"
     }
   },
   "props": {
@@ -51,6 +57,20 @@
       "name": "janus-headings-line-height-base",
       "value": "1.4",
       "originalValue": "{!janus-headings-line-height-base}"
+    },
+    "janus-alert-icon-font-size": {
+      "type": "number",
+      "category": "font-size",
+      "name": "janus-alert-icon-font-size",
+      "value": "1.25rem",
+      "originalValue": "{!janus-alert-icon-font-size}"
+    },
+    "janus-alert-close-font-size": {
+      "type": "number",
+      "category": "font-size",
+      "name": "janus-alert-close-font-size",
+      "value": "0.75rem",
+      "originalValue": "{!janus-alert-close-font-size}"
     }
   }
 }

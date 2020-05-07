@@ -2,6 +2,7 @@ aliases:
   janus-border-radius: '.188rem'
   janus-border-radius-sm: '.125rem'
   janus-border-radius-lg: '.188rem'
+  janus-border-radius-xl: '.25rem'
   janus-border-round: '100px'
 props:
   - name: janus-border-radius
@@ -10,6 +11,8 @@ props:
     value: '{!janus-border-radius-sm}'
   - name: janus-border-radius-lg
     value: '{!janus-border-radius-lg}'
+  - name: janus-border-radius-xl
+    value: '{!janus-border-radius-xl}'
   - name: janus-border-round
     value: '{!janus-border-round}'
 global:

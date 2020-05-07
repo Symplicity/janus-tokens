@@ -9,6 +9,9 @@
     "janus-border-radius-lg": {
       "value": ".188rem"
     },
+    "janus-border-radius-xl": {
+      "value": ".25rem"
+    },
     "janus-border-round": {
       "value": "100px"
     }
@@ -34,6 +37,13 @@
       "name": "janus-border-radius-lg",
       "value": ".188rem",
       "originalValue": "{!janus-border-radius-lg}"
+    },
+    "janus-border-radius-xl": {
+      "type": "number",
+      "category": "border-radius",
+      "name": "janus-border-radius-xl",
+      "value": ".25rem",
+      "originalValue": "{!janus-border-radius-xl}"
     },
     "janus-border-round": {
       "type": "number",
