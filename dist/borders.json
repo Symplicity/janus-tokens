@@ -1,7 +1,6 @@
 {
-  "janus-border-radius": ".188rem",
+  "janus-border-radius": ".25rem",
   "janus-border-radius-sm": ".125rem",
   "janus-border-radius-lg": ".188rem",
-  "janus-border-radius-xl": ".25rem",
   "janus-border-round": "100px"
 }
