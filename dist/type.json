@@ -1,9 +1,9 @@
 {
   "janus-font-stack-base": "Lato, -apple-system, sans-serif",
   "janus-font-stack-monospace": "Monaco, monospace",
-  "janus-font-size-base": "1rem",
+  "janus-font-size-base": "1rem (16px)",
   "janus-line-height-base": "1.5",
   "janus-headings-line-height-base": "1.4",
-  "janus-alert-icon-font-size": "1.25rem",
-  "janus-alert-close-font-size": "0.75rem"
+  "janus-icon-lg-font-size": "1.25rem (20px)",
+  "janus-icon-sm-font-size": "0.75rem (12px)"
 }

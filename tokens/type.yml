@@ -2,10 +2,13 @@ aliases:
   janus-font-stack-base: 'Lato, -apple-system, sans-serif'
   janus-font-stack-monospace: 'Monaco, monospace'
   janus-font-size-base: '1rem'
+  janus-font-size-base-pixel-value: '16px'
   janus-line-height-base: '1.5'
   janus-headings-line-height-base: '1.4'
-  janus-alert-icon-font-size: '1.25rem'
-  janus-alert-close-font-size: '0.75rem'
+  janus-icon-lg-font-size: '1.25rem'
+  janus-icon-lg-font-size-pixel-value: '20px'
+  janus-icon-sm-font-size: '0.75rem'
+  janus-icon-sm-font-size-pixel-value: '12px'
 props:
   # Font sizes and line heights
   - name: janus-font-stack-base
@@ -17,7 +20,7 @@ props:
     type: font-family
     category: font-family
   - name: 'janus-font-size-base'
-    value: '{!janus-font-size-base}'
+    value: '{!janus-font-size-base} ({!janus-font-size-base-pixel-value})'
     type: number
     category: font-size
   - name: 'janus-line-height-base'
@@ -28,10 +31,10 @@ props:
     value: '{!janus-headings-line-height-base}'
     type: number
     category: line-height
-  - name: 'janus-alert-icon-font-size'
-    value: '{!janus-alert-icon-font-size}'
-  - name: 'janus-alert-close-font-size'
-    value: '{!janus-alert-close-font-size}'
+  - name: 'janus-icon-lg-font-size'
+    value: '{!janus-icon-lg-font-size} ({!janus-icon-lg-font-size-pixel-value})'
+  - name: 'janus-icon-sm-font-size'
+    value: '{!janus-icon-sm-font-size} ({!janus-icon-sm-font-size-pixel-value})'
   # Font sizes and line heights
   # -
 global:

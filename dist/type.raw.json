@@ -1,25 +1,34 @@
 {
   "aliases": {
-    "janus-font-stack-base": {
-      "value": "Lato, -apple-system, sans-serif"
+    "janus-headings-line-height-base": {
+      "value": "1.4"
     },
-    "janus-font-stack-monospace": {
-      "value": "Monaco, monospace"
+    "janus-icon-sm-font-size-pixel-value": {
+      "value": "12px"
     },
-    "janus-font-size-base": {
-      "value": "1rem"
+    "janus-icon-lg-font-size-pixel-value": {
+      "value": "20px"
+    },
+    "janus-icon-sm-font-size": {
+      "value": "0.75rem"
+    },
+    "janus-icon-lg-font-size": {
+      "value": "1.25rem"
+    },
+    "janus-font-size-base-pixel-value": {
+      "value": "16px"
     },
     "janus-line-height-base": {
       "value": "1.5"
     },
-    "janus-headings-line-height-base": {
-      "value": "1.4"
+    "janus-font-size-base": {
+      "value": "1rem"
     },
-    "janus-alert-icon-font-size": {
-      "value": "1.25rem"
+    "janus-font-stack-monospace": {
+      "value": "Monaco, monospace"
     },
-    "janus-alert-close-font-size": {
-      "value": "0.75rem"
+    "janus-font-stack-base": {
+      "value": "Lato, -apple-system, sans-serif"
     }
   },
   "props": {
@@ -41,8 +50,8 @@
       "type": "number",
       "category": "font-size",
       "name": "janus-font-size-base",
-      "value": "1rem",
-      "originalValue": "{!janus-font-size-base}"
+      "value": "1rem (16px)",
+      "originalValue": "{!janus-font-size-base} ({!janus-font-size-base-pixel-value})"
     },
     "janus-line-height-base": {
       "type": "number",
@@ -58,19 +67,19 @@
       "value": "1.4",
       "originalValue": "{!janus-headings-line-height-base}"
     },
-    "janus-alert-icon-font-size": {
+    "janus-icon-lg-font-size": {
       "type": "number",
       "category": "font-size",
-      "name": "janus-alert-icon-font-size",
-      "value": "1.25rem",
-      "originalValue": "{!janus-alert-icon-font-size}"
+      "name": "janus-icon-lg-font-size",
+      "value": "1.25rem (20px)",
+      "originalValue": "{!janus-icon-lg-font-size} ({!janus-icon-lg-font-size-pixel-value})"
     },
-    "janus-alert-close-font-size": {
+    "janus-icon-sm-font-size": {
       "type": "number",
       "category": "font-size",
-      "name": "janus-alert-close-font-size",
-      "value": "0.75rem",
-      "originalValue": "{!janus-alert-close-font-size}"
+      "name": "janus-icon-sm-font-size",
+      "value": "0.75rem (12px)",
+      "originalValue": "{!janus-icon-sm-font-size} ({!janus-icon-sm-font-size-pixel-value})"
     }
   }
 }
