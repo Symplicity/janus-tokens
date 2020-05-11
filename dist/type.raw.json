@@ -1,34 +1,25 @@
 {
   "aliases": {
-    "janus-headings-line-height-base": {
-      "value": "1.4"
-    },
-    "janus-icon-sm-font-size-pixel-value": {
-      "value": "12px"
-    },
-    "janus-icon-lg-font-size-pixel-value": {
-      "value": "20px"
-    },
-    "janus-icon-sm-font-size": {
-      "value": "0.75rem"
-    },
-    "janus-icon-lg-font-size": {
-      "value": "1.25rem"
-    },
-    "janus-font-size-base-pixel-value": {
-      "value": "16px"
-    },
-    "janus-line-height-base": {
-      "value": "1.5"
-    },
-    "janus-font-size-base": {
-      "value": "1rem"
+    "janus-font-stack-base": {
+      "value": "Lato, -apple-system, sans-serif"
     },
     "janus-font-stack-monospace": {
       "value": "Monaco, monospace"
     },
-    "janus-font-stack-base": {
-      "value": "Lato, -apple-system, sans-serif"
+    "janus-font-size-base": {
+      "value": "1rem"
+    },
+    "janus-line-height-base": {
+      "value": "1.5"
+    },
+    "janus-headings-line-height-base": {
+      "value": "1.4"
+    },
+    "janus-icon-lg-font-size": {
+      "value": "1.25rem"
+    },
+    "janus-icon-sm-font-size": {
+      "value": "0.75rem"
     }
   },
   "props": {
@@ -50,8 +41,8 @@
       "type": "number",
       "category": "font-size",
       "name": "janus-font-size-base",
-      "value": "1rem (16px)",
-      "originalValue": "{!janus-font-size-base} ({!janus-font-size-base-pixel-value})"
+      "value": "1rem",
+      "originalValue": "{!janus-font-size-base}"
     },
     "janus-line-height-base": {
       "type": "number",
@@ -71,15 +62,15 @@
       "type": "number",
       "category": "font-size",
       "name": "janus-icon-lg-font-size",
-      "value": "1.25rem (20px)",
-      "originalValue": "{!janus-icon-lg-font-size} ({!janus-icon-lg-font-size-pixel-value})"
+      "value": "1.25rem",
+      "originalValue": "{!janus-icon-lg-font-size}"
     },
     "janus-icon-sm-font-size": {
       "type": "number",
       "category": "font-size",
       "name": "janus-icon-sm-font-size",
-      "value": "0.75rem (12px)",
-      "originalValue": "{!janus-icon-sm-font-size} ({!janus-icon-sm-font-size-pixel-value})"
+      "value": "0.75rem",
+      "originalValue": "{!janus-icon-sm-font-size}"
     }
   }
 }
