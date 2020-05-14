@@ -5,7 +5,7 @@ aliases:
   janus-line-height-base: '1.5'
   janus-headings-line-height-base: '1.4'
   janus-icon-lg-font-size: '1.25rem'
-  janus-icon-sm-font-size: '0.75rem'
+  janus-icon-lg-line-height: '1.5rem'
 props:
   # Font sizes and line heights
   - name: janus-font-stack-base
@@ -30,8 +30,12 @@ props:
     category: line-height
   - name: 'janus-icon-lg-font-size'
     value: '{!janus-icon-lg-font-size}'
-  - name: 'janus-icon-sm-font-size'
-    value: '{!janus-icon-sm-font-size}' 
+    type: number
+    category: line-height
+  - name: 'janus-icon-lg-line-height'
+    value: '{!janus-icon-lg-line-height}' 
+    type: number
+    category: line-height
   # Font sizes and line heights
   # -
 global:

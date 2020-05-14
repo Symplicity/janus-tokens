@@ -5,5 +5,5 @@ module.exports = {
   janusLineHeightBase: "1.5",
   janusHeadingsLineHeightBase: "1.4",
   janusIconLgFontSize: "1.25rem",
-  janusIconSmFontSize: "0.75rem",
+  janusIconLgLineHeight: "1.5rem",
 };

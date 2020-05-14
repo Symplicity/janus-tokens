@@ -42,7 +42,7 @@ declare interface Tokens {
   janusFontStackMonospace: "Monaco, monospace";
   janusHeadingsLineHeightBase: "1.4";
   janusIconLgFontSize: "1.25rem";
-  janusIconSmFontSize: "0.75rem";
+  janusIconLgLineHeight: "1.5rem";
   janusInputBtnPaddingX: "1rem";
   janusInputBtnPaddingXLg: "1.875rem";
   janusInputBtnPaddingXSm: "1rem";
