@@ -46,9 +46,9 @@ declare interface Tokens {
   janusInputBtnPaddingX: "1rem";
   janusInputBtnPaddingXLg: "1.875rem";
   janusInputBtnPaddingXSm: "1rem";
-  janusInputBtnPaddingY: ".313rem";
-  janusInputBtnPaddingYLg: ".25rem";
-  janusInputBtnPaddingYSm: ".157rem";
+  janusInputBtnPaddingY: ".25rem";
+  janusInputBtnPaddingYLg: ".188rem";
+  janusInputBtnPaddingYSm: ".094rem";
   janusLineHeightBase: "1.5";
 }
 declare let tokens: Tokens;
