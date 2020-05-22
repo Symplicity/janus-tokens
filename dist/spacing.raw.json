@@ -25,10 +25,10 @@
       "value": "1.875rem"
     },
     "janus-badge-padding-x": {
-      "value": ".4em"
+      "value": ".6em"
     },
     "janus-badge-padding-y": {
-      "value": ".1em"
+      "value": ".3em"
     }
   },
   "props": {
@@ -78,14 +78,14 @@
       "type": "number",
       "category": "spacing",
       "name": "janus-badge-padding-x",
-      "value": ".4em",
+      "value": ".6em",
       "originalValue": "{!janus-badge-padding-x}"
     },
     "janus-badge-padding-y": {
       "type": "number",
       "category": "spacing",
       "name": "janus-badge-padding-y",
-      "value": ".1em",
+      "value": ".3em",
       "originalValue": "{!janus-badge-padding-y}"
     },
     "janus-alert-padding-x": {
