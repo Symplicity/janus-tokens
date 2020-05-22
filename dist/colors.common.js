@@ -20,7 +20,7 @@ module.exports = {
   janusColorSuccess: "rgb(41, 120, 72)",
   janusColorSuccessHover: "rgb(36, 107, 64)",
   janusColorSuccessBackground: "rgb(210, 245, 224)",
-  janusColorInfo: "rgb(13, 109, 193)",
+  janusColorInfo: "rgb(11, 91, 161)",
   janusColorInfoHover: "rgb(11, 97, 173)",
   janusColorInfoBackground: "rgb(225, 241, 255)",
   janusColorWarning: "rgb(168, 85, 2)",
