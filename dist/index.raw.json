@@ -81,6 +81,9 @@
     "janus-color-info-hover": {
       "value": "#0B61AD"
     },
+    "janus-dropdown-item-padding-y": {
+      "value": ".5rem"
+    },
     "janus-input-btn-padding-x": {
       "value": "1rem"
     },
@@ -425,6 +428,13 @@
       "name": "janus-alert-padding-y",
       "value": ".75rem",
       "originalValue": "{!janus-alert-padding-y}"
+    },
+    "janus-dropdown-item-padding-y": {
+      "type": "number",
+      "category": "spacing",
+      "name": "janus-dropdown-item-padding-y",
+      "value": ".5rem",
+      "originalValue": "{!janus-dropdown-item-padding-y}"
     },
     "janus-border-radius": {
       "type": "number",

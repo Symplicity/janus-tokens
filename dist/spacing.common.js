@@ -9,4 +9,5 @@ module.exports = {
   janusBadgePaddingY: ".3em",
   janusAlertPaddingX: "1rem",
   janusAlertPaddingY: ".75rem",
+  janusDropdownItemPaddingY: ".5rem",
 };
