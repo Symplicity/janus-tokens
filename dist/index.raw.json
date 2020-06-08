@@ -114,6 +114,9 @@
     "janus-badge-padding-y": {
       "value": ".3em"
     },
+    "janus-dropdown-menu-offset": {
+      "value": ".25rem"
+    },
     "janus-border-radius": {
       "value": ".25rem"
     },
@@ -435,6 +438,13 @@
       "name": "janus-dropdown-item-padding-y",
       "value": ".5rem",
       "originalValue": "{!janus-dropdown-item-padding-y}"
+    },
+    "janus-dropdown-menu-offset": {
+      "type": "number",
+      "category": "spacing",
+      "name": "janus-dropdown-menu-offset",
+      "value": ".25rem",
+      "originalValue": "{!janus-dropdown-menu-offset}"
     },
     "janus-border-radius": {
       "type": "number",

@@ -10,6 +10,7 @@ aliases:
   janus-alert-padding-x: '1rem'
   janus-alert-padding-y: '.75rem'
   janus-dropdown-item-padding-y: '.5rem'
+  janus-dropdown-menu-offset: '.25rem'
 props:
   - name: 'janus-input-btn-padding-x'
     value: '{!janus-input-btn-padding-x}'
@@ -33,6 +34,8 @@ props:
     value: '{!janus-alert-padding-y}'
   - name: 'janus-dropdown-item-padding-y'
     value: '{!janus-dropdown-item-padding-y}'
+  - name: 'janus-dropdown-menu-offset'
+    value: '{!janus-dropdown-menu-offset}'
 global:
   type: number
   category: spacing
