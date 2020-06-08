@@ -3,6 +3,9 @@
     "janus-dropdown-item-padding-y": {
       "value": ".5rem"
     },
+    "janus-dropdown-spacer": {
+      "value": ".25rem"
+    },
     "janus-input-btn-padding-x": {
       "value": "1rem"
     },
@@ -32,9 +35,6 @@
     },
     "janus-badge-padding-y": {
       "value": ".3em"
-    },
-    "janus-dropdown-menu-offset": {
-      "value": ".25rem"
     }
   },
   "props": {
@@ -115,12 +115,12 @@
       "value": ".5rem",
       "originalValue": "{!janus-dropdown-item-padding-y}"
     },
-    "janus-dropdown-menu-offset": {
+    "janus-dropdown-spacer": {
       "type": "number",
       "category": "spacing",
-      "name": "janus-dropdown-menu-offset",
+      "name": "janus-dropdown-spacer",
       "value": ".25rem",
-      "originalValue": "{!janus-dropdown-menu-offset}"
+      "originalValue": "{!janus-dropdown-spacer}"
     }
   }
 }

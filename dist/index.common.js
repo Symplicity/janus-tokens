@@ -40,7 +40,7 @@ module.exports = {
   janusAlertPaddingX: "1rem",
   janusAlertPaddingY: ".75rem",
   janusDropdownItemPaddingY: ".5rem",
-  janusDropdownMenuOffset: ".25rem",
+  janusDropdownSpacer: ".25rem",
   janusBorderRadius: ".25rem",
   janusBorderRadiusSm: ".125rem",
   janusBorderRadiusLg: ".188rem",
