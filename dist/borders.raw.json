@@ -10,7 +10,7 @@
       "value": ".188rem"
     },
     "janus-border-radius-xl": {
-      "value": ".625rem"
+      "value": ".375rem"
     },
     "janus-border-round": {
       "value": "100px"
@@ -42,7 +42,7 @@
       "type": "number",
       "category": "border-radius",
       "name": "janus-border-radius-xl",
-      "value": ".625rem",
+      "value": ".375rem",
       "originalValue": "{!janus-border-radius-xl}"
     },
     "janus-border-round": {
