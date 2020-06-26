@@ -1,5 +1,8 @@
 {
   "aliases": {
+    "janus-dropdown-item-padding-x": {
+      "value": "1.5rem"
+    },
     "janus-dropdown-item-padding-y": {
       "value": ".5rem"
     },
@@ -114,6 +117,13 @@
       "name": "janus-dropdown-item-padding-y",
       "value": ".5rem",
       "originalValue": "{!janus-dropdown-item-padding-y}"
+    },
+    "janus-dropdown-item-padding-x": {
+      "type": "number",
+      "category": "spacing",
+      "name": "janus-dropdown-item-padding-x",
+      "value": "1.5rem",
+      "originalValue": "{!janus-dropdown-item-padding-x}"
     },
     "janus-dropdown-spacer": {
       "type": "number",
