@@ -20,6 +20,9 @@
     },
     "janus-icon-lg-line-height": {
       "value": "1.5rem"
+    },
+    "janus-modal-title-line-height": {
+      "value": "1.45rem"
     }
   },
   "props": {
@@ -71,6 +74,13 @@
       "name": "janus-icon-lg-line-height",
       "value": "1.5rem",
       "originalValue": "{!janus-icon-lg-line-height}"
+    },
+    "janus-modal-title-line-height": {
+      "type": "number",
+      "category": "line-height",
+      "name": "janus-modal-title-line-height",
+      "value": "1.45rem",
+      "originalValue": "{!janus-modal-title-line-height}"
     }
   }
 }

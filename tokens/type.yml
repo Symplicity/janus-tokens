@@ -6,6 +6,7 @@ aliases:
   janus-headings-line-height-base: '1.4'
   janus-icon-lg-font-size: '1.25rem'
   janus-icon-lg-line-height: '1.5rem'
+  janus-modal-title-line-height: '1.45rem'
 props:
   # Font sizes and line heights
   - name: janus-font-stack-base
@@ -34,6 +35,10 @@ props:
     category: line-height
   - name: 'janus-icon-lg-line-height'
     value: '{!janus-icon-lg-line-height}' 
+    type: number
+    category: line-height
+  - name: 'janus-modal-title-line-height'
+    value: '{!janus-modal-title-line-height}' 
     type: number
     category: line-height
   # Font sizes and line heights
