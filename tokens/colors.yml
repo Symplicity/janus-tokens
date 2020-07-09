@@ -26,6 +26,9 @@ aliases:
   janus-color-danger: '#BF3E24'
   janus-color-danger-hover: '#AB3720'
   janus-color-danger-background: '#FFE9E4'
+  janus-disabled-button-color: '#AAAAAA'
+  janus-disabled-button-border-color: '#CCCCCC'
+  janus-disabled-button-background-color: '#ECECEC'
 props:
   - name: janus-color-text
     value: '{!janus-color-gray-700}'
@@ -133,6 +136,12 @@ props:
     value: '{!janus-color-danger-hover}'
   - name: janus-color-danger-background
     value: '{!janus-color-danger-background}'
+  - name: janus-disabled-button-color
+    value: '{!janus-disabled-button-color}'
+  - name: janus-disabled-button-border-color
+    value: '{!janus-disabled-button-border-color}'
+  - name: janus-disabled-button-background-color
+    value: '{!janus-disabled-button-background-color}'
 global:
   type: color
   category: color

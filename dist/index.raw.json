@@ -9,8 +9,17 @@
     "janus-color-success": {
       "value": "#297848"
     },
+    "janus-disabled-button-color": {
+      "value": "#AAAAAA"
+    },
+    "janus-disabled-button-border-color": {
+      "value": "#CCCCCC"
+    },
     "janus-color-danger": {
       "value": "#BF3E24"
+    },
+    "janus-disabled-button-background-color": {
+      "value": "#ECECEC"
     },
     "janus-color-white": {
       "value": "#ffffff"
@@ -370,6 +379,27 @@
       "name": "janus-color-danger-background",
       "value": "rgb(255, 233, 228)",
       "originalValue": "{!janus-color-danger-background}"
+    },
+    "janus-disabled-button-color": {
+      "type": "color",
+      "category": "color",
+      "name": "janus-disabled-button-color",
+      "value": "rgb(170, 170, 170)",
+      "originalValue": "{!janus-disabled-button-color}"
+    },
+    "janus-disabled-button-border-color": {
+      "type": "color",
+      "category": "color",
+      "name": "janus-disabled-button-border-color",
+      "value": "rgb(204, 204, 204)",
+      "originalValue": "{!janus-disabled-button-border-color}"
+    },
+    "janus-disabled-button-background-color": {
+      "type": "color",
+      "category": "color",
+      "name": "janus-disabled-button-background-color",
+      "value": "rgb(236, 236, 236)",
+      "originalValue": "{!janus-disabled-button-background-color}"
     },
     "janus-input-btn-padding-x": {
       "type": "number",

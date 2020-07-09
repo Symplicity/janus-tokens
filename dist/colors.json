@@ -28,5 +28,8 @@
   "janus-color-warning-background": "rgb(254, 235, 201)",
   "janus-color-danger": "rgb(191, 62, 36)",
   "janus-color-danger-hover": "rgb(171, 55, 32)",
-  "janus-color-danger-background": "rgb(255, 233, 228)"
+  "janus-color-danger-background": "rgb(255, 233, 228)",
+  "janus-disabled-button-color": "rgb(170, 170, 170)",
+  "janus-disabled-button-border-color": "rgb(204, 204, 204)",
+  "janus-disabled-button-background-color": "rgb(236, 236, 236)"
 }

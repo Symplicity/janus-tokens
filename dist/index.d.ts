@@ -38,6 +38,9 @@ declare interface Tokens {
   janusColorWarningBackground: "rgb(254, 235, 201)";
   janusColorWarningHover: "rgb(150, 76, 1)";
   janusColorWhite: "rgb(255, 255, 255)";
+  janusDisabledButtonBackgroundColor: "rgb(236, 236, 236)";
+  janusDisabledButtonBorderColor: "rgb(204, 204, 204)";
+  janusDisabledButtonColor: "rgb(170, 170, 170)";
   janusDropdownItemPaddingX: "1.5rem";
   janusDropdownItemPaddingY: ".5rem";
   janusDropdownSpacer: ".25rem";

@@ -30,4 +30,7 @@
     <color name="polaris_janus_color_warning_background">#fffeebc9</color>
     <color name="polaris_janus_color_warning_hover">#ff964c01</color>
     <color name="polaris_janus_color_white">#ffffffff</color>
+    <color name="polaris_janus_disabled_button_background_color">#ffececec</color>
+    <color name="polaris_janus_disabled_button_border_color">#ffcccccc</color>
+    <color name="polaris_janus_disabled_button_color">#ffaaaaaa</color>
 </resources>

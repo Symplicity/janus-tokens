@@ -29,4 +29,7 @@ module.exports = {
   janusColorDanger: "rgb(191, 62, 36)",
   janusColorDangerHover: "rgb(171, 55, 32)",
   janusColorDangerBackground: "rgb(255, 233, 228)",
+  janusDisabledButtonColor: "rgb(170, 170, 170)",
+  janusDisabledButtonBorderColor: "rgb(204, 204, 204)",
+  janusDisabledButtonBackgroundColor: "rgb(236, 236, 236)",
 };
