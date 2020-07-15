@@ -4,7 +4,7 @@ module.exports = {
   janusInputBtnPaddingXSm: "1rem",
   janusInputBtnPaddingYSm: ".094rem",
   janusInputBtnPaddingXLg: "1.875rem",
-  janusInputBtnPaddingYLg: ".188rem",
+  janusInputBtnPaddingYLg: ".375rem",
   janusBadgePaddingX: ".6em",
   janusBadgePaddingY: ".3em",
   janusAlertPaddingX: "1rem",

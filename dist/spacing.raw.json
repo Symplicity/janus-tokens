@@ -25,7 +25,7 @@
       "value": ".094rem"
     },
     "janus-input-btn-padding-y-lg": {
-      "value": ".188rem"
+      "value": ".375rem"
     },
     "janus-input-btn-padding-x-sm": {
       "value": "1rem"
@@ -80,7 +80,7 @@
       "type": "number",
       "category": "spacing",
       "name": "janus-input-btn-padding-y-lg",
-      "value": ".188rem",
+      "value": ".375rem",
       "originalValue": "{!janus-input-btn-padding-y-lg}"
     },
     "janus-badge-padding-x": {
