@@ -55,7 +55,7 @@ declare interface Tokens {
   janusInputBtnPaddingXSm: "1rem";
   janusInputBtnPaddingY: ".25rem";
   janusInputBtnPaddingYLg: ".375rem";
-  janusInputBtnPaddingYSm: ".094rem";
+  janusInputBtnPaddingYSm: ".157rem";
   janusLineHeightBase: "1.5";
   janusModalTitleLineHeight: "1.45rem";
 }
