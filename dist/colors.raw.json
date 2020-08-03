@@ -1,7 +1,7 @@
 {
   "aliases": {
     "janus-color-primary": {
-      "value": "#004D74"
+      "value": "#0E62B9"
     },
     "janus-color-warning-background": {
       "value": "#FEEBC9"
@@ -194,7 +194,7 @@
       "type": "color",
       "category": "color",
       "name": "janus-color-primary",
-      "value": "rgb(0, 77, 116)",
+      "value": "rgb(14, 98, 185)",
       "originalValue": "{!janus-color-primary}"
     },
     "janus-color-primary-background": {

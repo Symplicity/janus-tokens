@@ -24,7 +24,7 @@ declare interface Tokens {
   janusColorInfo: "rgb(11, 91, 161)";
   janusColorInfoBackground: "rgb(225, 241, 255)";
   janusColorInfoHover: "rgb(11, 97, 173)";
-  janusColorPrimary: "rgb(0, 77, 116)";
+  janusColorPrimary: "rgb(14, 98, 185)";
   janusColorPrimaryBackground: "rgb(215, 248, 247)";
   janusColorSecondary: "rgb(51, 51, 51)";
   janusColorSecondaryBackground: "rgb(236, 236, 236)";
