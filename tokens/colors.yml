@@ -8,6 +8,7 @@ aliases:
   janus-color-gray-700: '#495057'
   janus-color-gray-800: '#343a40'
   janus-color-gray-900: '#212529'
+  janus-color-icon-gray: '#6C6C6C'
   janus-color-black: '#000000'
   janus-color-white: '#ffffff'
   janus-color-primary: '#0E62B9'
@@ -96,6 +97,8 @@ props:
   - name: janus-color-gray-900
     value: '{!janus-color-gray-900}'
     category: color
+  - name: janus-color-icon-gray
+    value: '{!janus-color-icon-gray}'
   - name: janus-color-black
     value: '{!janus-color-black}'
     meta:

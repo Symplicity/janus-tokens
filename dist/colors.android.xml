@@ -13,6 +13,7 @@
     <color name="polaris_janus_color_gray_700">#ff495057</color>
     <color name="polaris_janus_color_gray_800">#ff343a40</color>
     <color name="polaris_janus_color_gray_900">#ff212529</color>
+    <color name="polaris_janus_color_icon_gray">#ff6c6c6c</color>
     <color name="polaris_janus_color_info">#ff0b5ba1</color>
     <color name="polaris_janus_color_info_background">#ffe1f1ff</color>
     <color name="polaris_janus_color_info_hover">#ff0b61ad</color>

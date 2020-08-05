@@ -72,6 +72,9 @@
     "janus-color-danger-hover": {
       "value": "#AB3720"
     },
+    "janus-color-icon-gray": {
+      "value": "#6C6C6C"
+    },
     "janus-color-danger-background": {
       "value": "#FFE9E4"
     },
@@ -175,6 +178,13 @@
       "name": "janus-color-gray-900",
       "value": "rgb(33, 37, 41)",
       "originalValue": "{!janus-color-gray-900}"
+    },
+    "janus-color-icon-gray": {
+      "type": "color",
+      "category": "color",
+      "name": "janus-color-icon-gray",
+      "value": "rgb(108, 108, 108)",
+      "originalValue": "{!janus-color-icon-gray}"
     },
     "janus-color-black": {
       "type": "color",
