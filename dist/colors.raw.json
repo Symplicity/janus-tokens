@@ -87,6 +87,9 @@
     "janus-color-primary-background": {
       "value": "#D7F8F7"
     },
+    "janus-color-button-gray": {
+      "value": "#AAAAAA"
+    },
     "janus-color-black": {
       "value": "#000000"
     },

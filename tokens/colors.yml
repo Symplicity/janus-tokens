@@ -9,6 +9,7 @@ aliases:
   janus-color-gray-800: '#343a40'
   janus-color-gray-900: '#212529'
   janus-color-icon-gray: '#6C6C6C'
+  janus-color-button-gray: '#AAAAAA'
   janus-color-black: '#000000'
   janus-color-white: '#ffffff'
   janus-color-primary: '#0E62B9'
