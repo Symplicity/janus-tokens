@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <color name="polaris_janus_color_black">#ff000000</color>
+    <color name="polaris_janus_color_button_gray">#ffaaaaaa</color>
     <color name="polaris_janus_color_danger">#ffbf3e24</color>
     <color name="polaris_janus_color_danger_background">#ffffe9e4</color>
     <color name="polaris_janus_color_danger_hover">#ffab3720</color>

@@ -100,6 +100,8 @@ props:
     category: color
   - name: janus-color-icon-gray
     value: '{!janus-color-icon-gray}'
+  - name: janus-color-button-gray
+    value: '{!janus-color-button-gray}'
   - name: janus-color-black
     value: '{!janus-color-black}'
     meta:

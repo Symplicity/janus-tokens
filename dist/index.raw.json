@@ -267,6 +267,13 @@
       "value": "rgb(108, 108, 108)",
       "originalValue": "{!janus-color-icon-gray}"
     },
+    "janus-color-button-gray": {
+      "type": "color",
+      "category": "color",
+      "name": "janus-color-button-gray",
+      "value": "rgb(170, 170, 170)",
+      "originalValue": "{!janus-color-button-gray}"
+    },
     "janus-color-black": {
       "type": "color",
       "category": "color",
