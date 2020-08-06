@@ -67,7 +67,7 @@
       "value": "#333333"
     },
     "janus-color-secondary": {
-      "value": "#6C6C6C"
+      "value": "#454545"
     },
     "janus-color-danger-hover": {
       "value": "#AB3720"
@@ -218,7 +218,7 @@
       "type": "color",
       "category": "color",
       "name": "janus-color-secondary",
-      "value": "rgb(108, 108, 108)",
+      "value": "rgb(69, 69, 69)",
       "originalValue": "{!janus-color-secondary}"
     },
     "janus-color-secondary-background": {

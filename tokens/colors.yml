@@ -13,7 +13,7 @@ aliases:
   janus-color-white: '#ffffff'
   janus-color-primary: '#0E62B9'
   janus-color-primary-background: '#D7F8F7'
-  janus-color-secondary: '#6C6C6C'
+  janus-color-secondary: '#454545'
   janus-color-secondary-background: '#ECECEC'
   janus-color-success: '#297848'
   janus-color-success-hover: '#246B40'
