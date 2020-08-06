@@ -48,6 +48,9 @@
     "janus-color-gray-500": {
       "value": "#adb5bd"
     },
+    "janus-color-alt-secondary": {
+      "value": "#AAAAAA"
+    },
     "janus-color-gray-600": {
       "value": "#6c757d"
     },
@@ -86,9 +89,6 @@
     },
     "janus-color-primary-background": {
       "value": "#D7F8F7"
-    },
-    "janus-color-button-gray": {
-      "value": "#AAAAAA"
     },
     "janus-color-black": {
       "value": "#000000"
@@ -267,12 +267,12 @@
       "value": "rgb(108, 108, 108)",
       "originalValue": "{!janus-color-icon-gray}"
     },
-    "janus-color-button-gray": {
+    "janus-color-alt-secondary": {
       "type": "color",
       "category": "color",
-      "name": "janus-color-button-gray",
+      "name": "janus-color-alt-secondary",
       "value": "rgb(170, 170, 170)",
-      "originalValue": "{!janus-color-button-gray}"
+      "originalValue": "{!janus-color-alt-secondary}"
     },
     "janus-color-black": {
       "type": "color",

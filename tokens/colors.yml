@@ -9,13 +9,13 @@ aliases:
   janus-color-gray-800: '#343a40'
   janus-color-gray-900: '#212529'
   janus-color-icon-gray: '#6C6C6C'
-  janus-color-button-gray: '#AAAAAA'
   janus-color-black: '#000000'
   janus-color-white: '#ffffff'
   janus-color-primary: '#0E62B9'
   janus-color-primary-background: '#D7F8F7'
   janus-color-secondary: '#333333'
   janus-color-secondary-background: '#ECECEC'
+  janus-color-alt-secondary: '#AAAAAA'
   janus-color-success: '#297848'
   janus-color-success-hover: '#246B40'
   janus-color-success-background: '#D2F5E0'
@@ -100,8 +100,8 @@ props:
     category: color
   - name: janus-color-icon-gray
     value: '{!janus-color-icon-gray}'
-  - name: janus-color-button-gray
-    value: '{!janus-color-button-gray}'
+  - name: janus-color-alt-secondary
+    value: '{!janus-color-alt-secondary}'
   - name: janus-color-black
     value: '{!janus-color-black}'
     meta:
