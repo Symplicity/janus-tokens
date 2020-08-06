@@ -28,46 +28,46 @@
       "value": "#964C01"
     },
     "janus-color-gray-100": {
-      "value": "#f8f9fa"
+      "value": "#f6f6f6"
     },
     "janus-color-secondary-background": {
       "value": "#ECECEC"
     },
     "janus-color-gray-200": {
-      "value": "#e9ecef "
+      "value": "#ececec"
     },
     "janus-color-gray-300": {
-      "value": "#dee2e6"
+      "value": "#cccccc"
     },
     "janus-color-info-background": {
       "value": "#E1F1FF"
     },
     "janus-color-gray-400": {
-      "value": "#ced4da"
+      "value": "#aaaaaa"
     },
     "janus-color-gray-500": {
-      "value": "#adb5bd"
+      "value": "#949494"
     },
     "janus-color-alt-secondary": {
       "value": "#AAAAAA"
     },
     "janus-color-gray-600": {
-      "value": "#6c757d"
+      "value": "#6c6c6c"
     },
     "janus-color-gray-700": {
-      "value": "#495057"
+      "value": "#555555"
     },
     "janus-color-info": {
       "value": "#0B5BA1"
     },
     "janus-color-gray-800": {
-      "value": "#343a40"
+      "value": "#454545"
     },
     "janus-color-success-hover": {
       "value": "#246B40"
     },
     "janus-color-gray-900": {
-      "value": "#212529"
+      "value": "#333333"
     },
     "janus-color-secondary": {
       "value": "#333333"
@@ -180,84 +180,84 @@
       "type": "color",
       "category": "text-color",
       "name": "janus-color-text",
-      "value": "rgb(73, 80, 87)",
+      "value": "rgb(85, 85, 85)",
       "originalValue": "{!janus-color-gray-700}"
     },
     "janus-color-text-secondary": {
       "type": "color",
       "category": "text-color",
       "name": "janus-color-text-secondary",
-      "value": "rgb(206, 212, 218)",
+      "value": "rgb(170, 170, 170)",
       "originalValue": "{!janus-color-gray-400}"
     },
     "janus-color-text-darker": {
       "type": "color",
       "category": "text-color",
       "name": "janus-color-text-darker",
-      "value": "rgb(52, 58, 64)",
+      "value": "rgb(69, 69, 69)",
       "originalValue": "{!janus-color-gray-800}"
     },
     "janus-color-gray-100": {
       "type": "color",
       "category": "color",
       "name": "janus-color-gray-100",
-      "value": "rgb(248, 249, 250)",
+      "value": "rgb(246, 246, 246)",
       "originalValue": "{!janus-color-gray-100}"
     },
     "janus-color-gray-200": {
       "type": "color",
       "category": "color",
       "name": "janus-color-gray-200",
-      "value": "rgb(233, 236, 239)",
+      "value": "rgb(236, 236, 236)",
       "originalValue": "{!janus-color-gray-200}"
     },
     "janus-color-gray-300": {
       "type": "color",
       "category": "color",
       "name": "janus-color-gray-300",
-      "value": "rgb(222, 226, 230)",
+      "value": "rgb(204, 204, 204)",
       "originalValue": "{!janus-color-gray-300}"
     },
     "janus-color-gray-400": {
       "type": "color",
       "category": "color",
       "name": "janus-color-gray-400",
-      "value": "rgb(206, 212, 218)",
+      "value": "rgb(170, 170, 170)",
       "originalValue": "{!janus-color-gray-400}"
     },
     "janus-color-gray-500": {
       "type": "color",
       "category": "color",
       "name": "janus-color-gray-500",
-      "value": "rgb(173, 181, 189)",
+      "value": "rgb(148, 148, 148)",
       "originalValue": "{!janus-color-gray-500}"
     },
     "janus-color-gray-600": {
       "type": "color",
       "category": "color",
       "name": "janus-color-gray-600",
-      "value": "rgb(108, 117, 125)",
+      "value": "rgb(108, 108, 108)",
       "originalValue": "{!janus-color-gray-600}"
     },
     "janus-color-gray-700": {
       "type": "color",
       "category": "color",
       "name": "janus-color-gray-700",
-      "value": "rgb(73, 80, 87)",
+      "value": "rgb(85, 85, 85)",
       "originalValue": "{!janus-color-gray-700}"
     },
     "janus-color-gray-800": {
       "type": "color",
       "category": "color",
       "name": "janus-color-gray-800",
-      "value": "rgb(52, 58, 64)",
+      "value": "rgb(69, 69, 69)",
       "originalValue": "{!janus-color-gray-800}"
     },
     "janus-color-gray-900": {
       "type": "color",
       "category": "color",
       "name": "janus-color-gray-900",
-      "value": "rgb(33, 37, 41)",
+      "value": "rgb(51, 51, 51)",
       "originalValue": "{!janus-color-gray-900}"
     },
     "janus-color-icon-gray": {
