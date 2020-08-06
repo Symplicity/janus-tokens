@@ -48,9 +48,6 @@
     "janus-color-gray-500": {
       "value": "#949494"
     },
-    "janus-color-alt-secondary": {
-      "value": "#AAAAAA"
-    },
     "janus-color-gray-600": {
       "value": "#6c6c6c"
     },
@@ -70,7 +67,7 @@
       "value": "#333333"
     },
     "janus-color-secondary": {
-      "value": "#333333"
+      "value": "#6C6C6C"
     },
     "janus-color-danger-hover": {
       "value": "#AB3720"
@@ -189,13 +186,6 @@
       "value": "rgb(108, 108, 108)",
       "originalValue": "{!janus-color-icon-gray}"
     },
-    "janus-color-alt-secondary": {
-      "type": "color",
-      "category": "color",
-      "name": "janus-color-alt-secondary",
-      "value": "rgb(170, 170, 170)",
-      "originalValue": "{!janus-color-alt-secondary}"
-    },
     "janus-color-black": {
       "type": "color",
       "category": "color",
@@ -228,7 +218,7 @@
       "type": "color",
       "category": "color",
       "name": "janus-color-secondary",
-      "value": "rgb(51, 51, 51)",
+      "value": "rgb(108, 108, 108)",
       "originalValue": "{!janus-color-secondary}"
     },
     "janus-color-secondary-background": {

@@ -8,7 +8,6 @@ declare interface Tokens {
   janusBorderRadiusSm: ".125rem";
   janusBorderRadiusXl: ".375rem";
   janusBorderRound: "100px";
-  janusColorAltSecondary: "rgb(170, 170, 170)";
   janusColorBlack: "rgb(0, 0, 0)";
   janusColorDanger: "rgb(191, 62, 36)";
   janusColorDangerBackground: "rgb(255, 233, 228)";
@@ -28,7 +27,7 @@ declare interface Tokens {
   janusColorInfoHover: "rgb(11, 97, 173)";
   janusColorPrimary: "rgb(14, 98, 185)";
   janusColorPrimaryBackground: "rgb(215, 248, 247)";
-  janusColorSecondary: "rgb(51, 51, 51)";
+  janusColorSecondary: "rgb(108, 108, 108)";
   janusColorSecondaryBackground: "rgb(236, 236, 236)";
   janusColorSuccess: "rgb(41, 120, 72)";
   janusColorSuccessBackground: "rgb(210, 245, 224)";

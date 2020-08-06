@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <color name="polaris_janus_color_alt_secondary">#ffaaaaaa</color>
     <color name="polaris_janus_color_black">#ff000000</color>
     <color name="polaris_janus_color_danger">#ffbf3e24</color>
     <color name="polaris_janus_color_danger_background">#ffffe9e4</color>
@@ -20,7 +19,7 @@
     <color name="polaris_janus_color_info_hover">#ff0b61ad</color>
     <color name="polaris_janus_color_primary">#ff0e62b9</color>
     <color name="polaris_janus_color_primary_background">#ffd7f8f7</color>
-    <color name="polaris_janus_color_secondary">#ff333333</color>
+    <color name="polaris_janus_color_secondary">#ff6c6c6c</color>
     <color name="polaris_janus_color_secondary_background">#ffececec</color>
     <color name="polaris_janus_color_success">#ff297848</color>
     <color name="polaris_janus_color_success_background">#ffd2f5e0</color>
