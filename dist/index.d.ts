@@ -46,6 +46,7 @@ declare interface Tokens {
   janusDropdownItemPaddingY: ".5rem";
   janusDropdownSpacer: ".25rem";
   janusFontSizeBase: "1rem";
+  janusFontSizeSmall: ".875em";
   janusFontStackBase: "Lato, -apple-system, sans-serif";
   janusFontStackMonospace: "Monaco, monospace";
   janusHeadingsLineHeightBase: "1.4";
@@ -58,6 +59,7 @@ declare interface Tokens {
   janusInputBtnPaddingYLg: ".375rem";
   janusInputBtnPaddingYSm: ".157rem";
   janusLineHeightBase: "1.5";
+  janusLineHeightSmall: "1.3125rem";
   janusModalTitleLineHeight: "1.45rem";
 }
 declare let tokens: Tokens;

@@ -147,17 +147,11 @@
     "janus-border-round": {
       "value": "100px"
     },
-    "janus-font-stack-base": {
-      "value": "Lato, -apple-system, sans-serif"
+    "janus-font-size-small": {
+      "value": ".875em"
     },
-    "janus-font-stack-monospace": {
-      "value": "Monaco, monospace"
-    },
-    "janus-font-size-base": {
-      "value": "1rem"
-    },
-    "janus-line-height-base": {
-      "value": "1.5"
+    "janus-line-height-small": {
+      "value": "1.3125rem"
     },
     "janus-headings-line-height-base": {
       "value": "1.4"
@@ -170,6 +164,18 @@
     },
     "janus-modal-title-line-height": {
       "value": "1.45rem"
+    },
+    "janus-line-height-base": {
+      "value": "1.5"
+    },
+    "janus-font-size-base": {
+      "value": "1rem"
+    },
+    "janus-font-stack-monospace": {
+      "value": "Monaco, monospace"
+    },
+    "janus-font-stack-base": {
+      "value": "Lato, -apple-system, sans-serif"
     }
   },
   "props": {
@@ -564,6 +570,20 @@
       "name": "janus-line-height-base",
       "value": "1.5",
       "originalValue": "{!janus-line-height-base}"
+    },
+    "janus-font-size-small": {
+      "type": "number",
+      "category": "font-size",
+      "name": "janus-font-size-small",
+      "value": ".875em",
+      "originalValue": "{!janus-font-size-small}"
+    },
+    "janus-line-height-small": {
+      "type": "number",
+      "category": "line-height",
+      "name": "janus-line-height-small",
+      "value": "1.3125rem",
+      "originalValue": "{!janus-line-height-small}"
     },
     "janus-headings-line-height-base": {
       "type": "number",
