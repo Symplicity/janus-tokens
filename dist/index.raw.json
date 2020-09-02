@@ -123,6 +123,9 @@
     "janus-input-btn-padding-x-sm": {
       "value": "1rem"
     },
+    "janus-input-text-padding-x": {
+      "value": "\t.75rem"
+    },
     "janus-input-btn-padding-x-lg": {
       "value": "1.875rem"
     },
@@ -458,6 +461,13 @@
       "name": "janus-input-btn-padding-y-lg",
       "value": ".375rem",
       "originalValue": "{!janus-input-btn-padding-y-lg}"
+    },
+    "janus-input-text-padding-x": {
+      "type": "number",
+      "category": "spacing",
+      "name": "janus-input-text-padding-x",
+      "value": "\t.75rem",
+      "originalValue": "{!janus-input-text-padding-x}"
     },
     "janus-badge-padding-x": {
       "type": "number",
