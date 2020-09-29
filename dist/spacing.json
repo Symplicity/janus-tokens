@@ -13,5 +13,6 @@
   "janus-alert-padding-y": ".75rem",
   "janus-dropdown-item-padding-y": ".5rem",
   "janus-dropdown-item-padding-x": "1.5rem",
-  "janus-dropdown-spacer": ".25rem"
+  "janus-dropdown-spacer": ".25rem",
+  "janus-form-select-padding-x": ".5rem"
 }

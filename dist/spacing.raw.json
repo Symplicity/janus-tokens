@@ -44,6 +44,9 @@
     },
     "janus-badge-padding-y": {
       "value": ".3em"
+    },
+    "janus-form-select-padding-x": {
+      "value": ".5rem"
     }
   },
   "props": {
@@ -151,6 +154,13 @@
       "name": "janus-dropdown-spacer",
       "value": ".25rem",
       "originalValue": "{!janus-dropdown-spacer}"
+    },
+    "janus-form-select-padding-x": {
+      "type": "number",
+      "category": "spacing",
+      "name": "janus-form-select-padding-x",
+      "value": ".5rem",
+      "originalValue": "{!janus-form-select-padding-x}"
     }
   }
 }
