@@ -49,6 +49,8 @@ module.exports = {
   janusDropdownItemPaddingX: "1.5rem",
   janusDropdownSpacer: ".25rem",
   janusFormSelectPaddingX: ".5rem",
+  janusCardSpacerX: "1.25rem",
+  janusCardSpacerY: "1.25rem",
   janusBorderRadius: ".25rem",
   janusBorderRadiusSm: ".125rem",
   janusBorderRadiusLg: ".188rem",
