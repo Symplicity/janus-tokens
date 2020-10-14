@@ -17,6 +17,12 @@
     <color name="polaris_janus_color_info">#ff0b5ba1</color>
     <color name="polaris_janus_color_info_background">#ffe1f1ff</color>
     <color name="polaris_janus_color_info_hover">#ff0b61ad</color>
+    <color name="polaris_janus_color_pale_blue">#ff66baec</color>
+    <color name="polaris_janus_color_pale_green">#ff66debe</color>
+    <color name="polaris_janus_color_pale_indigo">#ff5a90e8</color>
+    <color name="polaris_janus_color_pale_orange">#fff0874b</color>
+    <color name="polaris_janus_color_pale_purple">#ff9992fb</color>
+    <color name="polaris_janus_color_pale_red">#fff66666</color>
     <color name="polaris_janus_color_primary">#ff0e62b9</color>
     <color name="polaris_janus_color_primary_background">#ffd7f8f7</color>
     <color name="polaris_janus_color_secondary">#ff454545</color>

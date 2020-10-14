@@ -12,6 +12,9 @@
     "janus-disabled-button-color": {
       "value": "#AAAAAA"
     },
+    "janus-color-pale-green": {
+      "value": "#66debe"
+    },
     "janus-disabled-button-border-color": {
       "value": "#CCCCCC"
     },
@@ -51,8 +54,14 @@
     "janus-color-gray-600": {
       "value": "#6c6c6c"
     },
+    "janus-color-pale-orange": {
+      "value": "#f0874b"
+    },
     "janus-color-gray-700": {
       "value": "#555555"
+    },
+    "janus-color-pale-red": {
+      "value": "#f66666"
     },
     "janus-color-info": {
       "value": "#0B5BA1"
@@ -68,6 +77,9 @@
     },
     "janus-color-secondary": {
       "value": "#454545"
+    },
+    "janus-color-pale-indigo": {
+      "value": "#5a90e8"
     },
     "janus-color-danger-hover": {
       "value": "#AB3720"
@@ -87,14 +99,62 @@
     "janus-color-primary-background": {
       "value": "#D7F8F7"
     },
+    "janus-color-pale-blue": {
+      "value": "#66baec"
+    },
     "janus-color-black": {
       "value": "#000000"
+    },
+    "janus-color-pale-purple": {
+      "value": "#9992fb"
     },
     "janus-color-info-hover": {
       "value": "#0B61AD"
     }
   },
   "props": {
+    "janus-color-pale-green": {
+      "type": "color",
+      "category": "color",
+      "name": "janus-color-pale-green",
+      "value": "rgb(102, 222, 190)",
+      "originalValue": "{!janus-color-pale-green}"
+    },
+    "janus-color-pale-orange": {
+      "type": "color",
+      "category": "color",
+      "name": "janus-color-pale-orange",
+      "value": "rgb(240, 135, 75)",
+      "originalValue": "{!janus-color-pale-orange}"
+    },
+    "janus-color-pale-indigo": {
+      "type": "color",
+      "category": "color",
+      "name": "janus-color-pale-indigo",
+      "value": "rgb(90, 144, 232)",
+      "originalValue": "{!janus-color-pale-indigo}"
+    },
+    "janus-color-pale-purple": {
+      "type": "color",
+      "category": "color",
+      "name": "janus-color-pale-purple",
+      "value": "rgb(153, 146, 251)",
+      "originalValue": "{!janus-color-pale-purple}"
+    },
+    "janus-color-pale-blue": {
+      "type": "color",
+      "category": "color",
+      "name": "janus-color-pale-blue",
+      "value": "rgb(102, 186, 236)",
+      "originalValue": "{!janus-color-pale-blue}"
+    },
+    "janus-color-pale-red": {
+      "type": "color",
+      "category": "color",
+      "name": "janus-color-pale-red",
+      "value": "rgb(246, 102, 102)",
+      "originalValue": "{!janus-color-pale-red}"
+    },
     "janus-color-text": {
       "type": "color",
       "category": "text-color",
