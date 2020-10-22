@@ -8,7 +8,9 @@ aliases:
   janus-headings-line-height-base: '1.4'
   janus-icon-lg-font-size: '1.25rem'
   janus-icon-lg-line-height: '1.5rem'
+  janus-icon-empty-font-size: '2.5rem'
   janus-modal-title-line-height: '1.45rem'
+  janus-card-title-line-height: '1.25rem'
 props:
   # Font sizes and line heights
   - name: janus-font-stack-base
@@ -19,6 +21,10 @@ props:
     value: '{!janus-font-stack-monospace}'
     type: font-family
     category: font-family
+  - name: 'janus-icon-empty-font-size'
+    value: '{!janus-icon-empty-font-size}'
+    type: number
+    category: font-size
   - name: 'janus-font-size-base'
     value: '{!janus-font-size-base}'
     type: number
@@ -42,13 +48,17 @@ props:
   - name: 'janus-icon-lg-font-size'
     value: '{!janus-icon-lg-font-size}'
     type: number
-    category: line-height
+    category: font-size
   - name: 'janus-icon-lg-line-height'
     value: '{!janus-icon-lg-line-height}' 
     type: number
     category: line-height
   - name: 'janus-modal-title-line-height'
     value: '{!janus-modal-title-line-height}' 
+    type: number
+    category: line-height
+  - name: 'janus-card-title-line-height'
+    value: '{!janus-card-title-line-height}' 
     type: number
     category: line-height
   # Font sizes and line heights

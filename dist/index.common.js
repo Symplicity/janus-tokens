@@ -64,6 +64,7 @@ module.exports = {
   janusBorderRound: "100px",
   janusFontStackBase: "Lato, -apple-system, sans-serif",
   janusFontStackMonospace: "Monaco, monospace",
+  janusIconEmptyFontSize: "2.5rem",
   janusFontSizeBase: "1rem",
   janusLineHeightBase: "1.5",
   janusFontSizeSmall: ".875em",
@@ -72,4 +73,5 @@ module.exports = {
   janusIconLgFontSize: "1.25rem",
   janusIconLgLineHeight: "1.5rem",
   janusModalTitleLineHeight: "1.45rem",
+  janusCardTitleLineHeight: "1.25rem",
 };

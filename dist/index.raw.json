@@ -189,6 +189,12 @@
     "janus-headings-line-height-base": {
       "value": "1.4"
     },
+    "janus-icon-empty-font-size": {
+      "value": "2.5rem"
+    },
+    "janus-card-title-line-height": {
+      "value": "1.25rem"
+    },
     "janus-icon-lg-font-size": {
       "value": "1.25rem"
     },
@@ -667,6 +673,13 @@
       "value": "Monaco, monospace",
       "originalValue": "{!janus-font-stack-monospace}"
     },
+    "janus-icon-empty-font-size": {
+      "type": "number",
+      "category": "font-size",
+      "name": "janus-icon-empty-font-size",
+      "value": "2.5rem",
+      "originalValue": "{!janus-icon-empty-font-size}"
+    },
     "janus-font-size-base": {
       "type": "number",
       "category": "font-size",
@@ -704,7 +717,7 @@
     },
     "janus-icon-lg-font-size": {
       "type": "number",
-      "category": "line-height",
+      "category": "font-size",
       "name": "janus-icon-lg-font-size",
       "value": "1.25rem",
       "originalValue": "{!janus-icon-lg-font-size}"
@@ -722,6 +735,13 @@
       "name": "janus-modal-title-line-height",
       "value": "1.45rem",
       "originalValue": "{!janus-modal-title-line-height}"
+    },
+    "janus-card-title-line-height": {
+      "type": "number",
+      "category": "line-height",
+      "name": "janus-card-title-line-height",
+      "value": "1.25rem",
+      "originalValue": "{!janus-card-title-line-height}"
     }
   }
 }

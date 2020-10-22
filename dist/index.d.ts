@@ -10,6 +10,7 @@ declare interface Tokens {
   janusBorderRound: "100px";
   janusCardSpacerX: "1.25rem";
   janusCardSpacerY: "1.25rem";
+  janusCardTitleLineHeight: "1.25rem";
   janusColorBlack: "rgb(0, 0, 0)";
   janusColorDanger: "rgb(191, 62, 36)";
   janusColorDangerBackground: "rgb(255, 233, 228)";
@@ -59,6 +60,7 @@ declare interface Tokens {
   janusFontStackMonospace: "Monaco, monospace";
   janusFormSelectPaddingX: ".5rem";
   janusHeadingsLineHeightBase: "1.4";
+  janusIconEmptyFontSize: "2.5rem";
   janusIconLgFontSize: "1.25rem";
   janusIconLgLineHeight: "1.5rem";
   janusInputBtnPaddingX: "1rem";
