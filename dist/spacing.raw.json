@@ -10,7 +10,7 @@
       "value": "0.75rem"
     },
     "janus-nav-link-padding-y": {
-      "value": "0.625rem"
+      "value": ".7815rem"
     },
     "janus-dropdown-spacer": {
       "value": ".25rem"
@@ -199,7 +199,7 @@
       "type": "number",
       "category": "spacing",
       "name": "janus-nav-link-padding-y",
-      "value": "0.625rem",
+      "value": ".7815rem",
       "originalValue": "{!janus-nav-link-padding-y}"
     }
   }
