@@ -17,6 +17,7 @@ aliases:
   janus-form-select-padding-x: '.5rem'
   janus-card-spacer-x: '1.25rem'
   janus-card-spacer-y: '1.25rem'
+  janus-nav-link-padding-x: '0.75rem'
 props:
   - name: 'janus-input-btn-padding-x'
     value: '{!janus-input-btn-padding-x}'
@@ -54,6 +55,8 @@ props:
     value: '{!janus-card-spacer-x}'
   - name: 'janus-card-spacer-y'
     value: '{!janus-card-spacer-y}'
+  - name: 'janus-nav-link-padding-x'
+    value: '{!janus-nav-link-padding-x}'
 global:
   type: number
   category: spacing

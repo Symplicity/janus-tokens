@@ -17,4 +17,5 @@ module.exports = {
   janusFormSelectPaddingX: ".5rem",
   janusCardSpacerX: "1.25rem",
   janusCardSpacerY: "1.25rem",
+  janusNavLinkPaddingX: "0.75rem",
 };
