@@ -51,7 +51,7 @@ declare interface Tokens {
   janusDisabledButtonBackgroundColor: "rgb(236, 236, 236)";
   janusDisabledButtonBorderColor: "rgb(204, 204, 204)";
   janusDisabledButtonColor: "rgb(170, 170, 170)";
-  janusDropdownItemPaddingX: "1.5rem";
+  janusDropdownItemPaddingX: "1rem";
   janusDropdownItemPaddingY: ".5rem";
   janusDropdownSpacer: ".25rem";
   janusFontSizeBase: "1rem";
