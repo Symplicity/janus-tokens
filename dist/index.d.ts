@@ -1,4 +1,5 @@
 declare interface Tokens {
+  janusActionIconOnlyPaddingXi: "0.3rem";
   janusAlertPaddingX: "1rem";
   janusAlertPaddingY: ".75rem";
   janusBadgePaddingX: ".6em";

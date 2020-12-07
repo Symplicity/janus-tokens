@@ -12,6 +12,9 @@
     "janus-nav-link-padding-y": {
       "value": ".7815rem"
     },
+    "janus-action-icon-only-padding-x": {
+      "value": "0.3rem"
+    },
     "janus-dropdown-spacer": {
       "value": ".25rem"
     },
@@ -201,6 +204,13 @@
       "name": "janus-nav-link-padding-y",
       "value": ".7815rem",
       "originalValue": "{!janus-nav-link-padding-y}"
+    },
+    "janus-action-icon-only-padding-xi": {
+      "type": "number",
+      "category": "spacing",
+      "name": "janus-action-icon-only-padding-xi",
+      "value": "0.3rem",
+      "originalValue": "{!janus-action-icon-only-padding-x}"
     }
   }
 }
