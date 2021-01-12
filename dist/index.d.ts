@@ -1,5 +1,5 @@
 declare interface Tokens {
-  janusActionIconOnlyPaddingXi: "0.3rem";
+  janusActionIconOnlyPaddingXi: "0.3rem0.3rem";
   janusAlertPaddingX: "1rem";
   janusAlertPaddingY: ".75rem";
   janusBadgePaddingX: ".6em";
@@ -9,6 +9,8 @@ declare interface Tokens {
   janusBorderRadiusSm: ".125rem";
   janusBorderRadiusXl: ".375rem";
   janusBorderRound: "100px";
+  janusCardAltBodyPaddingX: "1.5rem";
+  janusCardAltBodyPaddingY: "1.5rem";
   janusCardSpacerX: "1.25rem";
   janusCardSpacerY: "1.25rem";
   janusCardTitleLineHeight: "1.25rem";

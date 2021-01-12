@@ -20,6 +20,8 @@ aliases:
   janus-nav-link-padding-x: '0.75rem'
   janus-nav-link-padding-y: '.7815rem'
   janus-action-icon-only-padding-x: '0.3rem'
+  janus-card-alt-body-padding-x: '1.5rem'
+  janus-card-alt-body-padding-y: '1.5rem'
 props:
   - name: 'janus-input-btn-padding-x'
     value: '{!janus-input-btn-padding-x}'
@@ -63,6 +65,12 @@ props:
     value: '{!janus-nav-link-padding-y}'
   - name: 'janus-action-icon-only-padding-xi'
     value: '{!janus-action-icon-only-padding-x}'
+  - name: 'janus-action-icon-only-padding-xi'
+    value: '{!janus-action-icon-only-padding-x}'
+  - name: 'janus-card-alt-body-padding-x'
+    value: '{!janus-card-alt-body-padding-x}'
+  - name: 'janus-card-alt-body-padding-y'
+    value: '{!janus-card-alt-body-padding-y}'
 global:
   type: number
   category: spacing
