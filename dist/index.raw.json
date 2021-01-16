@@ -192,9 +192,6 @@
     "janus-border-radius-xl": {
       "value": ".375rem"
     },
-    "janus-border-round": {
-      "value": "100px"
-    },
     "janus-font-size-small": {
       "value": ".875em"
     },
@@ -701,13 +698,6 @@
       "name": "janus-border-radius-xl",
       "value": ".375rem",
       "originalValue": "{!janus-border-radius-xl}"
-    },
-    "janus-border-round": {
-      "type": "number",
-      "category": "border-radius",
-      "name": "janus-border-round",
-      "value": "100px",
-      "originalValue": "{!janus-border-round}"
     },
     "janus-font-stack-base": {
       "type": "font-family",

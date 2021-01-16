@@ -66,7 +66,6 @@
   "janus-border-radius-sm": ".125rem",
   "janus-border-radius-lg": ".188rem",
   "janus-border-radius-xl": ".375rem",
-  "janus-border-round": "100px",
   "janus-font-stack-base": "Lato, -apple-system, sans-serif",
   "janus-font-stack-monospace": "Monaco, monospace",
   "janus-icon-xl-font-size": "2.5rem",
