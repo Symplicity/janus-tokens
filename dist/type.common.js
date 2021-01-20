@@ -9,6 +9,7 @@ module.exports = {
   janusIconLgFontSize: "1.25rem",
   janusIconLgLineHeight: "1.5rem",
   janusIconXlFontSize: "1.5rem",
+  janusIconXxlFontSize: "2.5rem",
   janusModalTitleLineHeight: "1.45rem",
   janusCardTitleLineHeight: "1.25rem",
 };

@@ -9,6 +9,7 @@ aliases:
   janus-icon-lg-font-size: '1.25rem'
   janus-icon-lg-line-height: '1.5rem'
   janus-icon-xl-font-size: '1.5rem'
+  janus-icon-xxl-font-size: '2.5rem'
   janus-modal-title-line-height: '1.45rem'
   janus-card-title-line-height: '1.25rem'
 props:
@@ -51,6 +52,10 @@ props:
     category: line-height
   - name: 'janus-icon-xl-font-size'
     value: '{!janus-icon-xl-font-size}'
+    type: number
+    category: font-size
+  - name: 'janus-icon-xxl-font-size'
+    value: '{!janus-icon-xxl-font-size}'
     type: number
     category: font-size
   - name: 'janus-modal-title-line-height'

@@ -12,6 +12,9 @@
     "janus-icon-xl-font-size": {
       "value": "1.5rem"
     },
+    "janus-icon-xxl-font-size": {
+      "value": "2.5rem"
+    },
     "janus-card-title-line-height": {
       "value": "1.25rem"
     },
@@ -107,6 +110,13 @@
       "name": "janus-icon-xl-font-size",
       "value": "1.5rem",
       "originalValue": "{!janus-icon-xl-font-size}"
+    },
+    "janus-icon-xxl-font-size": {
+      "type": "number",
+      "category": "font-size",
+      "name": "janus-icon-xxl-font-size",
+      "value": "2.5rem",
+      "originalValue": "{!janus-icon-xxl-font-size}"
     },
     "janus-modal-title-line-height": {
       "type": "number",
