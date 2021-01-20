@@ -21,10 +21,6 @@ props:
     value: '{!janus-font-stack-monospace}'
     type: font-family
     category: font-family
-  - name: 'janus-icon-xl-font-size'
-    value: '{!janus-icon-xl-font-size}'
-    type: number
-    category: font-size
   - name: 'janus-font-size-base'
     value: '{!janus-font-size-base}'
     type: number
