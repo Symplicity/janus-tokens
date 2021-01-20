@@ -63,7 +63,7 @@ props:
     value: '{!janus-nav-link-padding-x}'
   - name: 'janus-nav-link-padding-y'
     value: '{!janus-nav-link-padding-y}'
-  - name: 'janus-action-icon-only-padding-xi'
+  - name: 'janus-action-icon-only-padding-x'
     value: '{!janus-action-icon-only-padding-x}'
   - name: 'janus-action-icon-only-padding-xi'
     value: '{!janus-action-icon-only-padding-x}'

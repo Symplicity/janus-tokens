@@ -202,7 +202,7 @@
       "value": "1.4"
     },
     "janus-icon-xl-font-size": {
-      "value": "2.5rem"
+      "value": "1.5rem"
     },
     "janus-card-title-line-height": {
       "value": "1.25rem"
@@ -650,12 +650,19 @@
       "value": ".7815rem",
       "originalValue": "{!janus-nav-link-padding-y}"
     },
+    "janus-action-icon-only-padding-x": {
+      "type": "number",
+      "category": "spacing",
+      "name": "janus-action-icon-only-padding-x",
+      "value": "0.3rem",
+      "originalValue": "{!janus-action-icon-only-padding-x}"
+    },
     "janus-action-icon-only-padding-xi": {
       "type": "number",
       "category": "spacing",
       "name": "janus-action-icon-only-padding-xi",
-      "value": "0.3rem0.3rem",
-      "originalValue": "{!janus-action-icon-only-padding-x}{!janus-action-icon-only-padding-x}"
+      "value": "0.3rem",
+      "originalValue": "{!janus-action-icon-only-padding-x}"
     },
     "janus-card-alt-body-padding-x": {
       "type": "number",
@@ -714,11 +721,11 @@
       "originalValue": "{!janus-font-stack-monospace}"
     },
     "janus-icon-xl-font-size": {
-      "type": "number",
-      "category": "font-size",
+      "type": "numbernumber",
+      "category": "font-sizefont-size",
       "name": "janus-icon-xl-font-size",
-      "value": "2.5rem",
-      "originalValue": "{!janus-icon-xl-font-size}"
+      "value": "1.5rem1.5rem",
+      "originalValue": "{!janus-icon-xl-font-size}{!janus-icon-xl-font-size}"
     },
     "janus-font-size-base": {
       "type": "number",
