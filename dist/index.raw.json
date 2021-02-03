@@ -156,8 +156,14 @@
     "janus-input-btn-padding-x-lg": {
       "value": "1.875rem"
     },
+    "janus-search-select-padding-x": {
+      "value": "1.25rem"
+    },
     "janus-input-text-padding-y": {
       "value": " .3125rem"
+    },
+    "janus-search-select-padding-y": {
+      "value": ".657rem"
     },
     "janus-badge-padding-x": {
       "value": ".6em"
@@ -624,6 +630,20 @@
       "name": "janus-form-select-padding-x",
       "value": ".5rem",
       "originalValue": "{!janus-form-select-padding-x}"
+    },
+    "janus-search-select-padding-x": {
+      "type": "number",
+      "category": "spacing",
+      "name": "janus-search-select-padding-x",
+      "value": "1.25rem",
+      "originalValue": "{!janus-search-select-padding-x}"
+    },
+    "janus-search-select-padding-y": {
+      "type": "number",
+      "category": "spacing",
+      "name": "janus-search-select-padding-y",
+      "value": ".657rem",
+      "originalValue": "{!janus-search-select-padding-y}"
     },
     "janus-card-spacer-x": {
       "type": "number",

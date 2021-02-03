@@ -80,6 +80,8 @@ declare interface Tokens {
   janusModalTitleLineHeight: "1.45rem";
   janusNavLinkPaddingX: "0.75rem";
   janusNavLinkPaddingY: ".7815rem";
+  janusSearchSelectPaddingX: "1.25rem";
+  janusSearchSelectPaddingY: ".657rem";
 }
 declare let tokens: Tokens;
 export = tokens;
