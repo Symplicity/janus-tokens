@@ -10,7 +10,7 @@
       "value": "0.75rem"
     },
     "janus-nav-link-padding-y": {
-      "value": ".7815rem"
+      "value": "1.0625rem"
     },
     "janus-action-icon-only-padding-x": {
       "value": "0.3rem"
@@ -228,7 +228,7 @@
       "type": "number",
       "category": "spacing",
       "name": "janus-nav-link-padding-y",
-      "value": ".7815rem",
+      "value": "1.0625rem",
       "originalValue": "{!janus-nav-link-padding-y}"
     },
     "janus-action-icon-only-padding-x": {

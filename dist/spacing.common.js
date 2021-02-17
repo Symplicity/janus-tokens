@@ -20,7 +20,7 @@ module.exports = {
   janusCardSpacerX: "1.25rem",
   janusCardSpacerY: "1.25rem",
   janusNavLinkPaddingX: "0.75rem",
-  janusNavLinkPaddingY: ".7815rem",
+  janusNavLinkPaddingY: "1.0625rem",
   janusActionIconOnlyPaddingX: "0.3rem",
   janusActionIconOnlyPaddingXi: "0.3rem",
   janusCardAltBodyPaddingX: "1.5rem",
