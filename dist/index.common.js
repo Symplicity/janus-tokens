@@ -69,7 +69,7 @@ module.exports = {
   janusBorderRadiusSm: ".125rem",
   janusBorderRadiusLg: ".188rem",
   janusBorderRadiusXl: ".375rem",
-  janusFontStackBase: "Lato, -apple-system, sans-serif",
+  janusFontStackBase: "\"lato\", sans-serif",
   janusFontStackMonospace: "Monaco, monospace",
   janusFontSizeBase: "1rem",
   janusLineHeightBase: "1.5",

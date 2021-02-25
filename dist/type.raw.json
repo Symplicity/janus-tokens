@@ -37,7 +37,7 @@
       "value": "Monaco, monospace"
     },
     "janus-font-stack-base": {
-      "value": "Lato, -apple-system, sans-serif"
+      "value": "\"lato\", sans-serif"
     }
   },
   "props": {
@@ -45,7 +45,7 @@
       "type": "font-family",
       "category": "font-family",
       "name": "janus-font-stack-base",
-      "value": "Lato, -apple-system, sans-serif",
+      "value": "\"lato\", sans-serif",
       "originalValue": "{!janus-font-stack-base}"
     },
     "janus-font-stack-monospace": {

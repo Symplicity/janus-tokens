@@ -1,5 +1,5 @@
 module.exports = {
-  janusFontStackBase: "Lato, -apple-system, sans-serif",
+  janusFontStackBase: "\"lato\", sans-serif",
   janusFontStackMonospace: "Monaco, monospace",
   janusFontSizeBase: "1rem",
   janusLineHeightBase: "1.5",
