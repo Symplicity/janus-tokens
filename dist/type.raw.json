@@ -15,6 +15,9 @@
     "janus-icon-xxl-font-size": {
       "value": "2.375rem"
     },
+    "janus-avatar-font-size": {
+      "value": ".375rem"
+    },
     "janus-card-title-line-height": {
       "value": "1.25rem"
     },
@@ -35,6 +38,9 @@
     },
     "janus-font-stack-monospace": {
       "value": "Monaco, monospace"
+    },
+    "janus-avatar-icon-size": {
+      "value": ".7rem"
     },
     "janus-font-stack-base": {
       "value": "\"lato\", sans-serif"
@@ -131,6 +137,20 @@
       "name": "janus-card-title-line-height",
       "value": "1.25rem",
       "originalValue": "{!janus-card-title-line-height}"
+    },
+    "janus-avatar-font-size": {
+      "type": "number",
+      "category": "font-size",
+      "name": "janus-avatar-font-size",
+      "value": ".375rem",
+      "originalValue": "{!janus-avatar-font-size}"
+    },
+    "janus-avatar-icon-size": {
+      "type": "number",
+      "category": "font-size",
+      "name": "janus-avatar-icon-size",
+      "value": ".7rem",
+      "originalValue": "{!janus-avatar-icon-size}"
     }
   }
 }

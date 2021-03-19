@@ -12,6 +12,8 @@ aliases:
   janus-icon-xxl-font-size: '2.375rem'
   janus-modal-title-line-height: '1.45rem'
   janus-card-title-line-height: '1.25rem'
+  janus-avatar-font-size: '.375rem'
+  janus-avatar-icon-size: '.7rem'
 props:
   # Font sizes and line heights
   - name: janus-font-stack-base
@@ -66,6 +68,14 @@ props:
     value: '{!janus-card-title-line-height}' 
     type: number
     category: line-height
+  - name: 'janus-avatar-font-size'
+    value: '{!janus-avatar-font-size}'
+    type: number
+    category: font-size
+  - name: 'janus-avatar-icon-size'
+    value: '{!janus-avatar-icon-size}'
+    type: number
+    category: font-size
   # Font sizes and line heights
   # -
 global:
