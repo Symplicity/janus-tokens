@@ -14,6 +14,7 @@ aliases:
   janus-card-title-line-height: '1.25rem'
   janus-avatar-font-size: '.5rem'
   janus-avatar-icon-size: '1rem'
+  janus-avatar-image-size: '1.5rem'
 props:
   # Font sizes and line heights
   - name: janus-font-stack-base
@@ -74,8 +75,8 @@ props:
     category: font-size
   - name: 'janus-avatar-icon-size'
     value: '{!janus-avatar-icon-size}'
-    type: number
-    category: font-size
+  - name: 'janus-avatar-image-size'
+    value: '{!janus-avatar-image-size}'
   # Font sizes and line heights
   # -
 global:

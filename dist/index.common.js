@@ -84,4 +84,5 @@ module.exports = {
   janusCardTitleLineHeight: "1.25rem",
   janusAvatarFontSize: ".5rem",
   janusAvatarIconSize: "1rem",
+  janusAvatarImageSize: "1.5rem",
 };
