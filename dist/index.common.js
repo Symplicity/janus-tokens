@@ -82,6 +82,6 @@ module.exports = {
   janusIconXxlFontSize: "2.375rem",
   janusModalTitleLineHeight: "1.45rem",
   janusCardTitleLineHeight: "1.25rem",
-  janusAvatarFontSize: ".375rem",
-  janusAvatarIconSize: ".7rem",
+  janusAvatarFontSize: ".5rem",
+  janusAvatarIconSize: "1rem",
 };

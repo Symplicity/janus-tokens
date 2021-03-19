@@ -3,8 +3,8 @@ declare interface Tokens {
   janusActionIconOnlyPaddingXi: "0.3rem";
   janusAlertPaddingX: "1rem";
   janusAlertPaddingY: ".75rem";
-  janusAvatarFontSize: ".375rem";
-  janusAvatarIconSize: ".7rem";
+  janusAvatarFontSize: ".5rem";
+  janusAvatarIconSize: "1rem";
   janusBadgePaddingX: ".6em";
   janusBadgePaddingY: ".3em";
   janusBorderRadius: ".25rem";
