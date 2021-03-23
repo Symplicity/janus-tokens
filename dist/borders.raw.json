@@ -11,6 +11,9 @@
     },
     "janus-border-radius-xl": {
       "value": ".375rem"
+    },
+    "janus-border-radius-xxl": {
+      "value": ".5rem"
     }
   },
   "props": {
@@ -41,6 +44,13 @@
       "name": "janus-border-radius-xl",
       "value": ".375rem",
       "originalValue": "{!janus-border-radius-xl}"
+    },
+    "janus-border-radius-xxl": {
+      "type": "number",
+      "category": "border-radius",
+      "name": "janus-border-radius-xxl",
+      "value": ".5rem",
+      "originalValue": "{!janus-border-radius-xxl}"
     }
   }
 }
