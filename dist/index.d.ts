@@ -5,7 +5,7 @@ declare interface Tokens {
   janusAlertPaddingY: ".75rem";
   janusAvatarFontSize: "1vw";
   janusAvatarLineHeight: "1rem";
-  janusBadgeFontSize: ".75rem";
+  janusBadgeFontSize: ".75em";
   janusBadgePaddingX: ".6em";
   janusBadgePaddingY: ".3em";
   janusBorderRadius: ".25rem";
