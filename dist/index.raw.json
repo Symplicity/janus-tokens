@@ -245,6 +245,9 @@
     },
     "janus-font-stack-base": {
       "value": "\"lato\", sans-serif"
+    },
+    "janus-badge-font-size": {
+      "value": ".75rem"
     }
   },
   "props": {
@@ -849,6 +852,13 @@
       "name": "janus-avatar-line-height",
       "value": "1rem",
       "originalValue": "{!janus-avatar-line-height}"
+    },
+    "janus-badge-font-size": {
+      "type": "number",
+      "category": "font-size",
+      "name": "janus-badge-font-size",
+      "value": ".75rem",
+      "originalValue": "{!janus-badge-font-size}"
     }
   }
 }
