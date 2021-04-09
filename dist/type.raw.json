@@ -46,7 +46,7 @@
       "value": "\"lato\", sans-serif"
     },
     "janus-badge-font-size": {
-      "value": ".75em"
+      "value": ".75rem"
     }
   },
   "props": {
@@ -159,7 +159,7 @@
       "type": "number",
       "category": "font-size",
       "name": "janus-badge-font-size",
-      "value": ".75em",
+      "value": ".75rem",
       "originalValue": "{!janus-badge-font-size}"
     }
   }
