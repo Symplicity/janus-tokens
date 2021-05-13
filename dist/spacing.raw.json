@@ -1,10 +1,10 @@
 {
   "aliases": {
     "janus-dropdown-item-padding-x": {
-      "value": "1rem"
+      "value": "1.5rem"
     },
     "janus-dropdown-item-padding-y": {
-      "value": "1.5rem"
+      "value": ".5rem"
     },
     "janus-nav-link-padding-x": {
       "value": "0.75rem"
@@ -165,14 +165,14 @@
       "type": "number",
       "category": "spacing",
       "name": "janus-dropdown-item-padding-y",
-      "value": "1.5rem",
+      "value": ".5rem",
       "originalValue": "{!janus-dropdown-item-padding-y}"
     },
     "janus-dropdown-item-padding-x": {
       "type": "number",
       "category": "spacing",
       "name": "janus-dropdown-item-padding-x",
-      "value": "1rem",
+      "value": "1.5rem",
       "originalValue": "{!janus-dropdown-item-padding-x}"
     },
     "janus-dropdown-spacer": {
