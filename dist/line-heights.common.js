@@ -1,3 +1,3 @@
 module.exports = {
-  janusLineHeightBase: '1.5',
+  janusLineHeightBase: "1.5",
 };
