@@ -1,4 +1,22 @@
 $janus-color-filters-map: (
+  'janus-color-pale-green': (
+    none,
+  ),
+  'janus-color-pale-orange': (
+    none,
+  ),
+  'janus-color-pale-indigo': (
+    none,
+  ),
+  'janus-color-pale-purple': (
+    none,
+  ),
+  'janus-color-pale-blue': (
+    none,
+  ),
+  'janus-color-pale-red': (
+    none,
+  ),
   'janus-color-text': (
     invert(25%) sepia(0%) saturate(117%) hue-rotate(172deg) brightness(99%)
       contrast(89%),
@@ -43,6 +61,9 @@ $janus-color-filters-map: (
       contrast(95%),
   ),
   'janus-color-gray-900': (
+    none,
+  ),
+  'janus-color-icon-gray': (
     none,
   ),
   'janus-color-black': (
@@ -97,6 +118,15 @@ $janus-color-filters-map: (
     none,
   ),
   'janus-color-danger-background': (
+    none,
+  ),
+  'janus-disabled-button-color': (
+    none,
+  ),
+  'janus-disabled-button-border-color': (
+    none,
+  ),
+  'janus-disabled-button-background-color': (
     none,
   ),
 );

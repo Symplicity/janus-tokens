@@ -1,5 +1,11 @@
 $janus-color-filters: (
   'janus': (
+    'green': none,
+    'orange': none,
+    'indigo': none,
+    'purple': none,
+    'blue': none,
+    'red': none,
     'text': invert(25%) sepia(0%) saturate(117%) hue-rotate(172deg)
       brightness(99%) contrast(89%),
     'secondary': invert(40%) sepia(0%) saturate(1050%) hue-rotate(222deg)
@@ -22,6 +28,7 @@ $janus-color-filters: (
     '800': invert(19%) sepia(0%) saturate(2%) hue-rotate(308deg) brightness(98%)
       contrast(95%),
     '900': none,
+    'gray': none,
     'black': brightness(0) saturate(100%),
     'white': brightness(0) saturate(100%) invert(100%),
     'primary': none,
@@ -40,5 +47,8 @@ $janus-color-filters: (
     'danger': none,
     'hover': none,
     'background': none,
+    'color': none,
+    'color': none,
+    'color': none,
   ),
 );

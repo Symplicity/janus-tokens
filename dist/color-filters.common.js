@@ -1,4 +1,10 @@
 module.exports = {
+  janusColorPaleGreen: 'none',
+  janusColorPaleOrange: 'none',
+  janusColorPaleIndigo: 'none',
+  janusColorPalePurple: 'none',
+  janusColorPaleBlue: 'none',
+  janusColorPaleRed: 'none',
   janusColorText:
     'invert(25%) sepia(0%) saturate(117%) hue-rotate(172deg) brightness(99%) contrast(89%)',
   janusColorTextSecondary:
@@ -21,6 +27,7 @@ module.exports = {
   janusColorGray800:
     'invert(19%) sepia(0%) saturate(2%) hue-rotate(308deg) brightness(98%) contrast(95%)',
   janusColorGray900: 'none',
+  janusColorIconGray: 'none',
   janusColorBlack: 'brightness(0) saturate(100%)',
   janusColorWhite: 'brightness(0) saturate(100%) invert(100%)',
   janusColorPrimary: 'none',
@@ -39,4 +46,7 @@ module.exports = {
   janusColorDanger: 'none',
   janusColorDangerHover: 'none',
   janusColorDangerBackground: 'none',
+  janusDisabledButtonColor: 'none',
+  janusDisabledButtonBorderColor: 'none',
+  janusDisabledButtonBackgroundColor: 'none',
 };

@@ -1,4 +1,10 @@
 :root {
+  --janus-color-pale-green: none;
+  --janus-color-pale-orange: none;
+  --janus-color-pale-indigo: none;
+  --janus-color-pale-purple: none;
+  --janus-color-pale-blue: none;
+  --janus-color-pale-red: none;
   --janus-color-text: invert(25%) sepia(0%) saturate(117%) hue-rotate(172deg)
     brightness(99%) contrast(89%);
   --janus-color-text-secondary: invert(40%) sepia(0%) saturate(1050%)
@@ -21,6 +27,7 @@
   --janus-color-gray-800: invert(19%) sepia(0%) saturate(2%) hue-rotate(308deg)
     brightness(98%) contrast(95%);
   --janus-color-gray-900: none;
+  --janus-color-icon-gray: none;
   --janus-color-black: brightness(0) saturate(100%);
   --janus-color-white: brightness(0) saturate(100%) invert(100%);
   --janus-color-primary: none;
@@ -39,4 +46,7 @@
   --janus-color-danger: none;
   --janus-color-danger-hover: none;
   --janus-color-danger-background: none;
+  --janus-disabled-button-color: none;
+  --janus-disabled-button-border-color: none;
+  --janus-disabled-button-background-color: none;
 }
