@@ -86,6 +86,8 @@ declare interface Tokens {
   janusNavLinkPaddingY: "1.0625rem";
   janusSearchSelectPaddingX: "1.25rem";
   janusSearchSelectPaddingY: ".657rem";
+  janusTableCellPaddingX: ".75rem";
+  janusTableCellPaddingY: ".75rem";
 }
 declare let tokens: Tokens;
 export = tokens;

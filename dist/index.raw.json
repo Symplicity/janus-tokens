@@ -117,6 +117,12 @@
     "janus-dropdown-item-padding-y": {
       "value": ".5rem"
     },
+    "janus-table-cell-padding-x": {
+      "value": ".75rem"
+    },
+    "janus-table-cell-padding-y": {
+      "value": ".75rem"
+    },
     "janus-nav-link-padding-x": {
       "value": "0.75rem"
     },
@@ -712,6 +718,20 @@
       "name": "janus-card-alt-body-padding-y",
       "value": "1.5rem",
       "originalValue": "{!janus-card-alt-body-padding-y}"
+    },
+    "janus-table-cell-padding-x": {
+      "type": "number",
+      "category": "spacing",
+      "name": "janus-table-cell-padding-x",
+      "value": ".75rem",
+      "originalValue": "{!janus-table-cell-padding-x}"
+    },
+    "janus-table-cell-padding-y": {
+      "type": "number",
+      "category": "spacing",
+      "name": "janus-table-cell-padding-y",
+      "value": ".75rem",
+      "originalValue": "{!janus-table-cell-padding-y}"
     },
     "janus-border-radius": {
       "type": "number",
