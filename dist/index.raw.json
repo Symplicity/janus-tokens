@@ -232,7 +232,7 @@
       "value": "1.25rem"
     },
     "janus-icon-lg-font-size": {
-      "value": "1.35rem"
+      "value": "1.25rem"
     },
     "janus-icon-lg-line-height": {
       "value": "1.5rem"
@@ -821,7 +821,7 @@
       "type": "number",
       "category": "font-size",
       "name": "janus-icon-lg-font-size",
-      "value": "1.35rem",
+      "value": "1.25rem",
       "originalValue": "{!janus-icon-lg-font-size}"
     },
     "janus-icon-lg-line-height": {
