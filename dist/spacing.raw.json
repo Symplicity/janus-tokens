@@ -28,7 +28,7 @@
       "value": "1rem"
     },
     "janus-input-btn-padding-y": {
-      "value": ".25rem"
+      "value": ".3125rem"
     },
     "janus-alert-padding-x": {
       "value": "1rem"
@@ -40,7 +40,7 @@
       "value": ".157rem"
     },
     "janus-input-btn-padding-y-lg": {
-      "value": ".375rem"
+      "value": ".4375rem"
     },
     "janus-input-btn-padding-x-sm": {
       "value": "1rem"
@@ -94,7 +94,7 @@
       "type": "number",
       "category": "spacing",
       "name": "janus-input-btn-padding-y",
-      "value": ".25rem",
+      "value": ".3125rem",
       "originalValue": "{!janus-input-btn-padding-y}"
     },
     "janus-input-btn-padding-x-sm": {
@@ -122,7 +122,7 @@
       "type": "number",
       "category": "spacing",
       "name": "janus-input-btn-padding-y-lg",
-      "value": ".375rem",
+      "value": ".4375rem",
       "originalValue": "{!janus-input-btn-padding-y-lg}"
     },
     "janus-input-text-padding-x": {
