@@ -15,6 +15,9 @@
     "janus-color-pale-green": {
       "value": "#66debe"
     },
+    "janus-color-hr-gray": {
+      "value": "#F7F7F7"
+    },
     "janus-disabled-button-border-color": {
       "value": "#CCCCCC"
     },
@@ -245,6 +248,13 @@
       "name": "janus-color-icon-gray",
       "value": "rgb(108, 108, 108)",
       "originalValue": "{!janus-color-icon-gray}"
+    },
+    "janus-color-hr-gray": {
+      "type": "color",
+      "category": "color",
+      "name": "janus-color-hr-gray",
+      "value": "rgb(247, 247, 247)",
+      "originalValue": "{!janus-color-hr-gray}"
     },
     "janus-color-black": {
       "type": "color",
