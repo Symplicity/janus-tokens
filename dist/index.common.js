@@ -68,6 +68,7 @@ module.exports = {
   janusCardAltBodyPaddingY: "1.5rem",
   janusTableCellPaddingX: ".75rem",
   janusTableCellPaddingY: ".75rem",
+  janusModalPaddingX: "1.5rem",
   janusBorderRadius: ".25rem",
   janusBorderRadiusSm: ".125rem",
   janusBorderRadiusLg: ".188rem",
