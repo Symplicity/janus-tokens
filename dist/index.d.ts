@@ -83,6 +83,7 @@ declare interface Tokens {
   janusLineHeightBase: "1.5";
   janusLineHeightSmall: "1.3125rem";
   janusModalPaddingX: "1.5rem";
+  janusModalPaddingY: "1rem";
   janusModalTitleLineHeight: "1.45rem";
   janusNavLinkPaddingX: "0.75rem";
   janusNavLinkPaddingY: "1.0625rem";

@@ -3,6 +3,9 @@
     "janus-modal-padding-x": {
       "value": "1.5rem"
     },
+    "janus-modal-padding-y": {
+      "value": "1rem"
+    },
     "janus-dropdown-item-padding-x": {
       "value": "1.5rem"
     },
@@ -288,6 +291,13 @@
       "name": "janus-modal-padding-x",
       "value": "1.5rem",
       "originalValue": "{!janus-modal-padding-x}"
+    },
+    "janus-modal-padding-y": {
+      "type": "number",
+      "category": "spacing",
+      "name": "janus-modal-padding-y",
+      "value": "1rem",
+      "originalValue": "{!janus-modal-padding-y}"
     }
   }
 }
