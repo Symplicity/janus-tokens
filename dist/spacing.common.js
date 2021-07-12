@@ -29,4 +29,6 @@ module.exports = {
   janusTableCellPaddingY: ".75rem",
   janusModalPaddingX: "1.5rem",
   janusModalPaddingY: "1rem",
+  janusBtnClosePaddingX: ".25rem",
+  janusBtnClosePaddingY: ".25rem",
 };

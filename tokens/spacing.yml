@@ -28,6 +28,8 @@ aliases:
   janus-table-cell-padding-y: '.75rem'
   janus-modal-padding-x: '1.5rem'
   janus-modal-padding-y: '1rem'
+  janus-btn-close-padding-x: '.25rem'
+  janus-btn-close-padding-y: '.25rem'
 props:
   - name: 'janus-input-btn-padding-x'
     value: '{!janus-input-btn-padding-x}'
@@ -89,6 +91,10 @@ props:
     value: '{!janus-modal-padding-x}'
   - name: 'janus-modal-padding-y'
     value: '{!janus-modal-padding-y}'
+  - name: 'janus-btn-close-padding-x'
+    value: '{!janus-btn-close-padding-x}'
+  - name: 'janus-btn-close-padding-y'
+    value: '{!janus-btn-close-padding-y}'
 global:
   type: number
   category: spacing

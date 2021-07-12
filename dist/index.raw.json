@@ -201,6 +201,12 @@
     "janus-card-spacer-y": {
       "value": "1.25rem"
     },
+    "janus-btn-close-padding-x": {
+      "value": ".25rem"
+    },
+    "janus-btn-close-padding-y": {
+      "value": ".25rem"
+    },
     "janus-border-radius": {
       "value": ".25rem"
     },
@@ -762,6 +768,20 @@
       "name": "janus-modal-padding-y",
       "value": "1rem",
       "originalValue": "{!janus-modal-padding-y}"
+    },
+    "janus-btn-close-padding-x": {
+      "type": "number",
+      "category": "spacing",
+      "name": "janus-btn-close-padding-x",
+      "value": ".25rem",
+      "originalValue": "{!janus-btn-close-padding-x}"
+    },
+    "janus-btn-close-padding-y": {
+      "type": "number",
+      "category": "spacing",
+      "name": "janus-btn-close-padding-y",
+      "value": ".25rem",
+      "originalValue": "{!janus-btn-close-padding-y}"
     },
     "janus-border-radius": {
       "type": "number",
