@@ -13,8 +13,8 @@ declare interface Tokens {
   janusBorderRadiusSm: ".125rem";
   janusBorderRadiusXl: ".375rem";
   janusBorderRadiusXxl: ".5rem";
-  janusBtnClosePaddingX: ".25rem";
-  janusBtnClosePaddingY: ".25rem";
+  janusBtnClosePaddingX: ".5rem";
+  janusBtnClosePaddingY: ".5rem";
   janusCardAltBodyPaddingX: "1.5rem";
   janusCardAltBodyPaddingY: "1.5rem";
   janusCardSpacerX: "1.25rem";

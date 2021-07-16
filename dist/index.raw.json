@@ -202,10 +202,10 @@
       "value": "1.25rem"
     },
     "janus-btn-close-padding-x": {
-      "value": ".25rem"
+      "value": ".5rem"
     },
     "janus-btn-close-padding-y": {
-      "value": ".25rem"
+      "value": ".5rem"
     },
     "janus-border-radius": {
       "value": ".25rem"
@@ -773,14 +773,14 @@
       "type": "number",
       "category": "spacing",
       "name": "janus-btn-close-padding-x",
-      "value": ".25rem",
+      "value": ".5rem",
       "originalValue": "{!janus-btn-close-padding-x}"
     },
     "janus-btn-close-padding-y": {
       "type": "number",
       "category": "spacing",
       "name": "janus-btn-close-padding-y",
-      "value": ".25rem",
+      "value": ".5rem",
       "originalValue": "{!janus-btn-close-padding-y}"
     },
     "janus-border-radius": {
