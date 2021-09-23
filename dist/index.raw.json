@@ -121,7 +121,7 @@
       "value": "1rem"
     },
     "janus-dropdown-item-padding-x": {
-      "value": "1.5rem"
+      "value": "1.25rem"
     },
     "janus-dropdown-item-padding-y": {
       "value": ".375rem"
@@ -654,7 +654,7 @@
       "type": "number",
       "category": "spacing",
       "name": "janus-dropdown-item-padding-x",
-      "value": "1.5rem",
+      "value": "1.25rem",
       "originalValue": "{!janus-dropdown-item-padding-x}"
     },
     "janus-dropdown-spacer": {
