@@ -67,13 +67,13 @@
       "value": ".657rem"
     },
     "janus-badge-padding-x": {
-      "value": ".6em"
+      "value": ".667em"
     },
     "janus-card-alt-body-padding-x": {
       "value": "1.5rem"
     },
     "janus-badge-padding-y": {
-      "value": ".3em"
+      "value": ".25em"
     },
     "janus-card-alt-body-padding-y": {
       "value": "1.5rem"
@@ -155,14 +155,14 @@
       "type": "number",
       "category": "spacing",
       "name": "janus-badge-padding-x",
-      "value": ".6em",
+      "value": ".667em",
       "originalValue": "{!janus-badge-padding-x}"
     },
     "janus-badge-padding-y": {
       "type": "number",
       "category": "spacing",
       "name": "janus-badge-padding-y",
-      "value": ".3em",
+      "value": ".25em",
       "originalValue": "{!janus-badge-padding-y}"
     },
     "janus-alert-padding-x": {
