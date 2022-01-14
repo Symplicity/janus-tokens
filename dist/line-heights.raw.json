@@ -2,6 +2,9 @@
   "aliases": {
     "janus-line-height-base": {
       "value": "1.5"
+    },
+    "janus-input-btn-line-height": {
+      "value": "1.375"
     }
   },
   "props": {
@@ -11,6 +14,13 @@
       "name": "janus-line-height-base",
       "value": "1.5",
       "originalValue": "{!janus-line-height-base}"
+    },
+    "janus-input-btn-line-height": {
+      "type": "number",
+      "category": "line-height",
+      "name": "janus-input-btn-line-height",
+      "value": "1.375",
+      "originalValue": "{!janus-input-btn-line-height}"
     }
   }
 }
