@@ -74,6 +74,7 @@ declare interface Tokens {
   janusIconLgLineHeight: "1.5rem";
   janusIconXlFontSize: "1.5rem";
   janusIconXxlFontSize: "2.375rem";
+  janusInputBtnLgLineHeight: "1.375";
   janusInputBtnPaddingX: "1rem";
   janusInputBtnPaddingXLg: "1.75rem";
   janusInputBtnPaddingXSm: "1rem";

@@ -1,16 +1,11 @@
 aliases:
   janus-line-height-base: '1.5'
-  janus-input-btn-lg-line-height: '1.375'
 props:
   # Font sizes and line heights
   - name: 'janus-line-height-base'
     value: '{!janus-line-height-base}'
     type: number
     category: line-height
-  - name: 'janus-input-btn-lg-line-height'
-    value: '{!janus-input-btn-lg-line-height}'
-    type: number
-    category: line-height    
   # Font sizes and line heights
   # -
 global:

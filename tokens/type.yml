@@ -15,6 +15,7 @@ aliases:
   janus-avatar-font-size: '1vw'
   janus-avatar-line-height: '1rem'
   janus-badge-font-size: '.75em'
+  janus-input-btn-lg-line-height: '1.375'
 props:
   # Font sizes and line heights
   - name: janus-font-stack-base
@@ -81,6 +82,10 @@ props:
     value: '{!janus-badge-font-size}'
     type: number
     category: font-size
+  - name: 'janus-input-btn-lg-line-height'
+    value: '{!janus-input-btn-lg-line-height}'
+    type: number
+    category: line-height
   # Font sizes and line heights
   # -
 global:

@@ -28,6 +28,7 @@ module.exports = {
     'invert(19%) sepia(0%) saturate(2%) hue-rotate(308deg) brightness(98%) contrast(95%)',
   janusColorGray900: 'none',
   janusColorIconGray: 'none',
+  janusColorHrGray: 'none',
   janusColorBlack: 'brightness(0) saturate(100%)',
   janusColorWhite: 'brightness(0) saturate(100%) invert(100%)',
   janusColorPrimary: 'none',

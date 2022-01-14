@@ -93,4 +93,5 @@ module.exports = {
   janusAvatarFontSize: "1vw",
   janusAvatarLineHeight: "1rem",
   janusBadgeFontSize: ".75em",
+  janusInputBtnLgLineHeight: "1.375",
 };

@@ -42,6 +42,9 @@
     "janus-font-stack-monospace": {
       "value": "Monaco, monospace"
     },
+    "janus-input-btn-lg-line-height": {
+      "value": "1.375"
+    },
     "janus-font-stack-base": {
       "value": "\"lato\", sans-serif"
     },
@@ -161,6 +164,13 @@
       "name": "janus-badge-font-size",
       "value": ".75em",
       "originalValue": "{!janus-badge-font-size}"
+    },
+    "janus-input-btn-lg-line-height": {
+      "type": "number",
+      "category": "line-height",
+      "name": "janus-input-btn-lg-line-height",
+      "value": "1.375",
+      "originalValue": "{!janus-input-btn-lg-line-height}"
     }
   }
 }
