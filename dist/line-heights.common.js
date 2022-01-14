@@ -1,4 +1,4 @@
 module.exports = {
   janusLineHeightBase: "1.5",
-  janusInputBtnLineHeight: "1.375",
+  janusInputBtnLgLineHeight: "1.375",
 };

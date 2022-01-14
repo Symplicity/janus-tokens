@@ -3,7 +3,7 @@
     "janus-line-height-base": {
       "value": "1.5"
     },
-    "janus-input-btn-line-height": {
+    "janus-input-btn-lg-line-height": {
       "value": "1.375"
     }
   },
@@ -15,12 +15,12 @@
       "value": "1.5",
       "originalValue": "{!janus-line-height-base}"
     },
-    "janus-input-btn-line-height": {
+    "janus-input-btn-lg-line-height": {
       "type": "number",
       "category": "line-height",
-      "name": "janus-input-btn-line-height",
+      "name": "janus-input-btn-lg-line-height",
       "value": "1.375",
-      "originalValue": "{!janus-input-btn-line-height}"
+      "originalValue": "{!janus-input-btn-lg-line-height}"
     }
   }
 }
