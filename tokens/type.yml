@@ -1,5 +1,5 @@
 aliases:
-  janus-font-stack-base: '"lato", sans-serif'
+  janus-font-stack-base: '"Source Sans Pro", sans-serif'
   janus-font-stack-monospace: 'Monaco, monospace'
   janus-font-size-base: '1rem'
   janus-line-height-base: '1.5'

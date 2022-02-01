@@ -268,7 +268,7 @@
       "value": "1.375"
     },
     "janus-font-stack-base": {
-      "value": "\"lato\", sans-serif"
+      "value": "\"Source Sans Pro\", sans-serif"
     },
     "janus-badge-font-size": {
       "value": ".75em"
@@ -825,7 +825,7 @@
       "type": "font-family",
       "category": "font-family",
       "name": "janus-font-stack-base",
-      "value": "\"lato\", sans-serif",
+      "value": "\"Source Sans Pro\", sans-serif",
       "originalValue": "{!janus-font-stack-base}"
     },
     "janus-font-stack-monospace": {

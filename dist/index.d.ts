@@ -66,7 +66,7 @@ declare interface Tokens {
   janusDropdownSpacer: ".25rem";
   janusFontSizeBase: "1rem";
   janusFontSizeSmall: ".875em";
-  janusFontStackBase: "\"lato\", sans-serif";
+  janusFontStackBase: "\"Source Sans Pro\", sans-serif";
   janusFontStackMonospace: "Monaco, monospace";
   janusFormSelectPaddingX: ".5rem";
   janusHeadingsLineHeightBase: "1.4";
