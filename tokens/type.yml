@@ -6,6 +6,8 @@ aliases:
   janus-font-size-small: '.875em'
   janus-line-height-small: '1.3125rem'
   janus-headings-line-height-base: '1.4'
+  janus-icon-base-font-size: '1rem'
+  janus-icon-base-line-height: '1.25rem'
   janus-icon-lg-font-size: '1.25rem'
   janus-icon-lg-line-height: '1.5rem'
   janus-icon-xl-font-size: '1.5rem'
@@ -44,6 +46,14 @@ props:
     category: line-height
   - name: 'janus-headings-line-height-base'
     value: '{!janus-headings-line-height-base}'
+    type: number
+    category: line-height
+  - name: 'janus-icon-base-font-size'
+    value: '{!janus-icon-base-font-size}'
+    type: number
+    category: font-size
+  - name: 'janus-icon-base-line-height'
+    value: '{!janus-icon-base-line-height}' 
     type: number
     category: line-height
   - name: 'janus-icon-lg-font-size'

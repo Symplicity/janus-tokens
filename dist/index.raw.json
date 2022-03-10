@@ -222,6 +222,9 @@
     "janus-border-radius-xxl": {
       "value": ".5rem"
     },
+    "janus-icon-base-line-height": {
+      "value": "1.25rem"
+    },
     "janus-font-size-small": {
       "value": ".875em"
     },
@@ -272,6 +275,9 @@
     },
     "janus-badge-font-size": {
       "value": ".75em"
+    },
+    "janus-icon-base-font-size": {
+      "value": "1rem"
     }
   },
   "props": {
@@ -869,6 +875,20 @@
       "name": "janus-headings-line-height-base",
       "value": "1.4",
       "originalValue": "{!janus-headings-line-height-base}"
+    },
+    "janus-icon-base-font-size": {
+      "type": "number",
+      "category": "font-size",
+      "name": "janus-icon-base-font-size",
+      "value": "1rem",
+      "originalValue": "{!janus-icon-base-font-size}"
+    },
+    "janus-icon-base-line-height": {
+      "type": "number",
+      "category": "line-height",
+      "name": "janus-icon-base-line-height",
+      "value": "1.25rem",
+      "originalValue": "{!janus-icon-base-line-height}"
     },
     "janus-icon-lg-font-size": {
       "type": "number",

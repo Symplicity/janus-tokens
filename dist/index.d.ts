@@ -70,6 +70,8 @@ declare interface Tokens {
   janusFontStackMonospace: "Monaco, monospace";
   janusFormSelectPaddingX: ".5rem";
   janusHeadingsLineHeightBase: "1.4";
+  janusIconBaseFontSize: "1rem";
+  janusIconBaseLineHeight: "1.25rem";
   janusIconLgFontSize: "1.25rem";
   janusIconLgLineHeight: "1.5rem";
   janusIconXlFontSize: "1.5rem";
