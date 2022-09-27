@@ -5,6 +5,7 @@ module.exports = {
   janusColorPalePurple: "rgb(153, 146, 251)",
   janusColorPaleBlue: "rgb(102, 186, 236)",
   janusColorPaleRed: "rgb(246, 102, 102)",
+  janusColorPaleYellow: "rgb(255, 255, 204)",
   janusColorText: "rgb(85, 85, 85)",
   janusColorTextSecondary: "rgb(170, 170, 170)",
   janusColorTextDarker: "rgb(69, 69, 69)",

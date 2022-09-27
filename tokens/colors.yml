@@ -5,6 +5,7 @@ aliases:
   janus-color-pale-purple : '#9992fb'
   janus-color-pale-blue : '#66baec'
   janus-color-pale-red : '#f66666'
+  janus-color-pale-yellow: '#ffffcc'
   janus-color-gray-100: '#f6f6f6'
   janus-color-gray-200: '#ececec' 
   janus-color-gray-300: '#cccccc'
@@ -50,6 +51,8 @@ props:
     value: '{!janus-color-pale-blue}'
   - name: janus-color-pale-red
     value: '{!janus-color-pale-red}'
+  - name: janus-color-pale-yellow
+    value: '{!janus-color-pale-yellow}'    
   - name: janus-color-text
     value: '{!janus-color-gray-700}'
     category: text-color
