@@ -40,7 +40,7 @@
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-theo": "^2.0.0",
-    "http-server": "^0.12.3",
+    "http-server": "^14.1.1",
     "immutable": "^3.8.2",
     "lodash": "^4.17.21",
     "ms": "^2.1.3",
