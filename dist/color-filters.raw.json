@@ -87,6 +87,9 @@
     "janus-color-danger-hover": {
       "value": "#AB3720"
     },
+    "janus-color-pale-yellow": {
+      "value": "#ffffcc"
+    },
     "janus-color-icon-gray": {
       "value": "#6C6C6C"
     },
@@ -157,6 +160,13 @@
       "name": "janus-color-pale-red",
       "value": "none",
       "originalValue": "{!janus-color-pale-red}"
+    },
+    "janus-color-pale-yellow": {
+      "type": "color",
+      "category": "color",
+      "name": "janus-color-pale-yellow",
+      "value": "none",
+      "originalValue": "{!janus-color-pale-yellow}"
     },
     "janus-color-text": {
       "type": "color",

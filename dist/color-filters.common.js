@@ -5,6 +5,7 @@ module.exports = {
   janusColorPalePurple: 'none',
   janusColorPaleBlue: 'none',
   janusColorPaleRed: 'none',
+  janusColorPaleYellow: 'none',
   janusColorText:
     'invert(25%) sepia(0%) saturate(117%) hue-rotate(172deg) brightness(99%) contrast(89%)',
   janusColorTextSecondary:

@@ -5,6 +5,7 @@
   "janus-color-pale-purple": "none",
   "janus-color-pale-blue": "none",
   "janus-color-pale-red": "none",
+  "janus-color-pale-yellow": "none",
   "janus-color-text": "invert(25%) sepia(0%) saturate(117%) hue-rotate(172deg) brightness(99%) contrast(89%)",
   "janus-color-text-secondary": "invert(40%) sepia(0%) saturate(1050%) hue-rotate(222deg) brightness(102%) contrast(81%)",
   "janus-color-text-darker": "invert(19%) sepia(0%) saturate(2%) hue-rotate(308deg) brightness(98%) contrast(95%)",
