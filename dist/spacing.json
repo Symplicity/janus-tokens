@@ -1,5 +1,5 @@
 {
-  "janus-input-btn-padding-x": "1rem",
+  "janus-input-btn-padding-x": ".75rem",
   "janus-input-btn-padding-y": ".3125rem",
   "janus-input-btn-padding-x-sm": "1rem",
   "janus-input-btn-padding-y-sm": ".157rem",

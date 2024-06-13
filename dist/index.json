@@ -41,7 +41,7 @@
   "janus-disabled-button-color": "rgb(170, 170, 170)",
   "janus-disabled-button-border-color": "rgb(204, 204, 204)",
   "janus-disabled-button-background-color": "rgb(236, 236, 236)",
-  "janus-input-btn-padding-x": "1rem",
+  "janus-input-btn-padding-x": ".75rem",
   "janus-input-btn-padding-y": ".3125rem",
   "janus-input-btn-padding-x-sm": "1rem",
   "janus-input-btn-padding-y-sm": ".157rem",
