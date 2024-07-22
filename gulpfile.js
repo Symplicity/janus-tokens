@@ -3,6 +3,7 @@ const browserSync = require('browser-sync');
 const theo = require('theo');
 const gulpLoadPlugins = require('gulp-load-plugins');
 const ms = require('ms');
+const sass = require('gulp-sass')(require('sass'));
 
 const $ = gulpLoadPlugins();
 
@@ -204,11 +205,11 @@ gulp.task('docs:styles', (done) => {
     .pipe($.sourcemaps.init())
     .pipe($.rename(addPrefix))
     .pipe(
-      $.sass
+      sass
         .sync({
           precision: 10,
         })
-        .on('error', $.sass.logError),
+        .on('error', sass.logError),
     )
     .pipe($.rename(removePrefix))
     .pipe($.sourcemaps.write('.'))
