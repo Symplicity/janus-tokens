@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <color name="polaris_janus_color_black">#ff000000</color>
-    <color name="polaris_janus_color_danger">#ffbf3e24</color>
-    <color name="polaris_janus_color_danger_background">#ffffe9e4</color>
-    <color name="polaris_janus_color_danger_hover">#ffab3720</color>
+    <color name="polaris_janus_color_danger">#ff9f0000</color>
+    <color name="polaris_janus_color_danger_background">#fff7e6e3</color>
+    <color name="polaris_janus_color_danger_hover">#ff7b0000</color>
     <color name="polaris_janus_color_gray_100">#fff6f6f6</color>
     <color name="polaris_janus_color_gray_200">#ffececec</color>
     <color name="polaris_janus_color_gray_300">#ffcccccc</color>
@@ -15,9 +15,9 @@
     <color name="polaris_janus_color_gray_900">#ff333333</color>
     <color name="polaris_janus_color_hr_gray">#fff6f6f6</color>
     <color name="polaris_janus_color_icon_gray">#ff6c6c6c</color>
-    <color name="polaris_janus_color_info">#ff0b5ba1</color>
-    <color name="polaris_janus_color_info_background">#ffe1f1ff</color>
-    <color name="polaris_janus_color_info_hover">#ff0b61ad</color>
+    <color name="polaris_janus_color_info">#ff084479</color>
+    <color name="polaris_janus_color_info_background">#ffe2eef9</color>
+    <color name="polaris_janus_color_info_hover">#ff063158</color>
     <color name="polaris_janus_color_pale_blue">#ff66baec</color>
     <color name="polaris_janus_color_pale_green">#ff66debe</color>
     <color name="polaris_janus_color_pale_indigo">#ff5a90e8</color>
@@ -30,13 +30,13 @@
     <color name="polaris_janus_color_secondary">#ff454545</color>
     <color name="polaris_janus_color_secondary_background">#ffececec</color>
     <color name="polaris_janus_color_success">#ff297848</color>
-    <color name="polaris_janus_color_success_background">#ffd2f5e0</color>
+    <color name="polaris_janus_color_success_background">#ffe3ede7</color>
     <color name="polaris_janus_color_success_hover">#ff246b40</color>
     <color name="polaris_janus_color_text">#ff555555</color>
     <color name="polaris_janus_color_text_darker">#ff454545</color>
     <color name="polaris_janus_color_text_secondary">#ffaaaaaa</color>
     <color name="polaris_janus_color_warning">#ffa85502</color>
-    <color name="polaris_janus_color_warning_background">#fffeebc9</color>
+    <color name="polaris_janus_color_warning_background">#fff6ede4</color>
     <color name="polaris_janus_color_warning_hover">#ff964c01</color>
     <color name="polaris_janus_color_white">#ffffffff</color>
     <color name="polaris_janus_disabled_button_background_color">#ffececec</color>
