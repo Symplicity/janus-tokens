@@ -10,7 +10,7 @@
       "value": "1.3125rem"
     },
     "janus-headings-line-height-base": {
-      "value": "1.4"
+      "value": "1.2"
     },
     "janus-icon-xl-font-size": {
       "value": "1.5rem"
@@ -105,7 +105,7 @@
       "type": "number",
       "category": "line-height",
       "name": "janus-headings-line-height-base",
-      "value": "1.4",
+      "value": "1.2",
       "originalValue": "{!janus-headings-line-height-base}"
     },
     "janus-icon-base-font-size": {

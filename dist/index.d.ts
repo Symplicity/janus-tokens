@@ -63,14 +63,14 @@ declare interface Tokens {
   janusDisabledButtonBorderColor: "rgb(204, 204, 204)";
   janusDisabledButtonColor: "rgb(170, 170, 170)";
   janusDropdownItemPaddingX: "1.25rem";
-  janusDropdownItemPaddingY: ".375rem";
+  janusDropdownItemPaddingY: ".25rem";
   janusDropdownSpacer: ".25rem";
   janusFontSizeBase: "1rem";
   janusFontSizeSmall: ".875em";
   janusFontStackBase: "\"Source Sans Pro\", sans-serif";
   janusFontStackMonospace: "Monaco, monospace";
   janusFormSelectPaddingX: ".5rem";
-  janusHeadingsLineHeightBase: "1.4";
+  janusHeadingsLineHeightBase: "1.2";
   janusIconBaseFontSize: "1rem";
   janusIconBaseLineHeight: "1.25rem";
   janusIconLgFontSize: "1.25rem";

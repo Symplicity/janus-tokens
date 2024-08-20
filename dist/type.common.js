@@ -5,7 +5,7 @@ module.exports = {
   janusLineHeightBase: '1.5',
   janusFontSizeSmall: '.875em',
   janusLineHeightSmall: '1.3125rem',
-  janusHeadingsLineHeightBase: '1.4',
+  janusHeadingsLineHeightBase: '1.2',
   janusIconBaseFontSize: '1rem',
   janusIconBaseLineHeight: '1.25rem',
   janusIconLgFontSize: '1.25rem',
