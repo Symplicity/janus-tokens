@@ -15,6 +15,9 @@
     "janus-color-pale-green": {
       "value": "#66debe"
     },
+    "janus-color-gray-50": {
+      "value": "#FBFBFB"
+    },
     "janus-color-hr-gray": {
       "value": "#f6f6f6"
     },
@@ -148,7 +151,7 @@
       "value": ".25rem"
     },
     "janus-input-btn-padding-x": {
-      "value": ".75rem"
+      "value": "1rem"
     },
     "janus-input-btn-padding-y": {
       "value": ".3125rem"
@@ -166,13 +169,13 @@
       "value": ".5rem"
     },
     "janus-input-btn-padding-x-sm": {
-      "value": ".5rem"
+      "value": ".75rem"
     },
     "janus-input-text-padding-x": {
       "value": "\t.75rem"
     },
     "janus-input-btn-padding-x-lg": {
-      "value": "1.75rem"
+      "value": "1.5rem"
     },
     "janus-search-select-padding-x": {
       "value": "1.25rem"
@@ -184,7 +187,7 @@
       "value": ".657rem"
     },
     "janus-badge-padding-x": {
-      "value": ".6em"
+      "value": ".5em"
     },
     "janus-card-alt-body-padding-x": {
       "value": "1.5rem"
@@ -582,7 +585,7 @@
       "type": "number",
       "category": "spacing",
       "name": "janus-input-btn-padding-x",
-      "value": ".75rem",
+      "value": "1rem",
       "originalValue": "{!janus-input-btn-padding-x}"
     },
     "janus-input-btn-padding-y": {
@@ -596,7 +599,7 @@
       "type": "number",
       "category": "spacing",
       "name": "janus-input-btn-padding-x-sm",
-      "value": ".5rem",
+      "value": ".75rem",
       "originalValue": "{!janus-input-btn-padding-x-sm}"
     },
     "janus-input-btn-padding-y-sm": {
@@ -610,7 +613,7 @@
       "type": "number",
       "category": "spacing",
       "name": "janus-input-btn-padding-x-lg",
-      "value": "1.75rem",
+      "value": "1.5rem",
       "originalValue": "{!janus-input-btn-padding-x-lg}"
     },
     "janus-input-btn-padding-y-lg": {
@@ -638,7 +641,7 @@
       "type": "number",
       "category": "spacing",
       "name": "janus-badge-padding-x",
-      "value": ".6em",
+      "value": ".5em",
       "originalValue": "{!janus-badge-padding-x}"
     },
     "janus-badge-padding-y": {

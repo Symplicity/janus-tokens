@@ -15,6 +15,9 @@
     "janus-color-pale-green": {
       "value": "#66debe"
     },
+    "janus-color-gray-50": {
+      "value": "#FBFBFB"
+    },
     "janus-color-hr-gray": {
       "value": "#f6f6f6"
     },
