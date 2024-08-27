@@ -1,7 +1,7 @@
 {
   "aliases": {
     "janus-color-primary": {
-      "value": "#0E62B9"
+      "value": "#006DA3"
     },
     "janus-color-warning-background": {
       "value": "#F6EDE4"
@@ -31,13 +31,13 @@
       "value": "#ffffff"
     },
     "janus-color-warning-hover": {
-      "value": "#964C01"
+      "value": "#8D4702"
     },
     "janus-color-gray-100": {
       "value": "#f6f6f6"
     },
     "janus-color-secondary-background": {
-      "value": "#ECECEC"
+      "value": "#E3DAFC"
     },
     "janus-color-gray-200": {
       "value": "#ececec"
@@ -79,7 +79,7 @@
       "value": "#333333"
     },
     "janus-color-secondary": {
-      "value": "#454545"
+      "value": "#5A38C2"
     },
     "janus-color-pale-indigo": {
       "value": "#5a90e8"
@@ -103,7 +103,7 @@
       "value": "#E3EDE7"
     },
     "janus-color-primary-background": {
-      "value": "#D7F8F7"
+      "value": "#CCE7F5"
     },
     "janus-color-pale-blue": {
       "value": "#66baec"
@@ -449,28 +449,28 @@
       "type": "color",
       "category": "color",
       "name": "janus-color-primary",
-      "value": "rgb(14, 98, 185)",
+      "value": "rgb(0, 109, 163)",
       "originalValue": "{!janus-color-primary}"
     },
     "janus-color-primary-background": {
       "type": "color",
       "category": "color",
       "name": "janus-color-primary-background",
-      "value": "rgb(215, 248, 247)",
+      "value": "rgb(204, 231, 245)",
       "originalValue": "{!janus-color-primary-background}"
     },
     "janus-color-secondary": {
       "type": "color",
       "category": "color",
       "name": "janus-color-secondary",
-      "value": "rgb(69, 69, 69)",
+      "value": "rgb(90, 56, 194)",
       "originalValue": "{!janus-color-secondary}"
     },
     "janus-color-secondary-background": {
       "type": "color",
       "category": "color",
       "name": "janus-color-secondary-background",
-      "value": "rgb(236, 236, 236)",
+      "value": "rgb(227, 218, 252)",
       "originalValue": "{!janus-color-secondary-background}"
     },
     "janus-color-success": {
@@ -526,7 +526,7 @@
       "type": "color",
       "category": "color",
       "name": "janus-color-warning-hover",
-      "value": "rgb(150, 76, 1)",
+      "value": "rgb(141, 71, 2)",
       "originalValue": "{!janus-color-warning-hover}"
     },
     "janus-color-warning-background": {

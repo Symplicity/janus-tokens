@@ -45,10 +45,10 @@ declare interface Tokens {
   janusColorPalePurple: "rgb(153, 146, 251)";
   janusColorPaleRed: "rgb(246, 102, 102)";
   janusColorPaleYellow: "rgb(255, 255, 204)";
-  janusColorPrimary: "rgb(14, 98, 185)";
-  janusColorPrimaryBackground: "rgb(215, 248, 247)";
-  janusColorSecondary: "rgb(69, 69, 69)";
-  janusColorSecondaryBackground: "rgb(236, 236, 236)";
+  janusColorPrimary: "rgb(0, 109, 163)";
+  janusColorPrimaryBackground: "rgb(204, 231, 245)";
+  janusColorSecondary: "rgb(90, 56, 194)";
+  janusColorSecondaryBackground: "rgb(227, 218, 252)";
   janusColorSuccess: "rgb(41, 120, 72)";
   janusColorSuccessBackground: "rgb(227, 237, 231)";
   janusColorSuccessHover: "rgb(36, 107, 64)";
@@ -57,7 +57,7 @@ declare interface Tokens {
   janusColorTextSecondary: "rgb(170, 170, 170)";
   janusColorWarning: "rgb(168, 85, 2)";
   janusColorWarningBackground: "rgb(246, 237, 228)";
-  janusColorWarningHover: "rgb(150, 76, 1)";
+  janusColorWarningHover: "rgb(141, 71, 2)";
   janusColorWhite: "rgb(255, 255, 255)";
   janusDisabledButtonBackgroundColor: "rgb(236, 236, 236)";
   janusDisabledButtonBorderColor: "rgb(204, 204, 204)";

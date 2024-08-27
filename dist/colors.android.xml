@@ -25,10 +25,10 @@
     <color name="polaris_janus_color_pale_purple">#ff9992fb</color>
     <color name="polaris_janus_color_pale_red">#fff66666</color>
     <color name="polaris_janus_color_pale_yellow">#ffffffcc</color>
-    <color name="polaris_janus_color_primary">#ff0e62b9</color>
-    <color name="polaris_janus_color_primary_background">#ffd7f8f7</color>
-    <color name="polaris_janus_color_secondary">#ff454545</color>
-    <color name="polaris_janus_color_secondary_background">#ffececec</color>
+    <color name="polaris_janus_color_primary">#ff006da3</color>
+    <color name="polaris_janus_color_primary_background">#ffcce7f5</color>
+    <color name="polaris_janus_color_secondary">#ff5a38c2</color>
+    <color name="polaris_janus_color_secondary_background">#ffe3dafc</color>
     <color name="polaris_janus_color_success">#ff297848</color>
     <color name="polaris_janus_color_success_background">#ffe3ede7</color>
     <color name="polaris_janus_color_success_hover">#ff246b40</color>
@@ -37,7 +37,7 @@
     <color name="polaris_janus_color_text_secondary">#ffaaaaaa</color>
     <color name="polaris_janus_color_warning">#ffa85502</color>
     <color name="polaris_janus_color_warning_background">#fff6ede4</color>
-    <color name="polaris_janus_color_warning_hover">#ff964c01</color>
+    <color name="polaris_janus_color_warning_hover">#ff8d4702</color>
     <color name="polaris_janus_color_white">#ffffffff</color>
     <color name="polaris_janus_disabled_button_background_color">#ffececec</color>
     <color name="polaris_janus_disabled_button_border_color">#ffcccccc</color>
