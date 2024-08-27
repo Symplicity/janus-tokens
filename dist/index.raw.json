@@ -214,19 +214,19 @@
       "value": ".5rem"
     },
     "janus-border-radius": {
-      "value": ".25rem"
-    },
-    "janus-border-radius-sm": {
-      "value": ".125rem"
-    },
-    "janus-border-radius-lg": {
-      "value": ".188rem"
-    },
-    "janus-border-radius-xl": {
       "value": ".375rem"
     },
+    "janus-border-radius-sm": {
+      "value": ".188rem"
+    },
+    "janus-border-radius-lg": {
+      "value": ".562rem"
+    },
+    "janus-border-radius-xl": {
+      "value": ".65rem"
+    },
     "janus-border-radius-xxl": {
-      "value": ".5rem"
+      "value": ".75rem"
     },
     "janus-icon-base-line-height": {
       "value": "1.25rem"
@@ -809,35 +809,35 @@
       "type": "number",
       "category": "border-radius",
       "name": "janus-border-radius",
-      "value": ".25rem",
+      "value": ".375rem",
       "originalValue": "{!janus-border-radius}"
     },
     "janus-border-radius-sm": {
       "type": "number",
       "category": "border-radius",
       "name": "janus-border-radius-sm",
-      "value": ".125rem",
+      "value": ".188rem",
       "originalValue": "{!janus-border-radius-sm}"
     },
     "janus-border-radius-lg": {
       "type": "number",
       "category": "border-radius",
       "name": "janus-border-radius-lg",
-      "value": ".188rem",
+      "value": ".562rem",
       "originalValue": "{!janus-border-radius-lg}"
     },
     "janus-border-radius-xl": {
       "type": "number",
       "category": "border-radius",
       "name": "janus-border-radius-xl",
-      "value": ".375rem",
+      "value": ".65rem",
       "originalValue": "{!janus-border-radius-xl}"
     },
     "janus-border-radius-xxl": {
       "type": "number",
       "category": "border-radius",
       "name": "janus-border-radius-xxl",
-      "value": ".5rem",
+      "value": ".75rem",
       "originalValue": "{!janus-border-radius-xxl}"
     },
     "janus-font-stack-base": {
