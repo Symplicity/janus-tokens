@@ -91,8 +91,8 @@ declare interface Tokens {
   janusModalPaddingX: "1.5rem";
   janusModalPaddingY: "1rem";
   janusModalTitleLineHeight: "1.45rem";
-  janusNavLinkPaddingX: "0.75rem";
-  janusNavLinkPaddingY: "1.0625rem";
+  janusNavLinkPaddingX: "1rem";
+  janusNavLinkPaddingY: ".5rem";
   janusSearchSelectPaddingX: "1.25rem";
   janusSearchSelectPaddingY: ".657rem";
   janusTableCellPaddingX: ".75rem";
