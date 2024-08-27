@@ -6,6 +6,7 @@ aliases:
   janus-color-pale-blue : '#66baec'
   janus-color-pale-red : '#f66666'
   janus-color-pale-yellow: '#ffffcc'
+  janus-color-gray-50: '#FBFBFB'
   janus-color-gray-100: '#f6f6f6'
   janus-color-gray-200: '#ececec' 
   janus-color-gray-300: '#cccccc'
