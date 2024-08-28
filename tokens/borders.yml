@@ -1,9 +1,9 @@
 aliases:
   janus-border-radius: '.375rem'
-  janus-border-radius-sm: '.188rem'
-  janus-border-radius-lg: '.562rem'
-  janus-border-radius-xl: '.65rem'
-  janus-border-radius-xxl: '.75rem'
+  janus-border-radius-sm: '.25rem'
+  janus-border-radius-lg: '.625rem'
+  janus-border-radius-xl: '.75rem'
+  janus-border-radius-xxl: '1rem'
 props:
   - name: janus-border-radius
     value: '{!janus-border-radius}'
