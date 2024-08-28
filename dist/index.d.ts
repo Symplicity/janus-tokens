@@ -9,10 +9,10 @@ declare interface Tokens {
   janusBadgePaddingX: ".5em";
   janusBadgePaddingY: ".3em";
   janusBorderRadius: ".375rem";
-  janusBorderRadiusLg: ".562rem";
-  janusBorderRadiusSm: ".188rem";
-  janusBorderRadiusXl: ".65rem";
-  janusBorderRadiusXxl: ".75rem";
+  janusBorderRadiusLg: ".625rem";
+  janusBorderRadiusSm: ".25rem";
+  janusBorderRadiusXl: ".75rem";
+  janusBorderRadiusXxl: "1rem";
   janusBtnClosePaddingX: ".5rem";
   janusBtnClosePaddingY: ".5rem";
   janusCardAltBodyPaddingX: "1.5rem";

@@ -4,16 +4,16 @@
       "value": ".375rem"
     },
     "janus-border-radius-sm": {
-      "value": ".188rem"
+      "value": ".25rem"
     },
     "janus-border-radius-lg": {
-      "value": ".562rem"
+      "value": ".625rem"
     },
     "janus-border-radius-xl": {
-      "value": ".65rem"
+      "value": ".75rem"
     },
     "janus-border-radius-xxl": {
-      "value": ".75rem"
+      "value": "1rem"
     }
   },
   "props": {
@@ -28,28 +28,28 @@
       "type": "number",
       "category": "border-radius",
       "name": "janus-border-radius-sm",
-      "value": ".188rem",
+      "value": ".25rem",
       "originalValue": "{!janus-border-radius-sm}"
     },
     "janus-border-radius-lg": {
       "type": "number",
       "category": "border-radius",
       "name": "janus-border-radius-lg",
-      "value": ".562rem",
+      "value": ".625rem",
       "originalValue": "{!janus-border-radius-lg}"
     },
     "janus-border-radius-xl": {
       "type": "number",
       "category": "border-radius",
       "name": "janus-border-radius-xl",
-      "value": ".65rem",
+      "value": ".75rem",
       "originalValue": "{!janus-border-radius-xl}"
     },
     "janus-border-radius-xxl": {
       "type": "number",
       "category": "border-radius",
       "name": "janus-border-radius-xxl",
-      "value": ".75rem",
+      "value": "1rem",
       "originalValue": "{!janus-border-radius-xxl}"
     }
   }
