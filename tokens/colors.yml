@@ -73,6 +73,12 @@ props:
     meta:
       filter: >-
         invert(19%) sepia(0%) saturate(2%) hue-rotate(308deg) brightness(98%) contrast(95%)
+  - name: janus-color-gray-50
+    value: '{!janus-color-gray-50}'
+    category: color
+    meta:
+      filter: >-
+        invert(99%) sepia(20%) saturate(7496%) hue-rotate(184deg) brightness(129%) contrast(97%);
   - name: janus-color-gray-100
     value: '{!janus-color-gray-100}'
     category: color
