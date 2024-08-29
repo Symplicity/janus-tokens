@@ -9,6 +9,7 @@ module.exports = {
   janusColorText: 'rgb(85, 85, 85)',
   janusColorTextSecondary: 'rgb(170, 170, 170)',
   janusColorTextDarker: 'rgb(69, 69, 69)',
+  janusColorGray50: 'rgb(251, 251, 251)',
   janusColorGray100: 'rgb(246, 246, 246)',
   janusColorGray200: 'rgb(236, 236, 236)',
   janusColorGray300: 'rgb(204, 204, 204)',

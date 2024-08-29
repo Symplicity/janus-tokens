@@ -192,6 +192,13 @@
       "value": "rgb(69, 69, 69)",
       "originalValue": "{!janus-color-gray-800}"
     },
+    "janus-color-gray-50": {
+      "type": "color",
+      "category": "color",
+      "name": "janus-color-gray-50",
+      "value": "rgb(251, 251, 251)",
+      "originalValue": "{!janus-color-gray-50}"
+    },
     "janus-color-gray-100": {
       "type": "color",
       "category": "color",

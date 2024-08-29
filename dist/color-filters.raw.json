@@ -192,6 +192,13 @@
       "value": "invert(19%) sepia(0%) saturate(2%) hue-rotate(308deg) brightness(98%) contrast(95%)",
       "originalValue": "{!janus-color-gray-800}"
     },
+    "janus-color-gray-50": {
+      "type": "color",
+      "category": "color",
+      "name": "janus-color-gray-50",
+      "value": "invert(99%) sepia(20%) saturate(7496%) hue-rotate(184deg) brightness(129%) contrast(97%);",
+      "originalValue": "{!janus-color-gray-50}"
+    },
     "janus-color-gray-100": {
       "type": "color",
       "category": "color",

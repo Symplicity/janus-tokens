@@ -28,6 +28,7 @@ declare interface Tokens {
   janusColorGray200: "rgb(236, 236, 236)";
   janusColorGray300: "rgb(204, 204, 204)";
   janusColorGray400: "rgb(170, 170, 170)";
+  janusColorGray50: "rgb(251, 251, 251)";
   janusColorGray500: "rgb(148, 148, 148)";
   janusColorGray600: "rgb(108, 108, 108)";
   janusColorGray700: "rgb(85, 85, 85)";

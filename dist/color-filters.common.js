@@ -12,6 +12,8 @@ module.exports = {
     'invert(40%) sepia(0%) saturate(1050%) hue-rotate(222deg) brightness(102%) contrast(81%)',
   janusColorTextDarker:
     'invert(19%) sepia(0%) saturate(2%) hue-rotate(308deg) brightness(98%) contrast(95%)',
+  janusColorGray50:
+    'invert(99%) sepia(20%) saturate(7496%) hue-rotate(184deg) brightness(129%) contrast(97%);',
   janusColorGray100:
     'invert(100%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(115%) contrast(95%)',
   janusColorGray200:
