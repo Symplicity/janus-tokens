@@ -3,8 +3,10 @@ const browserSync = require('browser-sync');
 const theo = require('theo');
 const gulpLoadPlugins = require('gulp-load-plugins');
 const ms = require('ms');
+const sass = require('sass');
 
 const $ = gulpLoadPlugins();
+const compileSass = require('gulp-sass')(sass);
 
 theo.registerValueTransform(
   'filter',
@@ -204,11 +206,11 @@ gulp.task('docs:styles', (done) => {
     .pipe($.sourcemaps.init())
     .pipe($.rename(addPrefix))
     .pipe(
-      $.sass
+      compileSass
         .sync({
           precision: 10,
         })
-        .on('error', $.sass.logError),
+        .on('error', compileSass.logError),
     )
     .pipe($.rename(removePrefix))
     .pipe($.sourcemaps.write('.'))
