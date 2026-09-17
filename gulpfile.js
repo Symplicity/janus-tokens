@@ -79,7 +79,10 @@ const removePrefix = (gulpRenameOptions) => {
 gulp.task('web-formats', (done) => {
   webFormats.map(({transformType, formatType}) =>
     gulp
-      .src('tokens/*.yml')
+      // Exclude colors.dark.yml: it is dark-axis *data* consumed only by
+      // scripts/append-dark.js, not a theo light-mode source. Feeding it through
+      // theo would emit stray (and forbidden, per spec §3) dark `$`/CSS artifacts.
+      .src(['tokens/*.yml', '!tokens/colors.dark.yml'])
       .pipe($.rename(addPrefix))
       .pipe(
         $.theo({
@@ -256,7 +259,7 @@ function reload(done) {
 
 function watch() {
   gulp.watch(
-    ['tokens/*.yml'],
+    ['tokens/*.yml', '!tokens/colors.dark.yml'],
     gulp.series([
       'web-formats',
       'typings',

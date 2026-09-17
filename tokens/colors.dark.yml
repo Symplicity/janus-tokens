@@ -1,0 +1,93 @@
+# Dark-mode values for the Janus color tokens.
+#
+# SOURCE OF TRUTH for the dark axis. This file is intentionally NOT imported by
+# `tokens/index.yml` and is NOT fed into any theo light-mode pipeline, so it can
+# never alter existing light-mode (`:root`) output. It is consumed only by
+# `scripts/append-dark.js`, which appends a `[data-bs-theme="dark"]` block to the
+# generated `dist/*.custom-properties.css` files (additive only).
+#
+# Every key here must correspond 1:1 to a `--janus-color-*` / `--janus-*` custom
+# property emitted in the light `:root` block of dist/colors.custom-properties.css.
+# The append script fails the build if any light color token is missing a dark
+# value here (guards against silent omission — spec §10 criterion 2).
+#
+# Selector strategy: `[data-bs-theme="dark"]` — matches janus-v2-bootstrap's
+# `color-mode(dark)` mixin (scss/mixins/_color-mode.scss), which expands to the
+# same attribute selector. Do NOT introduce a second convention.
+#
+# Axis rules (dark-mode-guide-en.md §2–§3, color-variable-inventory.md §3–§4):
+#   - NEUTRAL (gray/white/black/text/icon-gray/hr-gray/secondary): invert lightness.
+#   - SEMANTIC (primary/success/info/warning/danger + hover): keep HUE, only
+#     raise lightness / trim saturation for legibility on a dark surface.
+#   - *-background pales: dark, low-saturation surface of the same hue.
+#   - pale-* accents: keep hue, reduce lightness/saturation for dark comfort.
+#
+# Values are expressed as hex; the append script converts to the same
+# `rgb(r, g, b)` form theo emits for the light block, keeping output consistent.
+
+dark:
+  # --- Pale accents (semantic accents: keep hue, reduce lightness/saturation) ---
+  janus-color-pale-green: '#5cc9ac'   # light #66debe
+  janus-color-pale-orange: '#e07a42'  # light #f0874b
+  janus-color-pale-indigo: '#5285d6'  # light #5a90e8
+  janus-color-pale-purple: '#8a84e6'  # light #9992fb
+  janus-color-pale-blue: '#5aabdb'    # light #66baec
+  janus-color-pale-red: '#e35d5d'     # light #f66666
+  janus-color-pale-yellow: '#d6d6a3'  # light #ffffcc (near-white → brought down for dark)
+
+  # --- Text (neutral: invert; keep muted/disabled intentionally lower contrast) ---
+  janus-color-text: '#b8b8b8'          # light gray-700 #555555 → body text on dark
+  janus-color-text-secondary: '#8f8f8f' # light gray-400 #aaaaaa → muted, still ≥4.5:1 on Surface 0
+  janus-color-text-darker: '#d4d4d4'   # light gray-800 #454545 → highest-contrast text
+
+  # --- Gray scale (neutral: reverse the lightness scale, 100<->900) ---
+  janus-color-gray-50: '#1f1f1f'   # light #fbfbfb (just above Surface 0)
+  janus-color-gray-100: '#242424'  # light #f6f6f6 (Surface step, darkest-but-one)
+  janus-color-gray-200: '#2e2e2e'  # light #ececec
+  janus-color-gray-300: '#3a3a3a'  # light #cccccc
+  janus-color-gray-400: '#4a4a4a'  # light #aaaaaa
+  janus-color-gray-500: '#6b6b6b'  # light #949494 (midpoint, narrower range)
+  janus-color-gray-600: '#9a9a9a'  # light #6c6c6c
+  janus-color-gray-700: '#b8b8b8'  # light #555555
+  janus-color-gray-800: '#d4d4d4'  # light #454545
+  janus-color-gray-900: '#ececec'  # light #333333 (darkest gray → near-white text)
+
+  janus-color-icon-gray: '#9a9a9a' # light #6c6c6c (mirrors gray-600)
+  janus-color-hr-gray: '#2e2e2e'   # light #f6f6f6 (divider: nudged to gray-200-dark to stay visible)
+
+  janus-color-black: '#f5f5f5'     # light #000000 → not pure white (guide §2.1)
+  janus-color-white: '#1a1a1a'     # light #ffffff → Surface 0, not pure black (guide §2.1)
+
+  # --- Primary (semantic/brand: keep hue ~210, raise lightness for dark surface) ---
+  janus-color-primary: '#3d8be0'            # light #0E62B9
+  janus-color-primary-background: '#123433' # light #D7F8F7 (pale cyan → dark muted cyan surface)
+
+  # --- Secondary (flagged in inventory as a GRAY despite the name → neutral treatment) ---
+  janus-color-secondary: '#d4d4d4'            # light #454545 (= gray-800) → inverted like gray-800
+  janus-color-secondary-background: '#2e2e2e' # light #ECECEC (= gray-200) → gray-200-dark
+
+  # --- Success (semantic: keep hue ~147) ---
+  janus-color-success: '#3fa46c'            # light #297848
+  janus-color-success-hover: '#48ad73'      # light #246B40 (hover slightly lighter on dark)
+  janus-color-success-background: '#14301f' # light #D2F5E0 (pale green → dark muted green surface)
+
+  # --- Info (semantic: keep hue ~207) ---
+  janus-color-info: '#3385d6'            # light #0B5BA1
+  janus-color-info-hover: '#3a8fe0'      # light #0B61AD
+  janus-color-info-background: '#122636' # light #E1F1FF (pale blue → dark muted blue surface)
+
+  # --- Warning (semantic: keep hue ~30 amber; token value only — text-on-warning
+  #     stays dark, handled at the component layer per guide §4.2, not here) ---
+  janus-color-warning: '#d9821f'            # light #A85502
+  janus-color-warning-hover: '#c7761b'      # light #964C01
+  janus-color-warning-background: '#3a2c14' # light #FEEBC9 (pale amber → dark muted amber surface)
+
+  # --- Danger (semantic: keep hue ~9 red) ---
+  janus-color-danger: '#d95a3f'            # light #BF3E24
+  janus-color-danger-hover: '#cf4e34'      # light #AB3720
+  janus-color-danger-background: '#3a1f1a' # light #FFE9E4 (pale red → dark muted red surface)
+
+  # --- Disabled button (neutral; intentionally low-contrast, but kept perceivable) ---
+  janus-disabled-button-color: '#5c5c5c'            # light #AAAAAA
+  janus-disabled-button-border-color: '#3a3a3a'     # light #CCCCCC (= gray-300-dark)
+  janus-disabled-button-background-color: '#2e2e2e' # light #ECECEC (= gray-200-dark)
