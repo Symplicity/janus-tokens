@@ -1,30 +1,3 @@
-# Dark-mode values for the Janus color tokens.
-#
-# SOURCE OF TRUTH for the dark axis. This file is intentionally NOT imported by
-# `tokens/index.yml` and is NOT fed into any theo light-mode pipeline, so it can
-# never alter existing light-mode (`:root`) output. It is consumed only by
-# `scripts/append-dark.js`, which appends a `[data-bs-theme="dark"]` block to the
-# generated `dist/*.custom-properties.css` files (additive only).
-#
-# Every key here must correspond 1:1 to a `--janus-color-*` / `--janus-*` custom
-# property emitted in the light `:root` block of dist/colors.custom-properties.css.
-# The append script fails the build if any light color token is missing a dark
-# value here (guards against silent omission — spec §10 criterion 2).
-#
-# Selector strategy: `[data-bs-theme="dark"]` — matches janus-v2-bootstrap's
-# `color-mode(dark)` mixin (scss/mixins/_color-mode.scss), which expands to the
-# same attribute selector. Do NOT introduce a second convention.
-#
-# Axis rules (dark-mode-guide-en.md §2–§3, color-variable-inventory.md §3–§4):
-#   - NEUTRAL (gray/white/black/text/icon-gray/hr-gray/secondary): invert lightness.
-#   - SEMANTIC (primary/success/info/warning/danger + hover): keep HUE, only
-#     raise lightness / trim saturation for legibility on a dark surface.
-#   - *-background pales: dark, low-saturation surface of the same hue.
-#   - pale-* accents: keep hue, reduce lightness/saturation for dark comfort.
-#
-# Values are expressed as hex; the append script converts to the same
-# `rgb(r, g, b)` form theo emits for the light block, keeping output consistent.
-
 dark:
   # --- Pale accents (semantic accents: keep hue, reduce lightness/saturation) ---
   janus-color-pale-green: '#5cc9ac'   # light #66debe
