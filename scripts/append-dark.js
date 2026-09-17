@@ -1,29 +1,3 @@
-/**
- * append-dark.js — Phase 1a (janus-tokens) dark-mode build step.
- *
- * Appends a dark-mode block to the theo-generated dist artifacts, using the dark
- * values declared in `tokens/colors.dark.yml`. Purely additive: the existing
- * light output is never read for mutation and never rewritten — only a new block
- * is added after it. Idempotent: any previously-appended block is stripped before
- * re-appending, so rebuilds never accumulate or touch the light output.
- *
- * TWO output forms are emitted from the SAME source of truth (colors.dark.yml):
- *
- *   1. Runtime CUSTOM PROPERTIES — a `[data-bs-theme="dark"]` block appended to
- *      `dist/*.custom-properties.css`. These switch at runtime via the attribute.
- *
- *   2. Compile-time SCSS `$` VARIABLES — a `$janus-color-<name>-dark: rgb(...);`
- *      block appended to `dist/colors.scss` and `dist/index.scss`. These let the
- *      janus-v2-bootstrap SCSS layer FEED the dark token values into Bootstrap's
- *      compile-time methods (mix()/shade-color()/to-rgb()/maps) instead of
- *      hardcoding them — e.g. `$gray-100-dark: $janus-color-gray-100-dark`. This
- *      makes janus-tokens the single source of truth for the dark axis too, in
- *      both the runtime and compile-time consumption paths.
- *
- * Selector: `[data-bs-theme="dark"]` — matches janus-v2-bootstrap's
- * `color-mode(dark)` mixin. Do not diverge.
- */
-
 'use strict';
 
 const fs = require('fs');
