@@ -10,9 +10,10 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "clean": "rimraf ./dist",
-    "build": "npm-run-all build:**",
+    "build": "run-s build:gulp build:docs build:format build:dark",
     "build:gulp": "gulp",
     "build:docs": "gulp docs",
+    "build:dark": "node scripts/append-dark.js",
     "build:format": "prettier ./{dist,docs}/*.{js,json,css,scss,sketchpalette} --write",
     "watch": "gulp watch",
     "start": "http-server docs"
